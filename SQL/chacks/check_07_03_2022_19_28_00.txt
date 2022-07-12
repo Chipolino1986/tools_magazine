@@ -1,0 +1,19 @@
+Date: 07/03/2022
+--------------------
+Products:
+--------------------
+Name: Монитор 9
+Make: 
+Price: 2
+Amount: 1
+Total price: 2
+--------------------
+Name: Монитор 10
+Make: 
+Price: 19
+Amount: 1
+Total price: 19
+--------------------
+TOTAL PRICE: 21
+--------------------
+Pay by cash

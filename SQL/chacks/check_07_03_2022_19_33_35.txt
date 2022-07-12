@@ -1,0 +1,19 @@
+Date: 07/03/2022
+--------------------
+Products:
+--------------------
+Name: Монитор 3
+Make: Asus
+Price: 20
+Amount: 1
+Total price: 20
+--------------------
+Name: Монитор 10
+Make: 
+Price: 19
+Amount: 1
+Total price: 19
+--------------------
+TOTAL PRICE: 39
+--------------------
+Pay by cash

@@ -1,0 +1,142 @@
+body {
+    padding-top: 60px;
+}
+.price {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid rgb(74, 74, 74);
+    min-height: 50px;
+    height: 100%;
+}
+.min_price {
+    width: 250px;
+    height: 30px;
+    border: 1px solid black;
+    margin-right: 30px;
+    border-radius: 4px;
+}
+.max_price {
+    width: 250px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+.btn_apply_filter_garden {
+    width: 150px;
+    height: 30px;
+    background-color: rgb(50, 50, 95);
+    color: white;
+    margin-left: 30px;
+    border-radius: 4px;
+    transition: all .3s ease;
+}
+.btn_apply_filter_garden:hover {
+    background-color: rgb(223, 193, 73);
+    color: black;
+}
+.h1 {
+    display: flex;
+    justify-content: center;
+    font-family: Arial;
+    font-size: 2rem;
+    margin: 20px;
+}
+.btn_buy_garden {
+    width: 100px;
+    height: 30px;
+    background-color: rgb(178, 49, 49);
+    color: white;
+    transition: all .3s ease;
+    border-radius: 4px;
+    font-family: arial;
+    font-size: .9rem;
+    letter-spacing: 1px;
+}
+.btn_buy_garden:hover {
+    background-color: rgb(223, 193, 73);
+    color: black;
+    border: 1px solid black;
+}
+.product_box_garden {
+    border-radius: 6px;
+    box-shadow: 3px 3px 10px -5px black;
+    width: 360px;
+    height: 170px;
+    padding: 10px;
+    margin: 20px auto;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.product_box_garden p:nth-child(1) {
+    font-family: arial;
+    font-weight: bold;
+    font-size: 1rem;
+    color: black;
+    text-shadow: 1px 1px 2px white;
+}
+.product_box_garden p:nth-last-child(1) {
+    color: black;
+    font-weight: bold;
+    font-family: arial;
+    font-size: 1rem;
+}
+.products_box_content {
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+.price_form_garden {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.product_box_garden {
+    width: 360px;
+    height: 200px;
+    background-color: #f3eeb7;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 6px;
+    box-shadow: 3px 3px 10px -5px black;
+    padding: 10px;
+    margin: 20px auto;
+    justify-content: space-between;
+}
+/* .products_box_content > .product_box:nth-child(3) {
+    background: url(../img/benzo_stihl_2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.products_box_content > .product_box:nth-child(4) {
+    background: url(../img/trimmer_stihl.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.products_box_content > .product_box:nth-child(5) {
+    background: url(../img/vozduhoduvka_2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.products_box_content > .product_box:nth-child(6) {
+    background: url(../img/moika_chempion_2.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.products_box_content > .product_box:nth-child(7) {
+    background: url(../img/benzotrimmer_huter.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+} */

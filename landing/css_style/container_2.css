@@ -1,0 +1,242 @@
+.container_2 {
+    display: flex;
+    width: 100%;
+    background: linear-gradient(145deg, rgb(10 10 10) 40%, rgb(255 204 87) 40%);
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+.container_2_content {
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.container_2_content h1 {
+    font-size: 1.6rem;
+    font-family: fantasy;
+    color: rgb(140, 40, 40);
+    margin-top: 40px;
+}
+/* -------------------------------------------------------------- */
+
+.container_2_content p {
+    font-family: 'Arial';
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 0px 3px rgb(0, 0, 0);
+    font-size: 1rem;
+}
+.container_2_content span {
+    font-family: 'Arial';
+    font-weight: bold;
+    color: rgb(140, 40, 40);
+    font-size: 18px;
+    /* text-shadow: 1px 1px 1px black; */
+}
+.container_2_content h1 span{
+    color:rgb(206 180 101);
+    text-shadow: 1px 1px 1px black;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    font-size: 30px;
+}
+.container_2_content span:nth-child(2) {
+    color: rgb(255, 255, 255);
+    text-shadow: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.pay_box {
+    display: flex;
+    width: 100%;
+    min-height: 60px;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    flex-wrap: wrap;
+}
+.sub_pay_box {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.sber {
+    width: 6.25rem;
+    height: 4.4rem;
+    border: 1px solid white;
+    margin: 0 25px;
+    background: url(../../images/Pay_Sistems/sber_bank_label.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: white;
+    border-radius: 3px;
+    transition: .4s all;
+}
+
+.sber:hover {
+    box-shadow: 0 0 20px -5px rgb(255, 255, 255);
+    transition: .4s all;
+}
+.unionPay {
+    width: 6.25rem;
+    height: 4.4rem;
+    border: 1px solid white;
+    margin: 0 25px;
+    background: url(../../images/Pay_Sistems/union-1_label.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: white;
+    border-radius: 3px;
+    transition: .4s all;
+}
+
+.unionPay:hover {
+    box-shadow: 0 0 20px -5px rgb(255, 255, 255);
+    transition: .4s all;
+}
+.mir {
+    width: 6.25rem;
+    height: 4.4rem;
+    border: 1px solid white;
+    margin: 0 25px;
+    background: url(../../images/Pay_Sistems/mir_label.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: white;
+    border-radius: 3px;
+    transition: .4s all;
+}
+
+.mir:hover {
+    box-shadow: 0 0 20px -5px rgb(255, 255, 255);
+    transition: .4s all;
+}
+.qiwi {
+    width: 6.25rem;
+    height: 4.4rem;
+    border: 1px solid white;
+    margin: 0 25px;
+    background: url(../../images/Pay_Sistems/qiwi_label.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: white;
+    border-radius: 3px;
+    transition: .4s all;
+}
+
+.qiwi:hover {
+    box-shadow: 0 0 20px -5px rgb(255, 255, 255);
+    transition: .4s all;
+}
+
+@media screen and (max-width: 1200px) {
+    .container_2_content h1 {
+        font-size: 25px;
+        font-family: fantasy;
+        color: rgb(180, 60, 60);
+        margin: 0 auto;
+    }
+    .container_2_content {
+        margin: 10px 0;
+        padding: 0 30px;
+    }
+}
+
+    
+@media screen and (max-width: 426px) {
+    .container_2_content h1 span {
+        font-size: 1.5rem;
+    }
+}
+@media screen and (max-width: 426px) {
+    .container_2_content h1 {
+        font-size: 2rem;
+        text-align: center;
+    }
+    .container_2_content p {
+        font-family: 'Arial';
+        color: rgb(153, 133, 133);
+        font-size: 14px;
+        text-shadow: 1px 1px 1px black;
+    }
+}
+
+/* ------------------------pay systems(media)-------------------- */
+
+@media screen and (max-width: 659px) {
+    .unionPay {
+        margin: 20px;
+    }
+}
+@media screen and (max-width: 510px) {
+    .unionPay {
+        margin: 20px;
+    }
+}
+@media screen and (max-width: 426px) {
+    .unionPay {
+        margin: 20px;
+    }
+}
+
+
+@media screen and (max-width: 659px) {
+    .mir {
+        margin: 20px;
+    }
+}
+@media screen and (max-width: 510px) {
+    .mir {
+        margin: 20px;
+    }
+}
+@media screen and (max-width: 426px) {
+    .mir {
+        margin: 20px;
+    }
+}
+
+
+@media screen and (max-width: 659px) {
+    .qiwi {
+        margin: 20px;
+    }
+}
+@media screen and (max-width: 510px) {
+    .qiwi {
+        margin: 20px;
+    }
+}
+@media screen and (max-width: 426px) {
+    .qiwi {
+        margin: 20px;
+    }
+}
+
+
+@media screen and (max-width: 659px) {
+    .sber {
+        margin: 20px;
+    }
+}
+@media screen and (max-width: 510px) {
+    .sber {
+        margin: 20px;
+    }
+}
+@media screen and (max-width: 426px) {
+    .sber {
+        margin: 20px;
+    }
+}

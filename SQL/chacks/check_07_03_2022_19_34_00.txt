@@ -1,0 +1,13 @@
+Date: 07/03/2022
+--------------------
+Products:
+--------------------
+Name: Монитор 1
+Make: Samsung
+Price: 10
+Amount: 1
+Total price: 10
+--------------------
+TOTAL PRICE: 10
+--------------------
+Pay by card

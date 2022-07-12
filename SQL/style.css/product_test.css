@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+body {
+   background:linear-gradient(rgb(141, 141, 237)60%,rgb(222, 224, 235));
+}
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    font-family: arial;
+    color: rgb(61, 61, 61);
+}
+.select-category {
+    height: 35px;
+}
+.input-str {
+    height: 35px;
+}
+.btn-add_product {
+    width: 200px;
+    height: 35px;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+.forms_product {
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
+    justify-content: center;
+    margin: 50px auto;
+}

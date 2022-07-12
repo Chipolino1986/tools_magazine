@@ -1,0 +1,19 @@
+Date: 07/03/2022
+--------------------
+Products:
+--------------------
+Name: Монитор 1
+Make: Samsung
+Price: 10
+Amount: 1
+Total price: 10
+--------------------
+Name: Монитор 3
+Make: Asus
+Price: 20
+Amount: 1
+Total price: 20
+--------------------
+TOTAL PRICE: 30
+--------------------
+Pay by card

@@ -1,0 +1,105 @@
+.container_1_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.text_registration_title h2 {
+    color: white;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 25px;
+}
+.registration_box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 420px;
+    width: 100%;
+    min-height: 550px;
+    background: linear-gradient(45deg, white 30%,#949494 64%);
+    margin-bottom: 50px;
+}
+.form_regestration {
+    max-width: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.form_regestration .input::placeholder {
+    color: gray;
+    text-indent: 5px;
+}
+.input {
+    /* border: 2px solid rgb(110,110,110); */
+    width: 240px;
+    height: 35px;
+    /* border-radius: 3px; */
+    font-family: 'Arial';
+    box-shadow: 3px 5px 15px -5px black;
+}
+.label {
+    font-family: 'Arial';
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 5px;
+}
+.btn_reg {
+    width: 190px;
+    height: 50px;
+    margin-bottom: 10px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(70, 65, 65);
+    font-family: 'Arial';
+    font-weight: bold;
+    border-radius: 4px;
+    margin-top: 30px;
+    transition: all 0.3s ease;
+    box-shadow: 3px 5px 15px -5px black;
+}
+.btn_reg:hover {
+    background-color: rgb(120, 40, 40);
+    color: white;
+}
+.label_reg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+.label_reg p {
+    font-family: 'arial';
+    font-weight: bold;
+    font-size: 1rem;
+}
+.hidden_checkbox {
+    -webkit-appearance: none;
+}
+.fake_checkbox {
+    display: inline-flex;
+    position: relative;
+    width: 15px;
+    height: 15px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    margin-left: -7px;
+}
+.fake_checkbox::before {
+    content: "";
+    position: absolute;
+    display: flex;
+    background:black;
+    border-radius: 50%;
+    opacity: 0;
+}
+.hidden_checkbox:checked + .fake_checkbox::before {
+    opacity: 1;
+    width: 8px;
+    height: 8px;
+}

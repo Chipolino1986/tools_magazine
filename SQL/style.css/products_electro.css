@@ -1,0 +1,131 @@
+body {
+    padding-top: 60px;
+}
+.price {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid rgb(74, 74, 74);
+    min-height: 50px;
+    height: 100%;
+}
+.min_price {
+    width: 250px;
+    height: 30px;
+    border: 1px solid black;
+    margin-right: 30px;
+    border-radius: 4px;
+}
+.max_price {
+    width: 250px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+.btn_apply_filter_electro {
+    width: 150px;
+    height: 30px;
+    background-color: rgb(50, 50, 95);
+    color: white;
+    margin-left: 30px;
+    border-radius: 4px;
+    transition: all .3s ease;
+}
+.btn_apply_filter_electro:hover {
+    background-color: rgb(223, 193, 73);
+    color: black;
+}
+.h1 {
+    display: flex;
+    justify-content: center;
+    font-family: Arial;
+    font-size: 2rem;
+    margin: 20px;
+}
+.btn_buy_electro {
+    width: 100px;
+    height: 30px;
+    background-color: rgb(178, 49, 49);
+    color: white;
+    transition: all .3s ease;
+    border-radius: 4px;
+    font-family: arial;
+    font-size: .9rem;
+    letter-spacing: 1px;
+}
+.btn_buy_electro:hover {
+    background-color: rgb(223, 193, 73);
+    color: black;
+}
+.product_box_electro {
+    border-radius: 6px;
+    box-shadow: 3px 3px 10px -5px black;
+    width: 360px;
+    height: 200px;
+    padding: 10px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #f3eeb7;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.product_box_electro p:nth-child(1) {
+    font-family: arial;
+    font-weight: bold;
+    font-size: 1rem;
+    color: black;
+    text-shadow: 1px 1px 2px white;
+}
+.products_box_content {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+.price_form_electro {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* .products_box_content > .product_box_electro:nth-child(3) {
+    background: url(../img/drel_bosch.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+}
+.products_box_content > .product_box_electro:nth-child(4) {
+    background: url(../img/elektrorubanok_metabo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+}
+.products_box_content > .product_box_electro:nth-child(5) {
+    background: url(../img/electrolobzick.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+}
+.products_box_content > .product_box_electro:nth-child(6) {
+    background: url(../img/sabelnaia-pila.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+}
+.products_box_content > .product_box_electro:nth-child(7) {
+    background: url(../img/termopistolet.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+} */

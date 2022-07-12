@@ -1,0 +1,17 @@
+Date: 05/05/2022
+--------------------
+Products:
+--------------------
+Name: Газонокосилка Gardena
+Price: 25000
+Amount: 1
+Total price: 25000
+--------------------
+Name: Мойка высокого давления Chempion
+Price: 8250
+Amount: 1
+Total price: 8250
+--------------------
+TOTAL PRICE: 33250
+--------------------
+Pay by card

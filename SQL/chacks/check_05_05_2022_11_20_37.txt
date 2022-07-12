@@ -1,0 +1,22 @@
+Date: 05/05/2022
+--------------------
+Products:
+--------------------
+Name: Газонокосилка Gardena
+Price: 25000
+Amount: 1
+Total price: 25000
+--------------------
+Name: Бензопила STIHL
+Price: 17300
+Amount: 1
+Total price: 17300
+--------------------
+Name: Бензотриммер STIHL
+Price: 21500
+Amount: 1
+Total price: 21500
+--------------------
+TOTAL PRICE: 63800
+--------------------
+Pay by card

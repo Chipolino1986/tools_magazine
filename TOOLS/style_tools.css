@@ -1,0 +1,100 @@
+body {
+    padding-top: 60px;
+}
+.container_1_content h1 {
+    font-family: arial;
+    font-size: 2.5rem;
+    color: rgb(255, 255, 255);
+}
+.tool_block_wrapper p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: arial;
+    font-size: 1rem;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px black;
+    text-transform: uppercase;
+}
+.tool_box {
+    width: 100%;
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(187, 187, 187, 0.38);
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+    border-radius: 4px;
+}
+.toots_block_garden {
+    width: 300px;
+    height: 400px;
+    /* outline: 1px solid rgb(255, 255, 255); */
+    background-image: url(../images/background/electric-card_01.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.toots_block_electro {
+    width: 300px;
+    height: 400px;
+    /* outline: 1px solid rgb(255, 255, 255); */
+    background-image: url(../images/background/84593dcc0c2463e05df94bc702f2c191.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.toots_block_acum {
+    width: 300px;
+    height: 400px;
+    /* outline: 1px solid rgb(255, 255, 255); */
+    background-image: url(../images/background/s20a00xp.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.border {
+    position: relative;
+    top: 0;
+    left: 0;
+    max-width: 300px;
+    width: 100%;
+    min-height: 400px;
+    height: 100%;
+}
+.overlay {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-family: 'arial';
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgba(0, 0, 0, .7);
+    opacity: 0;
+    transition: all .4s;
+}
+.overlay p {
+    font-size: 1.7rem;
+}
+.overlay:hover {
+    opacity: 1;
+    /* transform: scale(1.1); */
+}

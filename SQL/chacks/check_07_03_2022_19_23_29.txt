@@ -1,0 +1,25 @@
+Date: 07/03/2022
+--------------------
+Products:
+--------------------
+Name: Монитор 1
+Make: Samsung
+Price: 10
+Amount: 1
+Total price: 10
+--------------------
+Name: Монитор 5
+Make: Sunwind
+Price: 15
+Amount: 1
+Total price: 15
+--------------------
+Name: Монитор 10
+Make: 
+Price: 19
+Amount: 1
+Total price: 19
+--------------------
+TOTAL PRICE: 44
+--------------------
+Pay by cash

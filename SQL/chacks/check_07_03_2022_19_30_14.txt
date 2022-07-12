@@ -1,0 +1,19 @@
+Date: 07/03/2022
+--------------------
+Products:
+--------------------
+Name: Телефон 2
+Make: 
+Price: 3
+Amount: 1
+Total price: 3
+--------------------
+Name: Телефон 4
+Make: 
+Price: 4
+Amount: 1
+Total price: 4
+--------------------
+TOTAL PRICE: 7
+--------------------
+Pay by cash

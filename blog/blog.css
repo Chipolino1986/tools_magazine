@@ -1,0 +1,19 @@
+body {
+    background: linear-gradient(45deg, rgb(255 204 87) 50%, rgb(10 10 10) 50%);
+}
+.blog {
+    width: 700px;
+    margin: 0 auto;
+    font-family: sans-serif;
+}
+.title {
+    width: 100%;
+}
+.title h1 {
+    font-family: sans-serif;
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 25px 0;
+}
