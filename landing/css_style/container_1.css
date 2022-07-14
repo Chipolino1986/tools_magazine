@@ -254,7 +254,7 @@ nav .menu-item:hover {
     width: 100%;
     text-align: center;
     background-color: white;
-    padding-top: 35px;
+    padding-top: 40px;
 } 
 /*---------------------------- Stock-Slider------------------------------ */
 .slider_main_wrapper1 {
@@ -324,11 +324,12 @@ nav .menu-item:hover {
     border: 20px solid transparent;
 }
 .slider_item1:nth-child(6) {
-    background: url(../../images/200x200/electro-lobzik_200x200.png);
+    background: url(../../images/200x200/electrolobzik-interskol-700x700.png);
     background-position: center;
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-color: rgb(250, 230, 150);
+    border: 30px solid transparent;
 }
 .slider_item1:nth-child(7) {
     background: url(../../images/200x200/fen_200x200.png);
@@ -362,14 +363,14 @@ nav .menu-item:hover {
     background-color: rgb(250, 230, 150);
 }
 .slider_item1:nth-child(11) {
-    background: url(../../images/200x200/kustorez_200x200.png);
+    background: url(../../images/img_tools_500x500/electro/Kustorez_bosch-800x800.png);
     background-position: center;
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-color: rgb(250, 230, 150);
 }
 .slider_item1:nth-child(12) {
-    background: url(../../images/200x200/mikser_200x200.png);
+    background: url(../../images/img_tools_500x500/electro/mikser_zubr.png);
     background-position: center;
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -423,6 +424,7 @@ nav .menu-item:hover {
     background-color: rgb(255, 255, 255);
     align-items: center;
     justify-content: center;
+    border-top: 2px solid black;
 }
 .yellow_line_content {
     display: flex;

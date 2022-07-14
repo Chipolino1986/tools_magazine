@@ -21,6 +21,7 @@
 
 </head>
 <body>
+    
         <header class="header">
             <div class="header_content">
                 <nav class="nav">
@@ -56,7 +57,7 @@
                 </div>
             </div>
         </header>
-
+        <section class="section-1">
 
 <!------------------------------------------------------------------------------------------------------------------>
 
@@ -67,7 +68,7 @@ $db = new PDO("mysql:host=localhost;dbname=my_magazine;charset=utf8", "root", ""
 $products = [];
 if (isset($_POST["search"]) && strlen($_POST["search"]) > 0) {
 	$query = $_POST["search"];
-	$dbProducts = $db->query("SELECT id, name, price FROM Product WHERE name LIKE '%".$query."%'");
+	$dbProducts = $db->query("SELECT id, name, price, brandcountry, made FROM Product WHERE name LIKE '%".$query."%'");
 	$products = $dbProducts->fetchAll();
 }
 ?>
@@ -96,17 +97,22 @@ if (isset($_POST["search"]) && strlen($_POST["search"]) > 0) {
 if (count($products) > 0) {
 	foreach ($products as $product) { ?>
 		<div class="product_box">
-			<p>Название: <?= $product["name"] ?></p>
-			<p>
-				<form class="price_form_garden" method="POST">
-					<p>Цена: <?= $product["price"] ?> руб.</p>
-					<button class="btn_buy_garden" type="sumbit" name="btn-buy" value="<?= $product["id"] ?>">Купить</button>
-				</form>
-			</p>
+
+			<h3>Название: <?= $product["name"] ?></h3>
+			<p>Цена: <?= $product["price"] ?> руб.</p>
+            <p>Страна бренда: <?= $product["brandcountry"] ?></p>
+            <p>Страна производитель: <?= $product["made"] ?></p>
+
+			<form class="price_form_garden" method="POST">
+					<button class="btn_buy_garden" type="sumbit" name="btn-buy" value="<?= $product["id"] ?>">В корзину</button>
+			</form>
+			
 		</div>
 	<? }
 } else { ?>
-	<div class="not_found">Ничего не найдено!</div>
+	<div class="not_found">Ничего не найдено!
+
+    </div>
 <? }
 
 if (isset($_POST["btn-buy"])) {
@@ -120,7 +126,7 @@ if (isset($_POST["btn-buy"])) {
 <!-- <h2><a class="cart_garden" href="cart_test.php">Перейти в корзину<i class="fa-solid fa-cart-shopping"></i></a></h2> -->
 
 <!------------------------------------------------------------------------------------------------------------------>
-
+</section>
 		<footer class="footer">
             <div class="footer_content">
                 <div class="footer_head">

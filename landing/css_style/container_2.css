@@ -1,7 +1,7 @@
 .container_2 {
     display: flex;
     width: 100%;
-    background: linear-gradient(145deg, rgb(10 10 10) 40%, rgb(255 204 87) 40%);
+    background: linear-gradient(150deg, rgb(10 10 10) 40%, rgb(235, 180, 50) 40% );
     flex-direction: column;
     align-items: center;
     margin: 0 auto;

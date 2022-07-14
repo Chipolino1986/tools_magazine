@@ -57,23 +57,40 @@ if (isset($_POST["add-product"])) {
 			('$name', $price,'$brandcountry','$made')"
 		);
 		if ($result) {
-			echo "Success";
+			?> 
+				<div class="success">
+					<? echo "Товар успешно добавлен"; ?>
+			    </div> 
+			<?   
 		} else {
-			echo "Error";
+			?> 
+				<div class="error">
+			    	<? echo "Ошибка.Товар не добавлен!"; ?>
+			   	</div>
+			<?
 		}
 	} else {
-		echo "Error";
+		?>
+		<div class="error-2">
+			<?	echo"Критическая ошибка, товар не добавлен,<br> пожалуйста проверьте 
+					что бы все пункты были зполнены корректно 
+					<br>
+					<br>
+					<span>Critical error, product not added, please check that <br> all items
+					are filled out correctly</span>"; ?>
+		</div>
+		<?
 	}
 }
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>документов товара</title>
+	<title>Добавление товара</title>
 	<link rel="stylesheet" href="./style.css/product_test.css">
 </head>
 <body>

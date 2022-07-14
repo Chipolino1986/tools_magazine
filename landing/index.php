@@ -81,7 +81,9 @@
 
                     <div class="wrapper-menu">
                         <input type="checkbox" id="check-menu">
-                        <label for="check-menu">Инструменты<i class="fa-solid fa-caret-down"></i></label>
+                        <label for="check-menu">Инструменты
+                            <i id="caret_down" class="fa-solid fa-caret-down"></i>
+                        </label>
                         
                         <nav class="main-menu">
                             <a class="menu-item" href="../SQL/products_test.php" target="_blank">Садовый инструмент</a>
@@ -140,21 +142,21 @@
                 </div>
                 <div class="slider_container1"> 
                     <div class="slider_track1">   
-                        <a href="#" class="slider_item1"></a>
-                        <a href="#" class="slider_item1"></a>
-                        <a href="#" class="slider_item1"></a>
-                        <a href="#" class="slider_item1"></a>
-                        <a href="#" class="slider_item1"></a>
-                        <a href="#" class="slider_item1"></a>
-                        <a href="#" class="slider_item1"></a>
-                        <a href="#" class="slider_item1"></a>
-                        <a href="#" class="slider_item1"></a>
-                        <a href="#" class="slider_item1"></a>
-                        <a href="#" class="slider_item1"></a>
-                        <a href="#" class="slider_item1"></a>
-                        <a href="#" class="slider_item1"></a>
-                        <a href="#" class="slider_item1"></a>
-                        <a href="#" class="slider_item1"></a>
+                        <a href="../stock_tools/rubanok-makita/rubanok_makita.php" class="slider_item1"></a>
+                        <a href="../stock_tools/benzopila-huter/benzopila-huter.php" class="slider_item1"></a>
+                        <a href="../stock_tools/bolgarka-makita/bolgarka_makita.php" class="slider_item1"></a>
+                        <a href="../stock_tools/cirkulyarka-makita/cirkulyarka_makita.php" class="slider_item1"></a>
+                        <a href="../stock_tools/drel-metabo/drel_metabo.php" class="slider_item1"></a>
+                        <a href="../stock_tools/electrolobzik-interSkol/lobzik_interskol.php" class="slider_item1"></a>
+                        <a href="../stock_tools/fen-iNGCO/fen_iNGCO.php" class="slider_item1"></a>
+                        <a href="../stock_tools/frezernaya-graphite/frezerka_graphite.php" class="slider_item1"></a>
+                        <a href="../stock_tools/gazon-huter/gazon_huter.php" class="slider_item1"></a>
+                        <a href="../stock_tools/kley-pistol/kley-pistol.php" class="slider_item1"></a>
+                        <a href="../stock_tools/kustorez-bosch/kustorez_bosch.php" class="slider_item1"></a>
+                        <a href="../stock_tools/miksser-zubr/mikser_zubr.php" class="slider_item1"></a>
+                        <a href="../stock_tools/otboiniy-molotot-makita/otboinik_makita.php" class="slider_item1"></a>
+                        <a href="../stock_tools/perforator-makita/perforator_makita.php" class="slider_item1"></a>
+                        <a href="../stock_tools/shlifmashina-makita/shleifmashine.php" class="slider_item1"></a>
                     </div>
                 </div>
                 <div class="slider_buttons1">

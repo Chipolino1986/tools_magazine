@@ -29,21 +29,21 @@
                     
 					<div class="items">
 						<ul>
-							<li><a href="http://localhost/My_magazine/about_us/index_about_us.php#">О нас</a></li>
-							<li><a href="http://localhost/My_magazine/TOOLS/tools.php">Инструменты</a></li>
-							<li><a href="http://localhost/My_magazine/contacts/index_contacts.php">Контакты</a></li>
+							<li><a href="../about_us/index_about_us.php#">О нас</a></li>
+							<li><a href="../TOOLS/tools.php">Инструменты</a></li>
+							<li><a href="../contacts/index_contacts.php">Контакты</a></li>
 						</ul>
 					</div>
                 </nav>
                 <div class="heder_content_right">
                     <div class="registration_item"> 
-                        <a href="http://localhost/My_magazine/registration/index_registration.php" class="registration">Регистрация
+                        <a href="../registration/index_registration.php" class="registration">Регистрация
                         <i class="fa-solid fa-id-card"></i></a>
 
-                        <a href="http://localhost/My_magazine/enter_page/index_enter_page.php#" class="registration">Вход
+                        <a href="../enter_page/index_enter_page.php#" class="registration">Вход
                         <i class="fa-solid fa-dungeon"></i></a>
                               
-                        <a href="cart_test.php" class="registration">Корзина
+                        <a href="../SQL/cart_test.php" class="registration">Корзина
                         <i class="fa-solid fa-cart-shopping"></i></a>
                     </div>
                 </div>
@@ -93,8 +93,8 @@ $products = $dbProducts->fetchAll();
 
 <form class="price" method="POST">
 
-	Минимальная цена: <input class="min_price" type="text" name="min-price">
-	Максимальная цена: <input class="max_price" type="text" name="max-price">
+	минимальная цена:&nbsp <input class="min_price" type="text" name="min-price">
+	максимальная цена:&nbsp <input class="max_price" type="text" name="max-price">
 
 	<button class="btn_apply_filter_electro" type="submit">Применить</button>
 </form>
@@ -109,12 +109,12 @@ foreach ($products as $product) { ?>
 
         <div class="product_box_electro">
 
-            <p>Название: <?= $product["name"] ?></p>
+            <h3>Название: <?= $product["name"] ?></h3>
             <p>Цена: <?= $product["price"] ?> руб.</p>
             <p>Страна бренда: <?= $product["brandcountry"] ?></p>
             <p>Страна производитель: <?= $product["made"] ?></p>
             <form class="price_form_electro" method="POST">
-                <button class="btn_buy_electro" type="sumbit" name="btn-buy" value="<?= $product["id"] ?>">Купить</button>
+                <button class="btn_buy_electro" type="sumbit" name="btn-buy" value="<?= $product["id"] ?>">Добавить в корзину</button>
             </form>
 
         </div>
@@ -135,23 +135,23 @@ if (isset($_POST["btn-buy"])) {
             <div class="footer_content">
                 <div class="footer_head">
                     <ul>
-                        <li><a href="http://localhost/My_magazine/landing/index.php">Главная<i class="fa-solid fa-house-chimney"></i></a></li>
-                        <li><a href="http://localhost/My_magazine/tools/index_tool.php">Инструменты<i class="fa-solid fa-screwdriver-wrench"></i></a></li>
-                        <li><a href="http://localhost/My_magazine/contacts/index_contacts.php">Контакты<i class="fa-solid fa-address-book"></i></a></li>
-                        <li><a href="http://localhost/My_magazine/registration/index_registration.php">Регистрация<i class="fa-solid fa-id-card"></i></a></li>
-                        <li><a href="http://localhost/My_magazine/enter_page/index_enter_page.php#">Вход<i class="fa-solid fa-dungeon"></i></a></li>
-                        <li><a href="cart_test.php">Корзина<i class="fa-solid fa-cart-shopping"></i></a></li>
+                        <li><a href="../landing/index.php">Главная<i class="fa-solid fa-house-chimney"></i></a></li>
+                        <li><a href="../TOOLS/tools.php">Инструменты<i class="fa-solid fa-screwdriver-wrench"></i></a></li>
+                        <li><a href="../contacts/index_contacts.php">Контакты<i class="fa-solid fa-address-book"></i></a></li>
+                        <li><a href="../registration/index_registration.php">Регистрация<i class="fa-solid fa-id-card"></i></a></li>
+                        <li><a href="../enter_page/index_enter_page.php#">Вход<i class="fa-solid fa-dungeon"></i></a></li>
+                        <li><a href="../SQL/cart_test.php">Корзина<i class="fa-solid fa-cart-shopping"></i></a></li>
                     </ul>
             </div>
             <div class="footer_items_box">
                 <ul>Информация:
-                    <li><a href="#">Правила продажи</a></li>
+                    <li><a href="http://www.consultant.ru/document/cons_doc_LAW_373622/0082fc02fd38782880841f0019209a807a218a2b/">Правила продажи</a></li>
                     <li><a href="http://localhost/My_magazine/privacity/index_privacity.php">Политика конфиденциальности</a></li>
                     <li><a href="#">Образцы документов</a></li>
-                    <li><a href="#">Оплата</a></li>
+                    <li><a href="../exchange/index.php">Обмен и возврат</a></li>
                 </ul>
-                <ul><a href="http://localhost/My_magazine/about_us/index_about_us.php#">О компании</a></ul>
-                <ul><a href="#">Отзывы покупателей</a></ul>
+                <ul><a href="../about_us/index_about_us.php#">О компании</a></ul>
+                <ul><a href="../blog/blog.php">Отзывы покупателей</a></ul>
                 <div class="adress_box">
                     <i class="fas fa-envelope"></i>
                     <p>300001 г.Тула, ул. Каракозова д.27</p>

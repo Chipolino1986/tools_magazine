@@ -85,7 +85,7 @@ $images = $db->query("SELECT image_id FROM Product WHERE product.image_id = imag
 
 ?>
 
-<div class="h1">
+<div class="title_product_list">
 
 	<? echo "<h1>Список товаров: Садовый инструмент</h1>"; ?>
 
@@ -94,8 +94,8 @@ $images = $db->query("SELECT image_id FROM Product WHERE product.image_id = imag
 
 <form class="price" method="POST">
 
-	Минимальная цена: <input class="min_price" type="text" name="min-price">
-	Максимальная цена: <input class="max_price" type="text" name="max-price">
+	минимальная цена:&nbsp <input class="min_price" type="text" name="min-price">
+	максимальная цена:&nbsp <input class="max_price" type="text" name="max-price">
 
 	<button class="btn_apply_filter_garden" type="submit">Применить</button>
 </form>
@@ -106,16 +106,17 @@ $images = $db->query("SELECT image_id FROM Product WHERE product.image_id = imag
 	</div> 
 
 <?
+
 foreach ($products as $product) { ?>
 	
 	<div class="product_box_garden">
     
-        <p>Название: <?= $product["name"] ?></p>
+        <h3>Название: <?= $product["name"] ?></h3>
         <p>Цена: <?= $product["price"] ?> руб.</p>
         <p>Страна бренда: <?= $product["brandcountry"] ?></p>
         <p>Страна производитель: <?= $product["made"] ?></p>
         <form class="price_form_garden" method="POST">
-            <button class="btn_buy_garden" type="sumbit" name="btn-buy" value="<?= $product["id"] ?>">Купить</button>
+            <button class="btn_buy_garden" type="sumbit" name="btn-buy" value="<?= $product["id"] ?>">Добавить в корзину</button>
         </form>
 
 	</div>

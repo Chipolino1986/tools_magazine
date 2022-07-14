@@ -13,7 +13,25 @@ if (isset($_GET["download_chack"])) {
 } 
 
 if (empty($cart)) {
-	echo "<h1>Ваша корзина пуста</h1>";
+	?>	<div class="cart_empty" 
+	style="text-align: center; color: white; text-transform:uppercase;
+					font-family:sans-serif; padding:25px 0; background:linear-gradient(45deg,black 50%,gold 50%);
+					text-shadow: 1px 1px 1px black;">
+			<?	echo "<h1>Ваша корзина пуста</h1>"; ?>
+		</div>
+		
+		<div class="smile_wrapper" style="display:flex; justify-content: center">
+		   	<img style="width: 500; height: 500" class="smile" src="../images/background/smile.png" alt="smile">
+		</div>
+		<style>
+			body {
+				margin: 0;
+				padding: 0;
+				box-sizing: border-box;
+				background:radial-gradient(white,black);
+			}
+		</style>
+	<?	
 	return; 
 }
 
@@ -53,10 +71,10 @@ foreach ($products as $product) { ?>
 	<br>
 	<button class="btn-pay" type="submit" disabled>Оплатить</button>
 </form>
-
-<a class="btn-back" href="http://localhost/My_magazine/landing/index.php#">Вернутся на главную</a><br><br>
-<a class="btn-back" href="http://localhost/My_magazine/TOOLS/tools.php">Вернуться к категориям товаров</a>
-
+<div class="back">
+	<a class="btn-back" href="http://localhost/My_magazine/landing/index.php#">Вернутся на главную</a><br><br>
+	<a class="btn-back" href="http://localhost/My_magazine/TOOLS/tools.php">Вернуться к категориям товаров</a>
+</div>
 <script>
 	let radio = document.querySelectorAll('input[type="radio"]');
 	let submit = document.querySelector('button[type="submit"]');
@@ -129,6 +147,6 @@ if (isset($_POST["pay"])) {
 	<link rel="stylesheet" href="./style.css/cart_test.css">
 </head>
 <body>
-	
+
 </body>
 </html>

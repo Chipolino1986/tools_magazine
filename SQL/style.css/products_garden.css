@@ -1,5 +1,6 @@
 body {
     padding-top: 60px;
+    background: linear-gradient(45deg, rgb(30, 30, 30) 50%,rgb(255, 191, 0) 50%);
 }
 .price {
     width: 100%;
@@ -8,12 +9,12 @@ body {
     border-bottom: 2px solid rgb(74, 74, 74);
     min-height: 50px;
     height: 100%;
+    font-family: sans-serif;
 }
 .min_price {
     width: 250px;
     height: 30px;
     border: 1px solid black;
-    margin-right: 30px;
     border-radius: 4px;
 }
 .max_price {
@@ -30,55 +31,125 @@ body {
     margin-left: 30px;
     border-radius: 4px;
     transition: all .3s ease;
+    font-family: sans-serif;
 }
 .btn_apply_filter_garden:hover {
     background-color: rgb(223, 193, 73);
     color: black;
+    outline: 1px solid black;
 }
-.h1 {
+.title_product_list {
     display: flex;
     justify-content: center;
     font-family: Arial;
-    font-size: 2rem;
-    margin: 20px;
+    font-size: 1.5rem;
+    padding: 20px 0;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 .btn_buy_garden {
-    width: 100px;
-    height: 30px;
     background-color: rgb(178, 49, 49);
     color: white;
-    transition: all .3s ease;
     border-radius: 4px;
     font-family: arial;
     font-size: .9rem;
     letter-spacing: 1px;
+    padding: 7px 15px;
+    transition: .3s ease;
 }
 .btn_buy_garden:hover {
-    background-color: rgb(223, 193, 73);
-    color: black;
-    border: 1px solid black;
+    background: linear-gradient(15deg,rgb(0, 0, 0) 30%,rgb(0, 20, 92) 70%);
+    color: rgb(255, 255, 255);
 }
 .product_box_garden {
-    border-radius: 6px;
-    box-shadow: 3px 3px 10px -5px black;
-    width: 360px;
-    height: 170px;
-    padding: 10px;
-    margin: 20px auto;
-    box-sizing: border-box;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    max-width: 470px;
+    width: 100%;
+    height: 220px;
+    border-radius: 6px;
+    box-shadow: 3px 3px 10px -5px black;
+    padding: 10px;
+    margin: 20px auto;
+    background-color: #ffe092;
+    border-radius: 6px;
 }
-.product_box_garden p:nth-child(1) {
+.product_box_garden:nth-child(2) {
+    background-image: url(../../images/img_tools_500x500/gazon-gardena-600x600.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 50% 100%;
+}
+.product_box_garden:nth-child(3) {
+    background-image: url(../../images/img_tools_500x500/benzopila-STIHL-600x600.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 60%;
+}
+.product_box_garden:nth-child(4) {
+    background-image: url(../../images/img_tools_500x500/trimmer-STIHL-700x800.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 60% 100%;
+}
+.product_box_garden:nth-child(5) {
+    background-image: url(../../images/img_tools_500x500/vozduhoduvka-chempion-600x600.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 60%;
+}
+.product_box_garden:nth-child(6) {
+    background-image: url(../../images/img_tools_500x500/moika-500x600.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 60% 100%;
+}
+.product_box_garden:nth-child(7) {
+    background-image: url(../../images/trimmer-huter-500x300.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 60%;
+}
+.product_box_garden:nth-child(8) {
+    background-image: url(../../images/img_tools_500x500/bs-40-1-800x800.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 60%;
+}
+.product_box_garden:nth-child(9) {
+    background-image: url(../../images/img_tools_500x500/husqvarna-236-2-900x900.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 60%;
+}
+.product_box_garden:nth-child(10) {
+    background-image: url(../../images/img_tools_500x500/gazon_huter-500x500.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 60% 100%;
+}
+.product_box_garden:nth-child(11) {
+    background-image: url(../../images/img_tools_500x500/electro/Kustorez_bosch-800x800.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 60% 100%;
+}
+.product_box_garden h3 {
     font-family: arial;
     font-weight: bold;
     font-size: 1rem;
-    color: black;
-    text-shadow: 1px 1px 2px white;
+    color: rgb(13, 25, 62);
+    text-transform: uppercase;
 }
-.product_box_garden p:nth-last-child(1) {
-    color: black;
+.product_box_garden p:nth-child(2) {
+    color: red;
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-shadow: 1px 1px 1px black;
+}
+.product_box_garden p {
+    color: rgb(0, 0, 0);
     font-weight: bold;
     font-family: arial;
     font-size: 1rem;
@@ -95,48 +166,3 @@ body {
     align-items: center;
     justify-content: space-between;
 }
-.product_box_garden {
-    width: 360px;
-    height: 200px;
-    background-color: #f3eeb7;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    display: flex;
-    flex-direction: column;
-    border-radius: 6px;
-    box-shadow: 3px 3px 10px -5px black;
-    padding: 10px;
-    margin: 20px auto;
-    justify-content: space-between;
-}
-/* .products_box_content > .product_box:nth-child(3) {
-    background: url(../img/benzo_stihl_2.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-}
-.products_box_content > .product_box:nth-child(4) {
-    background: url(../img/trimmer_stihl.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-}
-.products_box_content > .product_box:nth-child(5) {
-    background: url(../img/vozduhoduvka_2.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-}
-.products_box_content > .product_box:nth-child(6) {
-    background: url(../img/moika_chempion_2.webp);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-}
-.products_box_content > .product_box:nth-child(7) {
-    background: url(../img/benzotrimmer_huter.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-} */

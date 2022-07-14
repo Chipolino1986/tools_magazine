@@ -1,0 +1,22 @@
+Date: 13/07/2022
+--------------------
+Products:
+--------------------
+Name: Газонокосилка Gardena
+Price: 25000
+Amount: 1
+Total price: 25000
+--------------------
+Name: Бензопила STIHL
+Price: 17300
+Amount: 1
+Total price: 17300
+--------------------
+Name: Бензовоздуходувка Champion
+Price: 9700
+Amount: 1
+Total price: 9700
+--------------------
+TOTAL PRICE: 52000
+--------------------
+Pay by cash
