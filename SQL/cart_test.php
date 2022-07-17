@@ -1,4 +1,8 @@
+
 <?
+
+use function PHPSTORM_META\elementType;
+
 session_start();
 $db = new PDO("mysql:host=localhost;dbname=my_magazine;charset=utf8", "root", "", 
 [PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC]);
@@ -7,30 +11,49 @@ $cart = (isset($_SESSION["cart_test"])) ? $_SESSION["cart_test"] : [];
 
 if (isset($_GET["download_chack"])) {
 	header('Content-type: text/plain');
-	header('Content-Disposition: attachment; filename="'.$_GET["download_chack"].'"');
+	header('Content-Disposition: attachment; filename= "'.$_GET["download_chack"].'"');
 	readfile($_GET["download_chack"]); 
-	echo "<h1>Ваша корзина пуста!</h1>"; 
-} 
+}; 
+?>
 
-if (empty($cart)) {
-	?>	<div class="cart_empty" 
-	style="text-align: center; color: white; text-transform:uppercase;
-					font-family:sans-serif; padding:25px 0; background:linear-gradient(45deg,black 50%,gold 50%);
-					text-shadow: 1px 1px 1px black;">
-			<?	echo "<h1>Ваша корзина пуста</h1>"; ?>
+<?
+if (empty($cart)) { 
+	?>	
+
+	<div class="cart_empty" 
+	style ="text-align: center; 
+			color: white; 
+			text-transform:uppercase;
+			font-family:sans-serif; 
+			padding:25px 0; 
+			text-shadow: 1px 1px 1px black;">
+
+			<? echo "<h1>Ваша корзина пуста</h1>"; ?>
+
 		</div>
 		
-		<div class="smile_wrapper" style="display:flex; justify-content: center">
-		   	<img style="width: 500; height: 500" class="smile" src="../images/background/smile.png" alt="smile">
+			<div class="smile_wrapper" 
+				 style="display:flex; 
+				 		justify-content: center"
+						>
+		   	<img style="width: 500; height: 500" 
+			class="smile" 
+			src="../images/background/smile.png" 
+			alt="smile"
+			>
+
 		</div>
+
 		<style>
+
 			body {
 				margin: 0;
 				padding: 0;
 				box-sizing: border-box;
-				background:radial-gradient(white,black);
+				background: radial-gradient(#740000,black);
 			}
-		</style>
+		</style> 
+
 	<?	
 	return; 
 }
@@ -41,7 +64,8 @@ $dbProducts = $db->query("SELECT id, name, price ,brandcountry, made FROM Produc
 $products = $dbProducts->fetchAll();
 
 echo "<h1>Список товаров корзины:</h1>";
-echo '<div class="card_product_box" style="display:flex; flex-wrap: wrap; width:100%; magrin: 0 auto;">';
+echo '<div class="card_product_box">';
+
 foreach ($products as $product) { ?>
 	
 	<div class="card_product">
@@ -137,16 +161,5 @@ if (isset($_POST["pay"])) {
 }
 ?>
 
-<!DOCTYPE html>
-<html lang="ru">
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Корзина</title>
-	<link rel="stylesheet" href="./style.css/cart_test.css">
-</head>
-<body>
-
-</body>
-</html>
+<link rel="stylesheet" href="./style.css/cart_test.css">
+<link rel="stylesheet" href="../NORMALIZE!!!/normalize.css">

@@ -1,3 +1,6 @@
+.container_1 {
+    background: linear-gradient(35deg, rgb(255, 255, 255) 50%,rgb(40, 40, 40)50%) !important;
+}
 .container_1_content {
     display: flex;
     flex-direction: column;
@@ -18,8 +21,9 @@
     max-width: 420px;
     width: 100%;
     min-height: 550px;
-    background: linear-gradient(45deg, white 30%,#949494 64%);
+    background: linear-gradient(45deg, rgb(200, 200, 200) 30%,#626262 64%);
     margin-bottom: 50px;
+    box-shadow: 3px 3px 10px -5px black;
 }
 .form_regestration {
     max-width: 300px;
@@ -34,15 +38,13 @@
     text-indent: 5px;
 }
 .input {
-    /* border: 2px solid rgb(110,110,110); */
     width: 240px;
     height: 35px;
-    /* border-radius: 3px; */
-    font-family: 'Arial';
+    font-family: 'Roboto', sans-serif;
     box-shadow: 3px 5px 15px -5px black;
 }
 .label {
-    font-family: 'Arial';
+    font-family: 'Roboto', sans-serif;
     font-size: 1rem;
     font-weight: bold;
     margin-top: 5px;
@@ -52,8 +54,8 @@
     height: 50px;
     margin-bottom: 10px;
     color: rgb(255, 255, 255);
-    background-color: rgb(70, 65, 65);
-    font-family: 'Arial';
+    background-color: rgb(40, 67, 140);
+    font-family: 'Roboto', sans-serif;
     font-weight: bold;
     border-radius: 4px;
     margin-top: 30px;
@@ -71,7 +73,7 @@
     margin-top: 10px;
 }
 .label_reg p {
-    font-family: 'arial';
+    font-family: 'Roboto', sans-serif;
     font-weight: bold;
     font-size: 1rem;
 }

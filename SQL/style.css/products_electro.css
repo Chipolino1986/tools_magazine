@@ -1,15 +1,33 @@
 body {
-    padding-top: 60px;
+    padding-top: 50px;
+    background: linear-gradient(60deg,white 50%,rgb(40, 40, 40) 50%);
+}
+.section-1 {
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+}
+.title_product_list h1 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    padding: 20px 0;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 .price {
     width: 100%;
     display: flex;
     justify-content: center;
+    align-items: center;
     border-bottom: 2px solid rgb(74, 74, 74);
     min-height: 50px;
     height: 100%;
-    font-family: sans-serif;
-    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    background-color: rgb(120, 40, 40);
 }
 .min_price {
     width: 250px;
@@ -38,42 +56,38 @@ body {
     color: black;
     border: 1px solid black;
 }
-.h1 {
-    display: flex;
-    justify-content: center;
-    font-family: sans-serif;
-    text-transform: uppercase;
-    font-size: 2rem;
-    margin: 20px;
-}
 .btn_buy_electro {
     background-color: rgb(140, 40, 40);
     color: white;
     transition: all .3s ease;
     border-radius: 4px;
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: .9rem;
     letter-spacing: 1px;
-    padding: 5px 15px;
+    padding: 7px 5px;
 }
 .btn_buy_electro:hover {
     background:linear-gradient(25deg, black 40%,blue 80%);
     color: rgb(255, 255, 255);
 }
+.products_box_content {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
 .product_box_electro {
     border-radius: 6px;
     box-shadow: 3px 3px 10px -5px black;
-    max-width: 470px;
+    max-width: 450px;
     width: 100%;
-    height: 220px;
+    min-height: 220px;
     padding: 10px;
-    margin: 20px auto;
+    margin: 5px auto;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-color: #f3eeb7;
-    background-position: center;
-    background-repeat: no-repeat;
+    background-color: #ffe092 !important;
 }
 .product_box_electro h3 {
     font-family: sans-serif;
@@ -83,21 +97,15 @@ body {
     text-transform: uppercase;
 }
 .product_box_electro p:nth-child(2) {
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: bold;
     font-size: 1.2rem;
     color: red;
     text-shadow: 1px 0 1px black;
 }
 .product_box_electro p {
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: bold;
-}
-.products_box_content {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0 auto;
 }
 .price_form_electro {
     display: flex;
@@ -105,7 +113,7 @@ body {
     justify-content: space-between;
 }
 .product_box_electro:nth-child(2) {
-    background: url(../../images/img_tools_500x500/electro/perforator-makita.png) #f3eeb7;
+    background: url(../../images/img_tools_500x500/electro/perforator-makita.png);
     background-position: right;
     background-repeat: no-repeat;
     background-size: 50% 100%;
@@ -113,7 +121,7 @@ body {
     flex-direction: column;
 }
 .product_box_electro:nth-child(3) {
-    background: url(../../images/img_tools_500x500/electro/electrodrel-bosch-700x700.png) #f3eeb7;
+    background: url(../../images/img_tools_500x500/electro/electrodrel-bosch-700x700.png);
     background-position: right;
     background-repeat: no-repeat;
     background-size: 50% 100%;
@@ -121,7 +129,7 @@ body {
     flex-direction: column;
 }
 .product_box_electro:nth-child(4) {
-    background: url(../../images/img_tools_500x500/electro/elektrorubanok_metabo-500x500.png) #f3eeb7;
+    background: url(../../images/img_tools_500x500/electro/elektrorubanok_metabo-500x500.png);
     background-position: right;
     background-repeat: no-repeat;
     background-size: 50% 100%;
@@ -129,7 +137,7 @@ body {
     flex-direction: column;
 }
 .product_box_electro:nth-child(5) {
-    background: url(../../images/img_tools_500x500/electro/electrolobzik-zubr-500x500.png) #f3eeb7;
+    background: url(../../images/img_tools_500x500/electro/electrolobzik-zubr-500x500.png);
     background-position: right;
     background-repeat: no-repeat;
     background-size: 50% 100%;
@@ -137,7 +145,7 @@ body {
     flex-direction: column;
 }
 .product_box_electro:nth-child(6) {
-    background: url(../../images/img_tools_500x500/electro/sabelnaya_pila-b&d-600x600.png) #f3eeb7;
+    background: url(../../images/img_tools_500x500/electro/sabelnaya_pila-b&d-600x600.png);
     background-position: right;
     background-repeat: no-repeat;
     background-size: 50% 100%;
@@ -145,7 +153,7 @@ body {
     flex-direction: column;
 }
 .product_box_electro:nth-child(7) {
-    background: url(../../images/img_tools_500x500/electro/fen_makita-800x800.png) #f3eeb7;
+    background: url(../../images/img_tools_500x500/electro/fen_makita-800x800.png);
     background-position: right;
     background-repeat: no-repeat;
     background-size: 50% 100%;
@@ -153,7 +161,7 @@ body {
     flex-direction: column;
 }
 .product_box_electro:nth-child(8) {
-    background: url(../../images/img_tools_500x500/stock/shleifmashina-makita-600x600.png) #f3eeb7;
+    background: url(../../images/img_tools_500x500/stock/shleifmashina-makita-600x600.png);
     background-position: right;
     background-repeat: no-repeat;
     background-size: 50% 100%;
@@ -161,7 +169,7 @@ body {
     flex-direction: column;
 }
 .product_box_electro:nth-child(9) {
-    background: url(../../images/img_tools_500x500/electro/bolgarka-makita_ga5030.png) #f3eeb7;
+    background: url(../../images/img_tools_500x500/electro/bolgarka-makita_ga5030.png);
     background-position: right;
     background-repeat: no-repeat;
     background-size: 50% 100%;
@@ -169,7 +177,7 @@ body {
     flex-direction: column;
 }
 .product_box_electro:nth-child(10) {
-    background: url(../../images/img_tools_500x500/electro/electrorubanok_makita-1200x1200.png) #f3eeb7;
+    background: url(../../images/img_tools_500x500/electro/electrorubanok_makita-1200x1200.png);
     background-position: right;
     background-repeat: no-repeat;
     background-size: 55% 110%;
@@ -177,7 +185,7 @@ body {
     flex-direction: column;
 }
 .product_box_electro:nth-child(11) {
-    background: url(../../images/img_tools_500x500/electro/drel_metabo.1000x1000.png) #f3eeb7;
+    background: url(../../images/img_tools_500x500/electro/drel_metabo.1000x1000.png);
     background-position: right;
     background-repeat: no-repeat;
     background-size: 55% 100%;
@@ -185,7 +193,7 @@ body {
     flex-direction: column;
 }
 .product_box_electro:nth-child(12) {
-    background: url(../../images/img_tools_500x500/electro/lobzik-interskol-800x800.png) #f3eeb7;
+    background: url(../../images/img_tools_500x500/electro/lobzik-interskol-800x800.png);
     background-position: right;
     background-repeat: no-repeat;
     background-size: 50% 80%;
@@ -193,7 +201,7 @@ body {
     flex-direction: column;
 }
 .product_box_electro:nth-child(13) {
-    background: url(../../images/img_tools_500x500/electro/fen_iNGCO-500x500.png) #f3eeb7;
+    background: url(../../images/img_tools_500x500/electro/fen_iNGCO-500x500.png);
     background-position: right;
     background-repeat: no-repeat;
     background-size: 50% 80%;
@@ -201,7 +209,7 @@ body {
     flex-direction: column;
 }
 .product_box_electro:nth-child(14) {
-    background: url(../../images/img_tools_500x500/electro/frezer_graphite-550x550.png) #f3eeb7;
+    background: url(../../images/img_tools_500x500/electro/frezer_graphite-550x550.png);
     background-position: right;
     background-repeat: no-repeat;
     background-size: 60% 100%;
@@ -209,7 +217,7 @@ body {
     flex-direction: column;
 }
 .product_box_electro:nth-child(15) {
-    background: url(../../images/img_tools_500x500/electro/kley-pistol-700x700.png) #f3eeb7;
+    background: url(../../images/img_tools_500x500/electro/kley-pistol-700x700.png);
     background-position: right;
     background-repeat: no-repeat;
     background-size: 60% 100%;
@@ -217,7 +225,7 @@ body {
     flex-direction: column;
 }
 .product_box_electro:nth-child(16) {
-    background: url(../../images/img_tools_500x500/electro/mikser_zubr.png) #f3eeb7;
+    background: url(../../images/img_tools_500x500/electro/mikser_zubr.png);
     background-position: right;
     background-repeat: no-repeat;
     background-size: 55% 90%;
@@ -225,7 +233,7 @@ body {
     flex-direction: column;
 }
 .product_box_electro:nth-child(17) {
-    background: url(../../images/img_tools_500x500/electro/otbojnyj-molotok-makita-.800x800.png) #f3eeb7;
+    background: url(../../images/img_tools_500x500/electro/otbojnyj-molotok-makita-.800x800.png);
     background-position: right;
     background-repeat: no-repeat;
     background-size: 50% 100%;

@@ -8,10 +8,12 @@
     <link rel="stylesheet" href="../NORMALIZE!!!/normalize.css">
     <link rel="stylesheet" href="../BASIC_CONTENT/style.css">
     <link rel="stylesheet" href="../TOOLS/style_tools.css">
+    <link rel="stylesheet" href="../header/header.css">
+    <link rel="stylesheet" href="../footer/style_footer.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 
     <script defer src="http://kit.fontawesome.com/b8991598b2.js"></script>
     <script defer src="../BASIC_CONTENT/script_header.js"></script> 
@@ -19,63 +21,39 @@
     <script defer src="https://kit.fontawesome.com/9ca67525c0.js" crossorigin="anonymous"></script>
 </head>
 <body>
-        <header class="header">
-            <div class="header_content">
-                <nav class="nav">
-                    <img src="../images/yellow-hummer-4.png" alt="hummer">
-                      
-                    <form method="POST">
-                        
-                        <input class="search" type="text" name="search" placeholder="поиск">
-                        <input class="search-btn" type="submit" name="submit" value="поиск"> 
-                        
-                    </form>
-           
-                        <div class="items">
-                            <ul>
-                                <li><a href="../about_us/index_about_us.php#">О нас</a></li>
-                                <li><a href="#">Инструменты</a></li>
-                                <li><a href="../contacts/index_contacts.php">Контакты</a></li>
-                            </ul>
-                        </div>
+            <div class="header">
+                <nav class="items">
+                    <h1>Магазин инструментов</h1>
+                    <ul>
+                        <li><a href="../landing-2/index.php"><i class="fa-solid fa-house"></i>главная</a></li>
+                        <li><a href="../about_us/index_about_us.php"><i class="fa-solid fa-people-group"></i>о нас</a></li>
+                        <li><a href="#"><i class="fa-solid fa-hammer"></i>инструменты</a></li>
+                        <li><a href="../contacts/index_contacts.php"><i class="fa-solid fa-square-phone-flip"></i>контакты</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="#"><i class="fa-solid fa-star"></i>избранное</a></li>
+                        <li><a href="../registration/index_registration.php"><i class="fa-solid fa-id-card"></i>регистрация</a></li>
+                        <li><a href="../enter_page/index_enter_page.php"><i class="fa-solid fa-arrow-right-to-bracket"></i>вход</a></li>
+                        <li><a href="../SQL/cart_test.php"><i class="fa-solid fa-cart-shopping"></i>корзина</a></li>
+                    </ul>
                 </nav>
-                <div class="heder_content_right">
-                    <div class="registration_item"> 
-                        <a href="../registration/index_registration.php" class="registration">Регистрация
-                            <i class="fa-solid fa-id-card"></i>
-                        </a>
-
-                        <a href="../enter_page/index_enter_page.php#" class="registration">Вход
-                            <i class="fa-solid fa-dungeon"></i>
-                        </a>
-                              
-                        <a href="../SQL/cart_test.php" class="registration">Корзина
-                            <i class="fa-solid fa-cart-shopping"></i>
-                        </a> 
-                    </div>
-                </div>
-                <div class="burger_box">
-                    <div class="burger_line"></div>
-                    <div class="burger_line"></div>
-                    <div class="burger_line"></div>
-                    </div>
-                </div>
             </div>
-        </header>
 
 <!-----------------------------------------------SECTION_I--------------------------------------------------------------->
 
         <div class="container_1">
             <div class="container_1_content">
                 <div class="main_title_box">
-                    <a href="../landing/index.php"><img class="arrow-go-home" src="../images/back(arrow).png" alt="arrow"></a>
+                    <a href="../landing-2/index.php"><img class="arrow-go-home" src="../images/back(arrow).png" alt="arrow"></a>
                     <div class="title_box">
                         <h2 class="subTitle_text">Магазин ЭЛЕКТРО и БЕНЗОинструментов</h2>
                         <h1 class="title_text">Жёлтый молоток</h1>
                     </div>
                     <img class="hummer-label" src="../images/yellow-hummer-4.png" alt="submarine">
                 </div>
-                <h1>Инструменты</h1>
+                <h1 class="title_tools">Выберете категорию
+                    <i class="fa-solid fa-arrow-down-short-wide"></i>
+                </h1>
                 <div class="tool_box">
                     <div class="tool_block_wrapper">
                         <a href="../SQL/products_test.php" class="toots_block_garden">
@@ -118,7 +96,7 @@
             <div class="footer_content">
                 <div class="footer_head">
                     <ul>
-                        <li><a href="../landing/index.php">Главная<i class="fa-solid fa-house-chimney"></i></a></li>
+                        <li><a href="../landing-2/index.php">Главная<i class="fa-solid fa-house-chimney"></i></a></li>
                         <li><a href="../TOOLS/tools.php">Инструменты<i class="fa-solid fa-screwdriver-wrench"></i></a></li>
                         <li><a href="../contacts/index_contacts.php">Контакты<i class="fa-solid fa-address-book"></i></a></li>
                         <li><a href="../registration/index_registration.php">Регистрация<i class="fa-solid fa-id-card"></i></a></li>
@@ -131,10 +109,10 @@
                     <li><a href="http://www.consultant.ru/document/cons_doc_LAW_373622/0082fc02fd38782880841f0019209a807a218a2b/">Правила продажи</a></li>
                     <li><a href="../privacity/index_privacity.php">Политика конфиденциальности</a></li>
                     <li><a href="#">Образцы документов</a></li>
-                    <li><a href="#">Обмен и возврат</a></li>
+                    <li><a href="./exchange/index.php">Обмен и возврат</a></li>
                 </ul>
                 <ul><a href="../about_us/index_about_us.php#">О компании</a></ul>
-                <ul><a href="#">Отзывы покупателей</a></ul>
+                <ul><a href="../blog/blog.php">Отзывы покупателей</a></ul>
                 <div class="adress_box">
                     <i class="fas fa-envelope"></i>
                     <p>300001 г.Тула, ул. Каракозова д.27</p>

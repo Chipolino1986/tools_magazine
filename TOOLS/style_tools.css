@@ -1,21 +1,25 @@
-body {
-    padding-top: 60px;
+.container_1 {
+    background: linear-gradient(35deg,white 50%,rgb(40, 40, 40) 50%);
 }
-.container_1_content h1 {
-    font-family: arial;
-    font-size: 2.5rem;
-    color: rgb(255, 255, 255);
+.title_tools {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-top: 20px;
 }
-.tool_block_wrapper p {
+.title_tools i {
+    margin-left: 20px;
+}
+.tool_block_wrapper p:nth-child(2) {
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-family: arial;
-    font-size: 1rem;
-    font-weight: bold;
-    color: rgb(255, 255, 255);
-    text-shadow: 1px 1px 1px black;
     text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    background: white;
 }
 .tool_box {
     width: 100%;
@@ -24,7 +28,7 @@ body {
     align-items: center;
     justify-content: space-around;
     background-color: rgba(187, 187, 187, 0.38);
-    margin-bottom: 50px;
+    margin: 35px 0;
     flex-wrap: wrap;
     border-radius: 4px;
 }
@@ -92,7 +96,12 @@ body {
     transition: all .4s;
 }
 .overlay p {
+    font-family: 'Roboto', sans-serif;
     font-size: 1.7rem;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    
 }
 .overlay:hover {
     opacity: 1;

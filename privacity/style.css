@@ -3,7 +3,7 @@
     max-width: 1920px;
     width: 100%;
     margin: 0 auto;
-    background: none;
+    background:linear-gradient(65deg,white 50%,rgb(40, 40, 40) 50%) !important;
 }
 .container_1_content {
     display: flex;
@@ -29,10 +29,10 @@
     margin: 20px 0;
 }
 .text_1 h1 {
-    font-family: 'Arial';
+    font-family: 'Roboto', sans-serif;
     font-weight: bold;
-    font-size: 1.4rem;
-    color: rgb(0, 0, 82);
+    font-size: 1.5rem;
+    color: rgb(0, 0, 70);
 }
 .v-date {
     width: 100%;
@@ -40,19 +40,20 @@
 .wrapper_privacity_box ul li{
     list-style:disc;
     margin-left: 75px;
-    font-family: 'Arial';
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     color: rgb(143, 0, 0);
     font-size: 1rem;
 }
 .wrapper_privacity_box h2 {
     width: 100%;
-    font-family: fantasy;
+    font-family: 'Roboto', sans-serif;
     color: rgb(0, 0, 82);
     font-size: 1rem;
+    font-weight: bold;
 }
 .wrapper_privacity_box p {
-    font-family: 'Arial';
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     color: rgb(0, 0, 0);
     font-size: 1rem;

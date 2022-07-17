@@ -7,47 +7,35 @@
     <title>Обмен и возврат товара</title>
     <link rel="stylesheet" href="../NORMALIZE!!!/normalize.css">
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="../header/header.css">
+    <link rel="stylesheet" href="../footer/style_footer.css">
     <link rel="stylesheet" href="../BASIC_CONTENT/style.css">
     <script defer src="../BASIC_CONTENT/script_header.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script defer src="https://kit.fontawesome.com/9ca67525c0.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header class="header">
-        <div class="header_content">
-            <nav class="nav">
-                <img src="../images/yellow-hummer-4.png" alt="hummer">
-                  
-				<? require_once "../SQL/search_form.php"; ?>
-				<div class="items">
-					<ul>
-						<li><a href="../about_us/index_about_us.php#">О нас</a></li>
-						<li><a href="../TOOLS/tools.php">Инструменты</a></li>
-						<li><a href="../contacts/index_contacts.php">Контакты</a></li>
-					</ul>
-				</div>
-            </nav>
-            <div class="heder_content_right">
-                <div class="registration_item"> 
-                    <a href="../registration/index_registration.php" class="registration">Регистрация
-                        <i class="fa-solid fa-id-card"></i>
-                    </a>
-                    <a href="../enter_page/index_enter_page.php#" class="registration">Вход
-                        <i class="fa-solid fa-dungeon"></i>
-                    </a>
-                          
-                    <a href="../SQL/cart_test.php" class="registration">Корзина
-                        <i class="fa-solid fa-cart-shopping"></i>
-                    </a> 
-                </div>
-            </div>
-            <div class="burger_box">
-                <div class="burger_line"></div>
-                <div class="burger_line"></div>
-                <div class="burger_line"></div>
-                </div>
-            </div>
-        </div>
+        <nav class="items">
+            <h1>Магазин инструментов</h1>
+            <ul>
+                <li><a href="../landing-2/index.php"><i class="fa-solid fa-house"></i>главная</a></li>
+                <li><a href="../about_us/index_about_us.php"><i class="fa-solid fa-people-group"></i>о нас</a></li>
+                <li><a href="../TOOLS/tools.php"><i class="fa-solid fa-hammer"></i>инструменты</a></li>
+                <li><a href="../contacts/index_contacts.php"><i class="fa-solid fa-square-phone-flip"></i>контакты</a></li>
+            </ul>
+            <ul>
+                <li><a href="#"><i class="fa-solid fa-star"></i>избранное</a></li>
+                <li><a href="../registration/index_registration.php"><i class="fa-solid fa-id-card"></i>регистрация</a></li>
+                <li><a href="../enter_page/index_enter_page.php"><i class="fa-solid fa-arrow-right-to-bracket"></i>вход</a></li>
+                <li><a href="../SQL/cart_test.php"><i class="fa-solid fa-cart-shopping"></i>корзина</a></li>
+            </ul>
+        </nav>
     </header>
-
+                                    <!-- section-1 -->
     <section class="section-1">
         <div class="container">
             <h1>
@@ -124,7 +112,7 @@
             <br>
             <p>Если оплата заказа Клиентом была произведена наличными денежными средствами:</p>
             <ul>
-                <li>возврат денежных средств происходит в магазине «220 Вольт» в котором производилась покупка.</li>
+                <li>возврат денежных средств происходит в магазине «Жёлтый молоток» в котором производилась покупка.</li>
             </ul>
             <br>
             <span>В случае, если заказ был оплачен банковской картой:</span>
@@ -192,7 +180,7 @@
             </p>
         </div>
     </section>
-
+                                    <!-- footer -->
     <footer class="footer">
         <div class="footer_content">
             <div class="footer_head">

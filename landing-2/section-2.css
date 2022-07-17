@@ -1,0 +1,358 @@
+.stock_title h1 {
+    font-family: sans-serif;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    background-color: white;
+    padding: 25px 0;
+}
+/* --------------------stok slider------------- */
+.stock_title h1 {
+    font-family: sans-serif;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    background-color: white;
+    padding: 40px 0;
+} 
+/*---------------------------- Stock-Slider------------------------------ */
+.slider_main_wrapper1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 0;
+    margin: 5px 0;
+}
+.slider_wrapper1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1300px;
+}
+.slider_container1 {
+    width: 1200px;
+    max-height: 300px;
+    overflow: hidden;
+    margin: 0 auto;
+    outline: 2px solid rgb(255, 255, 255);
+}
+.slider_track1 {
+    display: flex;
+    transition: 1.5s;
+}
+.slider_item1 {
+    height: 250px;
+}
+.slider_item1:nth-child(1) {
+    background: url(../images/200x200/11634-makita_m1902-300.png);
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    /* background-color: rgb(250, 230, 150); */
+    background-color: rgb(230, 230, 230);
+}
+.slider_item1:nth-child(2) {
+    background: url(../images/200x200/benzopila_200x200.png);
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    /* background-color: rgb(250, 230, 150); */
+    background-color: rgb(230, 230, 230);
+}
+.slider_item1:nth-child(3) {
+    background: url(../images/200x200/bolgarka_200x200.png);
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    /* background-color: rgb(250, 230, 150); */
+    background-color: rgb(230, 230, 230);
+}
+.slider_item1:nth-child(4) {
+    background: url(../images/200x200/circulyarnaiya_pila_200x200.png);
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    /* background-color: rgb(250, 230, 150); */
+    background-color: rgb(230, 230, 230);
+    border: 20px solid transparent;
+}
+.slider_item1:nth-child(5) {
+    background: url(../images/200x200/drel_200x200.png);
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    /* background-color: rgb(250, 230, 150); */
+    background-color: rgb(230, 230, 230);
+    border: 20px solid transparent;
+}
+.slider_item1:nth-child(6) {
+    background: url(../images/200x200/electrolobzik-interskol-700x700.png);
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    /* background-color: rgb(250, 230, 150);/ */
+    background-color: rgb(230, 230, 230);
+    border: 30px solid transparent;
+}
+.slider_item1:nth-child(7) {
+    background: url(../images/200x200/fen_200x200.png);
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    /* background-color: rgb(250, 230, 150); */
+    background-color: rgb(230, 230, 230);
+    border: 20px solid transparent;
+}
+.slider_item1:nth-child(8) {
+    background: url(../images/200x200/frezernayia-mashina_200x200.png);
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    /* background-color: rgb(250, 230, 150); */
+    background-color: rgb(230, 230, 230);
+    border: 20px solid transparent;
+}
+.slider_item1:nth-child(9) {
+    background: url(../images/200x200/gozonokosilka_200x200.png);
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    /* background-color: rgb(250, 230, 150); */
+    background-color: rgb(230, 230, 230);
+    border: 20px solid transparent;
+}
+.slider_item1:nth-child(10) {
+    background: url(../images/200x200/kleevyi-pistolet_400x400.png);
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    /* background-color: rgb(250, 230, 150); */
+    background-color: rgb(230, 230, 230);
+}
+.slider_item1:nth-child(11) {
+    background: url(../images/img_tools_500x500/electro/Kustorez_bosch-800x800.png);
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    /* background-color: rgb(250, 230, 150); */
+    background-color: rgb(230, 230, 230);
+}
+.slider_item1:nth-child(12) {
+    background: url(../images/img_tools_500x500/electro/mikser_zubr.png);
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    /* background-color: rgb(250, 230, 150); */
+    background-color: rgb(230, 230, 230);
+    border: 30px solid transparent;
+}
+.slider_item1:nth-child(13) {
+    background: url(../images/200x200/otboiniy_molot_200x200.png);
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    /* background-color: rgb(250, 230, 150); */
+    background-color: rgb(230, 230, 230);
+    border: 20px solid transparent;
+}
+.slider_item1:nth-child(14) {
+    background: url(../images/200x200/perforator_200x200.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-color: rgb(250, 230, 150); */
+    background-color: rgb(230, 230, 230);
+    border: 20px solid transparent;
+}
+.slider_item1:nth-child(15) {
+    background: url(../images/200x200/shlifovalnaiya_mashina_200x200.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-color: rgb(250, 230, 150); */
+    background-color: rgb(230, 230, 230);
+    border: 20px solid transparent;
+}
+.slider_buttons1 {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.slider_buttons1 i {
+    font-size: 2rem;
+}
+.slider_buttons1 button {
+    width: 50px;
+    height: 40px;
+    transition: .6s;
+    background: none;
+    transition: all .1s ease;
+}
+/* ---------------------------------- */
+
+.yellow_line {
+    display: flex;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    justify-content: center;
+    border-top: 2px solid black;
+}
+.yellow_line_content {
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.yellow_line_content p {
+    color: rgb(40, 40, 40);
+    font-family: fantasy;
+    font-size: 1.7rem;
+    padding: 5px 0;
+}
+.yellow_line_content span {
+    text-transform: uppercase;
+    color: rgb(170, 50, 50);
+}
+.container_2 {
+    display: flex;
+    width: 100%;
+    background-color: rgb(30, 80, 80);
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+.container_2_content {
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.container_2_content h1 {
+    font-size: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(255, 255, 255);
+    margin-top: 40px;
+    font-weight: bold;
+}
+/* -------------------------------------------------------------- */
+
+.container_2_content p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+}
+.container_2_content span {
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+    font-size: 1.2rem;
+}
+.container_2_content h1 span{
+    color:rgb(206 180 101);
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.container_2_content span:nth-child(2) {
+    color: rgb(255, 255, 255);
+    text-shadow: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.pay_box {
+    display: flex;
+    width: 100%;
+    min-height: 60px;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    flex-wrap: wrap;
+}
+.sub_pay_box {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.sber {
+    width: 6.25rem;
+    height: 4.4rem;
+    border: 1px solid white;
+    margin: 0 25px;
+    background: url(../images/Pay_Sistems/sber_bank_label.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: white;
+    border-radius: 3px;
+    transition: .4s all;
+}
+.sber:hover {
+    box-shadow: 0 0 20px -5px rgb(255, 255, 255);
+    transition: .4s all;
+}
+.unionPay {
+    width: 6.25rem;
+    height: 4.4rem;
+    border: 1px solid white;
+    margin: 0 25px;
+    background: url(../images/Pay_Sistems/union-1_label.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: white;
+    border-radius: 3px;
+    transition: .4s all;
+}
+.unionPay:hover {
+    box-shadow: 0 0 20px -5px rgb(255, 255, 255);
+    transition: .4s all;
+}
+.mir {
+    width: 6.25rem;
+    height: 4.4rem;
+    border: 1px solid white;
+    margin: 0 25px;
+    background: url(../images/Pay_Sistems/mir_label.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: white;
+    border-radius: 3px;
+    transition: .4s all;
+}
+.mir:hover {
+    box-shadow: 0 0 20px -5px rgb(255, 255, 255);
+    transition: .4s all;
+}
+.qiwi {
+    width: 6.25rem;
+    height: 4.4rem;
+    border: 1px solid white;
+    margin: 0 25px;
+    background: url(../images/Pay_Sistems/qiwi_label.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: white;
+    border-radius: 3px;
+    transition: .4s all;
+}
+.qiwi:hover {
+    box-shadow: 0 0 20px -5px rgb(255, 255, 255);
+    transition: .4s all;
+}

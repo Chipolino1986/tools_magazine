@@ -1,18 +1,21 @@
 body {
-    background: linear-gradient(45deg, rgb(255 204 87) 50%, rgb(10 10 10) 50%);
+    /* background: linear-gradient(35deg, rgb(255, 255, 255) 50%, rgb(39, 39, 39) 50%); */
+    background: white;
+    padding-top: 50px;
 }
 .blog {
     width: 700px;
     margin: 0 auto;
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 .title {
     width: 100%;
 }
 .title h1 {
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
     font-size: 2rem;
-    color: white;
+    color: rgb(0, 0, 0);
     text-align: center;
     text-transform: uppercase;
     padding: 25px 0;

@@ -1,13 +1,33 @@
 body {
-    padding-top: 60px;
+    padding-top: 50px;
+    background: linear-gradient(50deg,white 50%,rgb(40, 40, 40) 50%);
+}
+.section-1 {
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+}
+.title_product_list h1 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    padding: 20px 0;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 .price {
     width: 100%;
     display: flex;
     justify-content: center;
+    align-items: center;
     border-bottom: 2px solid rgb(74, 74, 74);
     min-height: 50px;
     height: 100%;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    background-color: rgb(120, 40, 40);
 }
 .min_price {
     width: 250px;
@@ -26,6 +46,7 @@ body {
     width: 150px;
     height: 30px;
     background-color: rgb(50, 50, 95);
+    border: 1px solid white;
     color: white;
     margin-left: 30px;
     border-radius: 4px;
@@ -36,15 +57,8 @@ body {
     color: black;
     border: 1px solid black;
 }
-.h1 {
-    display: flex;
-    justify-content: center;
-    font-family: Arial;
-    font-size: 2rem;
-    margin: 20px;
-}
 .btn_buy_acum {
-    background-color: rgb(178, 49, 49);
+    background-color: rgb(100, 30, 30);
     color: white;
     transition: all .3s ease;
     border-radius: 4px;
@@ -52,23 +66,23 @@ body {
     font-size: .9rem;
     letter-spacing: 1px;
     padding: 5px 15px;
+    transition: all .3s ease;
 }
 .btn_buy_acum:hover {
-    background:linear-gradient(25deg,black 30%,blue 70%);
+    background-color: rgb(180, 50, 50);
 }
 .product_box_acum {
-    border-radius: 6px;
+    border-radius: 4px;
     box-shadow: 3px 3px 10px -5px black;
-    max-width: 470px;
+    max-width: 450px;
     width: 100%;
-    height: 220px;
+    min-height: 220px;
     padding: 10px;
-    margin: 20px auto;
+    margin: 5px auto;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-position: center;
-    background-repeat: no-repeat;
+    background-color: #ffe092 !important;
 }
 .product_box_acum h3 {
     font-family: sans-serif;
@@ -78,14 +92,14 @@ body {
     color: rgb(0, 20, 109);
 }
 .product_box_acum p:nth-child(2) {
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: bold;
     color: red;
     font-size: 1.2rem;
     text-shadow: 1px 0 1px black;
 }
 .product_box_acum p {
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: bold;
 }
 .products_box_content {
@@ -101,7 +115,7 @@ body {
 }
 
 .product_box_acum:nth-child(2) {
-    background: url(../../images/img_tools_500x500/acum/shurupovert-metabo-800x800.png) wheat;
+    background: url(../../images/img_tools_500x500/acum/shurupovert-metabo-800x800.png);
     background-position: right;
     background-repeat: no-repeat;
     background-size: 50% 90%;
@@ -110,7 +124,7 @@ body {
     justify-content: space-between;
 }
 .product_box_acum:nth-child(3) {
-    background: url(../../images/img_tools_500x500/acum/lobzik-bosch-1000x1000.png) wheat;
+    background: url(../../images/img_tools_500x500/acum/lobzik-bosch-1000x1000.png);
     background-position: right;
     background-repeat: no-repeat;
     background-size: 50% 90%;
@@ -119,7 +133,7 @@ body {
     justify-content: space-between;
 }
 .product_box_acum:nth-child(4) {
-    background: url(../../images/img_tools_500x500/acum/DeWalt--600x600.png) wheat;
+    background: url(../../images/img_tools_500x500/acum/DeWalt--600x600.png);
     background-position: right;
     background-repeat: no-repeat;
     background-size: 50% 90%;
@@ -128,7 +142,7 @@ body {
     justify-content: space-between;
 }
 .product_box_acum:nth-child(5) {
-    background: url(../../images/img_tools_500x500/acum/circulyarka-de-walt-400x400.png) wheat;
+    background: url(../../images/img_tools_500x500/acum/circulyarka-de-walt-400x400.png);
     background-position: right;
     background-repeat: no-repeat;
     background-size: 50% 90%;
@@ -137,7 +151,7 @@ body {
     justify-content: space-between;
 }
 .product_box_acum:nth-child(6) {
-    background: url(../../images/img_tools_500x500/acum/lenta-pila_makita-600x600.png) wheat;
+    background: url(../../images/img_tools_500x500/acum/lenta-pila_makita-600x600.png);
     background-position: right;
     background-repeat: no-repeat;
     background-size: 50% 90%;
@@ -146,7 +160,7 @@ body {
     justify-content: space-between;
 }
 .product_box_acum:nth-child(7) {
-    background: url(../../images/img_tools_500x500/acum/drel-mikser_makita-600x600.png) wheat;
+    background: url(../../images/img_tools_500x500/acum/drel-mikser_makita-600x600.png);
     background-position: right;
     background-repeat: no-repeat;
     background-size: 50% 90%;
@@ -155,7 +169,7 @@ body {
     justify-content: space-between;
 }
 .product_box_acum:nth-child(8) {
-    background: url(../../images/img_tools_500x500/acum/cirkulyarka_makita-600x600.png) #f3eeb7;
+    background: url(../../images/img_tools_500x500/acum/cirkulyarka_makita-600x600.png);
     background-position: right;
     background-repeat: no-repeat;
     background-size: 50% 80%;
@@ -163,10 +177,18 @@ body {
     flex-direction: column;
 }
 .product_box_acum:nth-child(9) {
-    background: url(../../images/img_tools_500x500/acum/perforator_makita-800x800.png) #f3eeb7;
+    background: url(../../images/img_tools_500x500/acum/perforator_makita-800x800.png);
     background-position: right;
     background-repeat: no-repeat;
     background-size: 50% 80%;
+    display: flex;
+    flex-direction: column;
+}
+.product_box_acum:nth-child(10) {
+    background: url(../../images/img_tools_500x500/acum/HIKOKI-DS12DA.500x400.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 50% 90%;
     display: flex;
     flex-direction: column;
 }

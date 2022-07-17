@@ -6,11 +6,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Отзывы</title>
     <link rel="stylesheet" href="./blog.css">
+    <link rel="stylesheet" href="../footer/style_footer.css">
+    <link rel="stylesheet" href="../header/header.css">
     <link rel="stylesheet" href="../BASIC_CONTENT/style.css">
     <link rel="stylesheet" href="../NORMALIZE!!!/normalize.css">
+
+    <script defer src="../header/header.js"></script>
+    <script defer src="https://kit.fontawesome.com/9ca67525c0.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    
+            <div class="header">
+                <nav class="items">
+                    <h1>Магазин инструментов</h1>
+                    <ul>
+                        <li><a href="../landing-2/index.php"><i class="fa-solid fa-house"></i>главная</a></li>
+                        <li><a href="#"><i class="fa-solid fa-people-group"></i>о нас</a></li>
+                        <li><a href="#"><i class="fa-brands fa-shopify"></i>магазин</a></li>
+                        <li><a href="#"><i class="fa-solid fa-square-phone-flip"></i>контакты</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="#"><i class="fa-solid fa-star"></i>избранное</a></li>
+                        <li><a href="#"><i class="fa-solid fa-id-card"></i>регистрация</a></li>
+                        <li><a href="#"><i class="fa-solid fa-arrow-right-to-bracket"></i>вход</a></li>
+                        <li><a href="#"><i class="fa-solid fa-cart-shopping"></i>корзина</a></li>
+                    </ul>
+                </nav>
+            </div>
+
     <section class="title">
         <h1>Здесь Вы можете оставить отзывы</h1>
     </section>
@@ -21,7 +43,7 @@
             <div class="footer_content">
                 <div class="footer_head">
                     <ul>
-                        <li><a href="../landing/index.php">Главная<i class="fa-solid fa-house-chimney"></i></a></li>
+                        <li><a href="../landing-2/index.php">Главная<i class="fa-solid fa-house-chimney"></i></a></li>
                         <li><a href="../TOOLS/tools.php">Инструменты<i class="fa-solid fa-screwdriver-wrench"></i></a></li>
                         <li><a href="../contacts/index_contacts.php">Контакты<i class="fa-solid fa-address-book"></i></a></li>
                         <li><a href="../registration/index_registration.php">Регистрация<i class="fa-solid fa-id-card"></i></a></li>

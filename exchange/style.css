@@ -2,9 +2,8 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    padding-top: 60px;
-    /* background: rgb(255, 210, 106); */
-    background: linear-gradient(45deg, rgb(255 204 87) 50%, rgb(10 10 10) 50%);
+    padding-top: 45px;
+    background: linear-gradient(55deg, rgb(255, 255, 255) 50%,rgb(40, 40, 40) 50%) !important;
 }
 .container {
     max-width: 1200px;

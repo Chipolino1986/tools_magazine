@@ -1,31 +1,37 @@
-body {
-    padding-left: 20px;
-    background: linear-gradient(45deg,rgb(30, 30, 30)50%,rgb(203, 162, 49)50%);
-}
-h1 {
+body h1 {
     text-align: center;
     font-family: sans-serif;
     font-weight: bold;
     font-size: 1.5rem;
     text-transform: uppercase;
     padding: 20px 0;
+    color: white;
+}
+body {
+    width: 100%;
+    background: linear-gradient(45deg,rgb(71, 71, 71)50%,rgb(128, 128, 128)50%);
 }
 .card_product_box {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgb(255, 255, 255);
     margin-bottom: 30px;
 }
 .card_product {
-    width: 420px;
-    height: 200px;
+    max-width: 420px;
+    width: 100%;
+    min-height: 220px;
     margin-bottom: 30px;
     border-radius: 4px;
     box-shadow: 2px 2px 5px -3px black;
-    margin-right: 30px;
+    margin-right: 25px;
+    margin-left: 25px;
     padding: 15px;
     background: url(../../images/settings.png) #f3eeb7;
     background-position: right;
     background-repeat: no-repeat;
     background-size: 40% 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .card_product p:nth-child(1) {
     color: rgb(6, 6, 80);
@@ -54,6 +60,7 @@ h1 {
     box-shadow: 2px 2px 5px -3px black;
     transition: all .3s ease;
     border-radius: 3px;
+    max-width: 120px;
 }
 .cart-remove:hover {
     cursor: pointer;
@@ -69,6 +76,7 @@ h1 {
     transition: all .3s ease;
     border-radius: 3px;
     border: none;
+    margin-left: 25px;
 }
 .cart-remove-all:hover {
     cursor: pointer;
@@ -91,17 +99,31 @@ h1 {
     color: black;
 }
 .back {
-    width: 100%;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 25px;
+    padding-bottom: 50px;
 }
 .btn-back {
+    width: 400px;
     font-family: arial;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: rgb(255, 255, 255);
     font-weight: bold;
     text-align: center;
+    margin: 0 auto;
+    transition: all .3s ease;
+    text-transform: uppercase;
+}
+.btn-back:hover {
+    color: goldenrod;
+}
+label {
+    font-family: sans-serif;
+    color: white;
+}
+label:hover {
+    cursor: pointer;
+}
+form {
+    padding-left: 25px;
 }

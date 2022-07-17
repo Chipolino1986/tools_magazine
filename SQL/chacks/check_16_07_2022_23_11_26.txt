@@ -1,0 +1,17 @@
+Date: 16/07/2022
+--------------------
+Products:
+--------------------
+Name: Бензотриммер STIHL
+Price: 21500
+Amount: 1
+Total price: 21500
+--------------------
+Name: Бензопила Huter
+Price: 7190
+Amount: 1
+Total price: 7190
+--------------------
+TOTAL PRICE: 28690
+--------------------
+Pay by card
