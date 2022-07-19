@@ -31,7 +31,7 @@
                     <ul>
                         <li><a href="../landing-2/index.php"><i class="fa-solid fa-house"></i>главная</a></li>
                         <li><a href="../about_us/index_about_us.php"><i class="fa-solid fa-people-group"></i>о нас</a></li>
-                        <li><a href="../TOOLS/tools.php"><i class="fa-solid fa-hammer"></i>инструменты</a></li>
+                        <li><a href="../TOOLS/tools.php"><i class="fa-solid fa-screwdriver-wrench"></i>инструменты</a></li>
                         <li><a href="#"><i class="fa-solid fa-square-phone-flip"></i>контакты</a></li>
                     </ul>
                     <ul>

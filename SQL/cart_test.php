@@ -96,8 +96,8 @@ foreach ($products as $product) { ?>
 	<button class="btn-pay" type="submit" disabled>Оплатить</button>
 </form>
 <div class="back">
-	<a class="btn-back" href="http://localhost/My_magazine/landing/index.php#">Вернутся на главную</a><br><br>
-	<a class="btn-back" href="http://localhost/My_magazine/TOOLS/tools.php">Вернуться к категориям товаров</a>
+	<a class="btn-back" href="../landing-2/index.php">Вернутся на главную</a><br><br>
+	<a class="btn-back" href="../TOOLS/tools.php">Вернуться к категориям товаров</a>
 </div>
 <script>
 	let radio = document.querySelectorAll('input[type="radio"]');

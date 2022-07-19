@@ -13,7 +13,6 @@
 
     <script defer src="../stock.js"></script>
     <script defer src="../../BASIC_CONTENT/script_header.js"></script>
-    <script defer src="../landing/js/script.js"></script>
     <script defer src="https://kit.fontawesome.com/9ca67525c0.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -21,18 +20,20 @@
     <section class="section-1">
     <div class="header">
                 <nav class="items">
-                <? require_once "../../SQL/search_form.php"; ?>
+                    <div class="search_form">
+                        <? require_once "../../SQL/search_form.php"; ?>
+                    </div>
                     <ul>
-                        <li><a href="../landing-2/index.php"><i class="fa-solid fa-house"></i>главная</a></li>
-                        <li><a href="../about_us/index_about_us.php"><i class="fa-solid fa-people-group"></i>о нас</a></li>
-                        <li><a href="../TOOLS/tools.php"><i class="fa-solid fa-hammer"></i>инструменты</a></li>
-                        <li><a href="../contacts/index_contacts.php"><i class="fa-solid fa-square-phone-flip"></i>контакты</a></li>
+                        <li><a href="../../landing-2/index.php"><i class="fa-solid fa-house"></i>главная</a></li>
+                        <li><a href="../../about_us/index_about_us.php"><i class="fa-solid fa-people-group"></i>о нас</a></li>
+                        <li><a href="../../TOOLS/tools.php"><i class="fa-solid fa-hammer"></i>инструменты</a></li>
+                        <li><a href="../../contacts/index_contacts.php"><i class="fa-solid fa-square-phone-flip"></i>контакты</a></li>
                     </ul>
                     <ul>
                         <li><a href="#"><i class="fa-solid fa-star"></i>избранное</a></li>
-                        <li><a href="../registration/index_registration.php"><i class="fa-solid fa-id-card"></i>регистрация</a></li>
-                        <li><a href="../enter_page/index_enter_page.php"><i class="fa-solid fa-arrow-right-to-bracket"></i>вход</a></li>
-                        <li><a href="../SQL/cart_test.php"><i class="fa-solid fa-cart-shopping"></i>корзина</a></li>
+                        <li><a href="../../registration/index_registration.php"><i class="fa-solid fa-id-card"></i>регистрация</a></li>
+                        <li><a href="../../enter_page/index_enter_page.php"><i class="fa-solid fa-arrow-right-to-bracket"></i>вход</a></li>
+                        <li><a href="../../SQL/cart_test.php"><i class="fa-solid fa-cart-shopping"></i>корзина</a></li>
                     </ul>
                 </nav>
             </div>
@@ -105,7 +106,7 @@
 
 
             <form class="form-buy_button">
-                <a href="../../SQL/products_test.php" class="btn-buy" type="submit">Перейти к товару</a>
+                <a href="../../SQL/products_garden.php" class="btn-buy" type="submit">Перейти к товару</a>
             </form>
            
         </div>

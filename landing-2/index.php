@@ -30,7 +30,7 @@
                     <ul>
                         <li><a href="#"><i class="fa-solid fa-house"></i>главная</a></li>
                         <li><a href="../about_us/index_about_us.php"><i class="fa-solid fa-people-group"></i>о нас</a></li>
-                        <li><a href="../TOOLS/tools.php"><i class="fa-solid fa-hammer"></i>инструменты</a></li>
+                        <li><a href="../TOOLS/tools.php"><i class="fa-solid fa-screwdriver-wrench"></i></i>инструменты</a></li>
                         <li><a href="../contacts/index_contacts.php"><i class="fa-solid fa-square-phone-flip"></i>контакты</a></li>
                     </ul>
                     <ul>
@@ -45,9 +45,9 @@
             <div class="slider_wrapper"> 
                     
                 <div class="title">
-                    <h2>Магазин инструментов <br> "Жёлтый молоток"</h2>
+                    <h2>Магазин инструментов <br> <span>"Жёлтый молоток"</span></h2>
                     <div class="sub_title">
-                        <h3>Выбор профессионалов!</h3>
+                        <h3>Нас выбирают профессионалы!</h3>
                     </div>
                     <a class="btn-start" href="../TOOLS/tools.php">магазин</a>
                 </div>
@@ -76,7 +76,9 @@
         </section>
 
         <section class="section-2">
-        
+            <div class="popular_title">
+                <h4>популярные товары</h4>
+            </div>
             <div class="slider_main_wrapper1">
                  <div class="slider_wrapper1">
                     <div class="slider_buttons1">

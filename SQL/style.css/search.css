@@ -12,7 +12,7 @@
     background: url(../../images/yellow-hummer-4.png)#f3eeb7;
     background-position: right;
     background-repeat: no-repeat;
-    background-size: 50% 100%;
+    background-size: 35% 70%;
     font-family: sans-serif;
     font-weight: bold;
     font-size: 1rem;
@@ -46,4 +46,15 @@
     font-weight: bold;
     text-transform: uppercase;
     color: rgb(11, 10, 50);
+}
+.btn_buy {
+    background-color: rgb(120, 40, 40);
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    padding: 5px 10px;
+    transition: all .3s ease;
+    box-shadow: 3px 3px 5px -3px black;
+}
+.btn_buy:hover {
+    background-color: rgb(50, 80, 120);
 }

@@ -55,7 +55,8 @@
 }
 .items i {
     margin-right: 5px;
-    color: rgb(180, 40, 40);
+    /* color: rgb(180, 40, 40); */
+    color: goldenrod;
 }
 /* ----------------------------slider---------------------------- */
 
@@ -120,24 +121,30 @@
 /* -------------------------------------------------------------------- */
 .title {
     position: absolute;
-    top: 140px;
+    top: 150px;
     left: 100px;
     z-index: 100;
     text-align: left;
     border-radius: 4px;
     padding: 50px 20px 50px 20px;
     background-color: rgba(0, 0, 0, 0.5);
-    width: 600px;
-    height: 400px;
+    max-width: 600px;
+    min-height: 300px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+.title span {
+    color: goldenrod;
+    text-shadow: 2px 2px 2px black;
 }
 .title h2 {
     font-family: 'Roboto Slab', serif;
     font-size: 2.3rem;
     text-transform: uppercase;
     color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 2px black;
+    letter-spacing: 2px;
 }
 .title h3 {
     font-family: 'Roboto', sans-serif;
@@ -147,6 +154,7 @@
     margin-bottom: 25px;
     margin-top: 15px;
     font-weight: bold;
+    text-shadow: 2px 2px 2px black;
 }
 .btn-start {
     padding: 12px 35px;
@@ -162,7 +170,7 @@
     width: 135px;
 }
 .btn-start:hover {
-    background-color: rgb(100, 25, 25);
-    color: white;
+    background-color: goldenrod;
+    color: rgb(0, 0, 0);
     border: 1px solid white;
 }

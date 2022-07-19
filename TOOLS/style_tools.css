@@ -3,14 +3,20 @@
 }
 .title_tools {
     font-family: 'Roboto', sans-serif;
-    color: white;
-    font-size: 2rem;
+    color: rgb(0, 0, 0);
+    font-size: 1.3rem;
     font-weight: bold;
     text-transform: uppercase;
-    padding-top: 20px;
+    margin-top: 20px;
+    width: 100%;
+    background: goldenrod;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
 }
 .title_tools i {
-    margin-left: 20px;
+    margin-left: 10px;
 }
 .tool_block_wrapper p:nth-child(2) {
     display: flex;
@@ -20,6 +26,48 @@
     font-weight: bold;
     font-family: 'Roboto', sans-serif;
     background: white;
+}
+.search_form_tools {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 35px 0 0 0;
+}
+.search_form_tools i {
+    position: absolute;
+    top: 8px;
+    left: 55.5%;
+    color: black !important;
+    opacity: .3;
+}
+.search {
+    width: 270px !important;
+    height: 30px !important;
+    border-radius: 40px 0 0 40px;
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    padding: 0 10px;
+}
+.search::placeholder {
+    padding: 5px;
+    font-family: 'Roboto', sans-serif;
+    opacity: .6;
+    font-weight: 400;
+}
+.search-btn {
+    background: rgb(120, 40, 40);
+    color: white;
+    padding: 3px 15px;
+    border-radius:  0 4px 4px 0;
+    font-family: 'Roboto', sans-serif;
+    transition: all .3s ease;
+}
+.search-btn:hover {
+    background: goldenrod;
+    cursor: pointer;
+    color: black;
 }
 .tool_box {
     width: 100%;
@@ -35,7 +83,6 @@
 .toots_block_garden {
     width: 300px;
     height: 400px;
-    /* outline: 1px solid rgb(255, 255, 255); */
     background-image: url(../images/background/electric-card_01.jpg);
     background-position: center;
     background-repeat: no-repeat;

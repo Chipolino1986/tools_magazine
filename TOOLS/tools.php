@@ -7,7 +7,7 @@
     <title>Инструменты</title>
     <link rel="stylesheet" href="../NORMALIZE!!!/normalize.css">
     <link rel="stylesheet" href="../BASIC_CONTENT/style.css">
-    <link rel="stylesheet" href="../TOOLS/style_tools.css">
+    <link rel="stylesheet" href="./style_tools.css">
     <link rel="stylesheet" href="../header/header.css">
     <link rel="stylesheet" href="../footer/style_footer.css">
 
@@ -17,7 +17,7 @@
 
     <script defer src="http://kit.fontawesome.com/b8991598b2.js"></script>
     <script defer src="../BASIC_CONTENT/script_header.js"></script> 
-
+    <script defer src="./input.js"></script>
     <script defer src="https://kit.fontawesome.com/9ca67525c0.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -27,7 +27,7 @@
                     <ul>
                         <li><a href="../landing-2/index.php"><i class="fa-solid fa-house"></i>главная</a></li>
                         <li><a href="../about_us/index_about_us.php"><i class="fa-solid fa-people-group"></i>о нас</a></li>
-                        <li><a href="#"><i class="fa-solid fa-hammer"></i>инструменты</a></li>
+                        <li><a href="#"><i class="fa-solid fa-screwdriver-wrench"></i>инструменты</a></li>
                         <li><a href="../contacts/index_contacts.php"><i class="fa-solid fa-square-phone-flip"></i>контакты</a></li>
                     </ul>
                     <ul>
@@ -51,12 +51,15 @@
                     </div>
                     <img class="hummer-label" src="../images/yellow-hummer-4.png" alt="submarine">
                 </div>
-                <h1 class="title_tools">Выберете категорию
+                <h1 class="title_tools">Выберете категорию или воспользуйтесь поиском
                     <i class="fa-solid fa-arrow-down-short-wide"></i>
                 </h1>
+                <div class="search_form_tools">
+                    <? require_once "../SQL/search_form.php"; ?>
+                </div>
                 <div class="tool_box">
                     <div class="tool_block_wrapper">
-                        <a href="../SQL/products_test.php" class="toots_block_garden">
+                        <a href="../SQL/products_garden.php" class="toots_block_garden">
                             <div class="border">
                                 <div class="overlay">
                                     <p>Садовый инструмент</p>
@@ -66,7 +69,7 @@
                         <p>Садовый инструмент</p>
                     </div>
                     <div class="tool_block_wrapper">
-                        <a href="../SQL/products_test_2.php" class="toots_block_electro">
+                        <a href="../SQL/products_electro.php" class="toots_block_electro">
                             <div class="border">
                                 <div class="overlay">
                                     <p>Электро-инструмент</p>
@@ -76,7 +79,7 @@
                         <p>Электро-инструмент</p>
                     </div>
                     <div class="tool_block_wrapper">
-                        <a href="../SQL/products_test_3.php" class="toots_block_acum">
+                        <a href="../SQL/products_acum.php" class="toots_block_acum">
                             <div class="border">
                                 <div class="overlay">
                                     <p>Аккумуляторный инструмент</p>

@@ -17,6 +17,47 @@ body {
     text-transform: uppercase;
     font-weight: bold;
 }
+.search_form {
+    position: relative;
+    width: 330px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search_form i {
+    position: absolute;
+    top: 8px;
+    left: 205px;
+    color: black !important;
+}
+.search {
+    width: 210px;
+    height: 29px;
+    border-radius: 40px 0 0 40px;
+    border: 1px solid white;
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    padding: 0 10px;
+}
+.search::placeholder {
+    padding: 5px;
+    font-family: 'Roboto', sans-serif;
+    opacity: .6;
+    font-weight: 400;
+}
+.search-btn {
+    background: rgb(120, 40, 40);
+    color: white;
+    padding: 3px 15px;
+    border-radius:  0 4px 4px 0;
+    font-family: 'Roboto', sans-serif;
+    transition: all .3s ease;
+}
+.search-btn:hover {
+    background: goldenrod;
+    cursor: pointer;
+    color: black;
+}
 .price_form_garden {
     display: flex;
     align-items: center;
@@ -31,8 +72,8 @@ body {
     align-items: center;
     border-bottom: 2px solid rgb(74, 74, 74);
     font-family: 'Roboto', sans-serif;
-    color: white;
-    background-color: rgb(120, 40, 40);
+    color: rgb(0, 0, 0);
+    background-color: goldenrod;
 }
 .min_price {
     width: 250px;
@@ -64,18 +105,19 @@ body {
 }
 
 .btn_buy_garden {
-    background-color: rgb(178, 49, 49);
+    background-color: rgb(140, 40, 40);
     color: white;
     border-radius: 4px;
     font-family: 'Roboto', sans-serif;
     font-size: .9rem;
-    letter-spacing: 1px;
     padding: 7px 15px;
     transition: .3s ease;
+    border: 1px solid transparent;
 }
 .btn_buy_garden:hover {
-    background: linear-gradient(15deg,rgb(0, 0, 0) 30%,rgb(0, 20, 92) 70%);
-    color: rgb(255, 255, 255);
+    background: goldenrod;
+    color: rgb(0, 0, 0);
+    border: 1px solid black;
 }
 .products_box_content {
     width: 100%;
@@ -155,6 +197,7 @@ body {
     background-position: right;
     background-repeat: no-repeat;
     background-size: 60% 100%;
+    order: 1;
 }
 .product_box_garden h3 {
     font-family: arial;

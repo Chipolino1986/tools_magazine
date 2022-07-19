@@ -1,20 +1,20 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Поиск</title>
-    <link rel="stylesheet" href="./style.css/search.css">
+	<title>Аккумуляторный инструмент</title>
+	<link rel="stylesheet" href="./style.css/products_acum.css">
 	<link rel="stylesheet" href="../header/header.css">
 	<link rel="stylesheet" href="../footer/style_footer.css">
 	<link rel="stylesheet" href="../NORMALIZE!!!/normalize.css">
 	<link rel="stylesheet" href="../BASIC_CONTENT/style.css">
-
-	
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+                            <!--  Fonts  -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+                            <!-- scripts js -->
 	<script defer src="https://kit.fontawesome.com/9ca67525c0.js" crossorigin="anonymous"></script>
     <script defer src="../BASIC_CONTENT/script_header.js"></script> 
 
@@ -22,9 +22,9 @@
 <body>
             <div class="header">
                 <nav class="items">
-
-                <? require_once "../SQL/search_form.php"; ?>
-                        
+                    <div class="search_form">
+                        <? require_once "../SQL/search_form.php"; ?>
+                    </div>
                     <ul>
                         <li><a href="../landing-2/index.php"><i class="fa-solid fa-house"></i>главная</a></li>
                         <li><a href="../about_us/index_about_us.php"><i class="fa-solid fa-people-group"></i>о нас</a></li>
@@ -48,55 +48,66 @@ session_start();
 $db = new PDO("mysql:host=localhost;dbname=my_magazine;charset=utf8", "root", "", 
 [PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC]);
 
-$products = [];
-if (isset($_GET["search"]) && strlen($_GET["search"]) > 0) {
-	$query = $_GET["search"];
-	$dbProducts = $db->query("SELECT id, name, price, brandcountry, made FROM Product WHERE name LIKE '%".$query."%'");
-	$products = $dbProducts->fetchAll();
+$categoryId = (isset($_GET["cat_id"])) ? $_GET["cat_id"] : 3;
+
+$sort = "";
+if (isset($_GET["sort"]) && isset($_GET["order"])) {
+	$sort = " ORDER BY ".$_GET["sort"]." ".strtoupper($_GET["order"]);
 }
+
+$filter = "";
+if (isset($_POST["min-price"]) && !empty($_POST["min-price"])) {
+	$filter .= " AND price >= ".(int)$_POST["min-price"];
+}
+if (isset($_POST["max-price"]) && !empty($_POST["max-price"])) {
+	$filter .= " AND price <= ".(int)$_POST["max-price"];
+}
+
+$dbProducts = $db->query("SELECT id, name, price, brandcountry, made FROM Product WHERE category_id = ".$categoryId.$filter.$sort);
+$products = $dbProducts->fetchAll();
+
 ?>
 
-<div class="h1">
+<div class="title_product_list">
 
-	<? echo "<h1>Список товаров: садовый инструмент</h1>"; ?>
+	<? echo "<h1>Список товаров: аккумуляторный инструмент</h1>"; ?>
 
 </div>
 
 
 <form class="price" method="POST">
 
-	Минимальная цена: <input class="min_price" type="text" name="min-price">
-	Максимальная цена: <input class="max_price" type="text" name="max-price">
+	минимальная цена:&nbsp <input class="min_price" type="text" name="min-price">
+	максимальная цена:&nbsp <input class="max_price" type="text" name="max-price">
 
-	<button class="btn_apply_filter_garden" type="submit">Применить</button>
+	<button class="btn_apply_filter_acum" type="submit">Применить</button>
 </form>
 
+    <section class="section-1">
 
     <div class="products_box_content">
 	    <? echo '<div style="display:flex; flex-wrap: wrap; width:100%; magrin: 0 auto;">'; ?> 
 	</div> 
 
 <?
-if (count($products) > 0) {
-	foreach ($products as $product) { ?>
+foreach ($products as $product) { ?>
+	
+        <div class="product_box_acum">
 
-		<div class="product_box">
-           
             <h3>Название: <?= $product["name"] ?></h3>
             <p>Цена: <?= $product["price"] ?> руб.</p>
             <p>Страна бренда: <?= $product["brandcountry"] ?></p>
             <p>Страна производитель: <?= $product["made"] ?></p>
+            <form class="price_form_acum" method="POST">
+                <button class="btn_buy_acum" type="sumbit" name="btn-buy" value="<?= $product["id"] ?>">В корзину</button>
+            </form>
 
-            <form class="price_form" method="POST">    
-				<button class="btn_buy" type="sumbit" name="btn-buy" value="<?= $product["id"] ?>">В корзину</button>
-			</form>
-			
-		</div>
-	<? }
-} else { ?>
-	<div>Ничего не найдено!</div>
-<? }
+        </div>
+	
+<? } ?>
+</div>
 
+<?
 if (isset($_POST["btn-buy"])) {
 	$cart = (isset($_SESSION["cart_test"])) ? $_SESSION["cart_test"] : [];
 	$cart[] = (int)$_POST["btn-buy"];
@@ -104,10 +115,8 @@ if (isset($_POST["btn-buy"])) {
 }
 ?>
 
-</div>
-<!-- <h2><a href="http://localhost/My_magazine/landing/index.php">Вернутся на главную</a></h2> -->
-<!-- <h2><a class="cart_garden" href="cart_test.php">Перейти в корзину<i class="fa-solid fa-cart-shopping"></i></a></h2> -->
 
+        </section>
 <!------------------------------------------------------------------------------------------------------------------>
 
 		<footer class="footer">
@@ -115,10 +124,10 @@ if (isset($_POST["btn-buy"])) {
                 <div class="footer_head">
                     <ul>
                         <li><a href="../landing-2/index.php">Главная<i class="fa-solid fa-house-chimney"></i></a></li>
-                        <li><a href="../tools/index_tool.php">Инструменты<i class="fa-solid fa-screwdriver-wrench"></i></a></li>
+                        <li><a href="../TOOLS/tools.php">Инструменты<i class="fa-solid fa-screwdriver-wrench"></i></a></li>
                         <li><a href="../contacts/index_contacts.php">Контакты<i class="fa-solid fa-address-book"></i></a></li>
                         <li><a href="../registration/index_registration.php">Регистрация<i class="fa-solid fa-id-card"></i></a></li>
-                        <li><a href="../enter_page/index_enter_page.php#">Вход<i class="fa-solid fa-dungeon"></i></a></li>
+                        <li><a href="../enter_page/index_enter_page.php">Вход<i class="fa-solid fa-dungeon"></i></a></li>
                         <li><a href="../SQL/cart_test.php">Корзина<i class="fa-solid fa-cart-shopping"></i></a></li>
                     </ul>
             </div>
@@ -152,3 +161,4 @@ if (isset($_POST["btn-buy"])) {
         </footer>
 </body>
 </html>
+

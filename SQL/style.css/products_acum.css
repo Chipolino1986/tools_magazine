@@ -26,8 +26,49 @@ body {
     min-height: 50px;
     height: 100%;
     font-family: 'Roboto', sans-serif;
+    color: rgb(0, 0, 0);
+    background-color: goldenrod;
+}
+.search_form {
+    position: relative;
+    width: 330px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search_form i {
+    position: absolute;
+    top: 8px;
+    left: 205px;
+    color: black !important;
+}
+.search {
+    width: 210px;
+    height: 29px;
+    border-radius: 40px 0 0 40px;
+    border: 1px solid white;
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    padding: 0 10px;
+}
+.search::placeholder {
+    padding: 5px;
+    font-family: 'Roboto', sans-serif;
+    opacity: .6;
+    font-weight: 400;
+}
+.search-btn {
+    background: rgb(120, 40, 40);
     color: white;
-    background-color: rgb(120, 40, 40);
+    padding: 3px 15px;
+    border-radius:  0 4px 4px 0;
+    font-family: 'Roboto', sans-serif;
+    transition: all .3s ease;
+}
+.search-btn:hover {
+    background: goldenrod;
+    cursor: pointer;
+    color: black;
 }
 .min_price {
     width: 250px;
@@ -58,18 +99,20 @@ body {
     border: 1px solid black;
 }
 .btn_buy_acum {
-    background-color: rgb(100, 30, 30);
+    background-color: rgb(140, 40, 40);
     color: white;
     transition: all .3s ease;
     border-radius: 4px;
-    font-family: arial;
+    font-family: 'Roboto', sans-serif;
     font-size: .9rem;
-    letter-spacing: 1px;
     padding: 5px 15px;
     transition: all .3s ease;
+    border: 1px solid transparent;
 }
 .btn_buy_acum:hover {
-    background-color: rgb(180, 50, 50);
+    background: goldenrod;
+    color: black;
+    border: 1px solid black;
 }
 .product_box_acum {
     border-radius: 4px;

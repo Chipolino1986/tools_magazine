@@ -33,7 +33,7 @@
                     <ul>
                         <li><a href="../landing-2/index.php"><i class="fa-solid fa-house"></i>главная</a></li>
                         <li><a href="#"><i class="fa-solid fa-people-group"></i>о нас</a></li>
-                        <li><a href="../TOOLS/tools.php"><i class="fa-solid fa-hammer"></i>инструменты</a></li>
+                        <li><a href="../TOOLS/tools.php"><i class="fa-solid fa-screwdriver-wrench"></i>инструменты</a></li>
                         <li><a href="../contacts/index_contacts.php"><i class="fa-solid fa-square-phone-flip"></i>контакты</a></li>
                     </ul>
                     <ul>
@@ -78,7 +78,7 @@
                            или заменем на аналогичный.Строго соблюдаем закон «О защите прав потребителей».</p>  
                     </div>
                     <div class="home_box">
-                        <img src="../images/back(arrow).png" alt="arrow"><a class="butt_home" href="../landing/index.php">Вернуться на гланую</a>
+                        <img src="../images/back(arrow).png" alt="arrow"><a class="butt_home" href="../landing-2/index.php">Вернуться на гланую</a>
                     </div>
                 </div>
             </div>

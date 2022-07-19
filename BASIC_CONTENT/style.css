@@ -173,11 +173,15 @@
 }
 .arrow-go-home {
     position: absolute;
-    top: 50px;
+    top: 60px;
     left: 50px;
-    max-width: 80px;
+    max-width: 70px;
     width: 100%;
-    min-height: 80px;
+    min-height: 70px;
+    transition: all .3s ease;
+}
+.arrow-go-home:hover {
+    transform: scale(1.1);
 }
 .title_box {
     max-width: 730px;
