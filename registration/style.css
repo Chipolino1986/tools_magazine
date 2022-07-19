@@ -42,6 +42,7 @@
     height: 35px;
     font-family: 'Roboto', sans-serif;
     box-shadow: 3px 5px 15px -5px black;
+    padding: 0 10px;
 }
 .label {
     font-family: 'Roboto', sans-serif;
