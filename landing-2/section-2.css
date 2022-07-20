@@ -2,7 +2,6 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    background: goldenrod;
 }
 .popular_title h4 {
     font-family: 'Roboto', sans-serif;

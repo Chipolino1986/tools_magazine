@@ -30,7 +30,6 @@
                         <li><a href="../../contacts/index_contacts.php"><i class="fa-solid fa-square-phone-flip"></i>контакты</a></li>
                     </ul>
                     <ul>
-                        <li><a href="#"><i class="fa-solid fa-star"></i>избранное</a></li>
                         <li><a href="../../registration/index_registration.php"><i class="fa-solid fa-id-card"></i>регистрация</a></li>
                         <li><a href="../../enter_page/index_enter_page.php"><i class="fa-solid fa-arrow-right-to-bracket"></i>вход</a></li>
                         <li><a href="../../SQL/cart_test.php"><i class="fa-solid fa-cart-shopping"></i>корзина</a></li>
@@ -107,7 +106,7 @@
                 <ul>Информация:
                     <li><a href="http://www.consultant.ru/document/cons_doc_LAW_373622/0082fc02fd38782880841f0019209a807a218a2b/">Правила продажи</a></li>
                     <li><a href="../../privacity/index_privacity.php">Политика конфиденциальности</a></li>
-                    <li><a href="#">Образцы документов</a></li>
+                    <li><a href="../../bonus_program/bonus.php">Бонусная программа</a></li>
                     <li><a href="../../exchange/index.php">Обмен и возврат</a></li>
                 </ul>
                 <ul><a href="../../about_us/index_about_us.php#">О компании</a></ul>
