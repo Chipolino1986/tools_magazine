@@ -2,6 +2,7 @@
     width: 100%;
     display: flex;
     justify-content: center;
+    padding: 20px 0;
 }
 .popular_title h4 {
     font-family: 'Roboto', sans-serif;
@@ -35,7 +36,7 @@
 }
 .slider_track1 {
     display: flex;
-    transition: 1.5s;
+    transition: .5s;
 }
 .slider_item1 {
     height: 250px;
@@ -45,31 +46,29 @@
     background-position: center;
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    /* background-color: rgb(250, 230, 150); */
     background-color: rgb(230, 230, 230);
+    border: 10px solid transparent;
 }
 .slider_item1:nth-child(2) {
     background: url(../images/200x200/benzopila_200x200.png);
     background-position: center;
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    /* background-color: rgb(250, 230, 150); */
     background-color: rgb(230, 230, 230);
 }
 .slider_item1:nth-child(3) {
-    background: url(../images/200x200/bolgarka_200x200.png);
+    background: url(../images/img_tools_500x500/electro/bolgarka-makita_ga5030.png);
     background-position: center;
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    /* background-color: rgb(250, 230, 150); */
     background-color: rgb(230, 230, 230);
+    border: 20px solid transparent;
 }
 .slider_item1:nth-child(4) {
     background: url(../images/200x200/circulyarnaiya_pila_200x200.png);
     background-position: center;
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    /* background-color: rgb(250, 230, 150); */
     background-color: rgb(230, 230, 230);
     border: 20px solid transparent;
 }
@@ -78,7 +77,6 @@
     background-position: center;
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    /* background-color: rgb(250, 230, 150); */
     background-color: rgb(230, 230, 230);
     border: 20px solid transparent;
 }
@@ -87,7 +85,7 @@
     background-position: center;
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    /* background-color: rgb(250, 230, 150);/ */
+
     background-color: rgb(230, 230, 230);
     border: 30px solid transparent;
 }
@@ -96,7 +94,6 @@
     background-position: center;
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    /* background-color: rgb(250, 230, 150); */
     background-color: rgb(230, 230, 230);
     border: 20px solid transparent;
 }
@@ -105,16 +102,14 @@
     background-position: center;
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    /* background-color: rgb(250, 230, 150); */
     background-color: rgb(230, 230, 230);
     border: 20px solid transparent;
 }
 .slider_item1:nth-child(9) {
-    background: url(../images/200x200/gozonokosilka_200x200.png);
+    background: url(../images/img_tools_500x500/gazon_huter-500x500.png);
     background-position: center;
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    /* background-color: rgb(250, 230, 150); */
     background-color: rgb(230, 230, 230);
     border: 20px solid transparent;
 }
@@ -123,7 +118,6 @@
     background-position: center;
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    /* background-color: rgb(250, 230, 150); */
     background-color: rgb(230, 230, 230);
 }
 .slider_item1:nth-child(11) {
@@ -131,7 +125,6 @@
     background-position: center;
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    /* background-color: rgb(250, 230, 150); */
     background-color: rgb(230, 230, 230);
 }
 .slider_item1:nth-child(12) {
@@ -139,7 +132,6 @@
     background-position: center;
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    /* background-color: rgb(250, 230, 150); */
     background-color: rgb(230, 230, 230);
     border: 30px solid transparent;
 }
@@ -148,7 +140,6 @@
     background-position: center;
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    /* background-color: rgb(250, 230, 150); */
     background-color: rgb(230, 230, 230);
     border: 20px solid transparent;
 }
@@ -157,7 +148,6 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    /* background-color: rgb(250, 230, 150); */
     background-color: rgb(230, 230, 230);
     border: 20px solid transparent;
 }
@@ -166,7 +156,6 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    /* background-color: rgb(250, 230, 150); */
     background-color: rgb(230, 230, 230);
     border: 20px solid transparent;
 }
@@ -193,7 +182,7 @@
     background-color: rgb(255, 255, 255);
     align-items: center;
     justify-content: center;
-    border-top: 2px solid black;
+    padding: 20px 0;
 }
 .yellow_line_content {
     display: flex;
@@ -234,22 +223,20 @@
     margin-top: 40px;
     font-weight: bold;
 }
-/* -------------------------------------------------------------- */
-
 .container_2_content p {
+    width: 100%;
     font-family: 'Roboto', sans-serif;
-    font-weight: bold;
     color: rgb(255, 255, 255);
     font-size: 1rem;
 }
 .container_2_content span {
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
-    color: rgb(0, 0, 0);
-    font-size: 1.2rem;
+    color: goldenrod;
+    font-size: 1.3rem;
 }
 .container_2_content h1 span{
-    color:rgb(206 180 101);
+    color: goldenrod;
     font-family: 'Roboto', sans-serif;
     font-size: 2rem;
     font-weight: bold;

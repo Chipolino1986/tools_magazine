@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="./style_tools.css">
     <link rel="stylesheet" href="../header/header.css">
     <link rel="stylesheet" href="../footer/style_footer.css">
+    <link rel="stylesheet" href="./media_tools.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -35,6 +36,11 @@
                         <li><a href="../SQL/cart_test.php"><i class="fa-solid fa-cart-shopping"></i>корзина</a></li>
                     </ul>
                 </nav>
+                <div class="burger_wrapper">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
             </div>
 
 <!-----------------------------------------------SECTION_I--------------------------------------------------------------->
@@ -52,9 +58,12 @@
                 <h1 class="title_tools">Выберете категорию или воспользуйтесь поиском
                     <i class="fa-solid fa-arrow-down-short-wide"></i>
                 </h1>
+
                 <div class="search_form_tools">
+                    <i class="fa-solid fa-magnifying-glass"></i>
                     <? require_once "../SQL/search_form.php"; ?>
                 </div>
+
                 <div class="tool_box">
                     <div class="tool_block_wrapper">
                         <a href="../SQL/products_garden.php" class="toots_block_garden">

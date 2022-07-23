@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
 .container_1 {
     background: linear-gradient(35deg,white 50%,rgb(40, 40, 40) 50%) !important;
 }
@@ -15,7 +14,7 @@
 .text_enter_title h2 {
     font-size: 1.5rem;
     color: white;
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
     text-align: center;
     text-transform: uppercase;
     padding-bottom: 25px;
@@ -44,15 +43,16 @@
     box-shadow: 3px 5px 15px -5px black;
     margin: -15px 0;
     padding: 0 10px;
+    font-family: 'Roboto', sans-serif;
 }
 .form_enter label {
-    font-family: 'Arial';
+    font-family: 'Roboto', sans-serif;
     font-weight: bold;
     margin-bottom: 15px;
 }
 .form_enter input::placeholder {
     color: gray;
-    font-family: 'Arial';
+    font-family: 'Roboto', sans-serif;
     padding-left: 5px;
 }
 .btn_login {
@@ -60,7 +60,7 @@
     width: 100%;
     min-height: 40px;
     height: 100%;
-    font-family: 'Arial';
+    font-family: 'Roboto', sans-serif;
     font-weight: bold;
     color: rgb(255, 255, 255);
     border-radius: 4px;
@@ -80,7 +80,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 25px;
+    margin-top: 45px;
 }
 
 

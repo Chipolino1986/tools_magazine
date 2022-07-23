@@ -7,137 +7,6 @@
     width: 100%;
 }
 
-
-
-/* ---------------------------Media header--------------------------------- */
-
-@media screen and (max-width:1200px) {
-    .header_content {
-        padding: 0 30px;
-    }
-}
-@media screen and (max-width:1171px) {
-    .header_content {
-        display: inline-flex;
-        justify-content: center;
-        padding: 0 30px;
-    }
-    .heder_content_right {
-        width: 500px;
-        display: flex;
-        margin-bottom: 10px;
-    }
-    .registration_item {
-        width: 100%;
-        display: flex;
-        justify-content: space-between;
-    }
-    .registration {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 160px;
-    }
-}
-@media screen and (max-width:1024px) {
-    .header_content {
-        display: inline-flex;
-        justify-content: center;
-        padding: 0 30px;
-    } 
-    .search-box {
-        display: flex;
-        position: relative;
-        max-width: 270px;
-        width: 100%;
-        border-radius: 40px;
-        min-height: 33px;
-        height: 100%;
-        background: rgba(255, 255, 255, 0.733);
-        align-items: center;
-        justify-content: center;
-    }
-    .search-txt {
-        font-size: 1rem;
-        transition: 0.4s;
-        background: none;
-        font-family: 'Roboto', sans-serif;
-        padding: 0;
-        outline: none;
-        width: 225px;
-        color: rgb(0, 0, 0);
-    }
-}
-@media screen and (max-width:768px) {
-    .header_content {
-        display: flex;
-        width: 75rem;
-        justify-content: center;
-        align-items: center;
-    }
-    .search-box {
-        margin-left: 20px;
-    }
-    .items {
-        margin: 0 auto;
-    }
-    .nav {
-        display: flex;
-        justify-content: center;
-    }
-}
-@media screen and (max-width:450px) {
-    .registration {
-        font-size: 0.7rem;
-    }
-    .items li a {
-        font-size: 0.9rem;
-    }
-}
-@media screen and (max-width:426px) {
-    .items {
-        display: none;
-    }
-}
-@media screen and (max-width:376px){
-    .registration {
-        font-size: 0.7rem;
-    }
-    .registration img {
-        width: 20px;
-        height: 20px;
-    }
-    .registration_item {
-        margin-bottom: 5%;
-    }
-    .search-box {
-        margin: 0 auto;
-        margin-bottom: 2%;
-    }
-    .cart_white {
-        width: 20px;
-        margin-left: 5px;
-    }
-}
-@media screen and (max-width:341px) {
-    .registration {
-        font-size: 0.6rem;
-    }
-}
-@media screen and (max-width:320px){
-    .nav img {
-        display: none;
-    }
-    .registration {
-        display: none;
-    } 
-    .search-box {
-        margin: 20px auto;
-    }
-    .search-txt {
-        width: 12.5rem;
-    }
-}
 /* ----------------------------Container 1(logo)----------------------------------- */
 .container_1 {
     width: 100%;
@@ -168,7 +37,7 @@
     max-height: 100px;
     height: 100%;
     position: absolute;
-    top: 35px;
+    top: 45px;
     right: 70px;
 }
 .arrow-go-home {

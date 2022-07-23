@@ -6,7 +6,6 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Аккумуляторный инструмент</title>
 	<link rel="stylesheet" href="./style.css/products_acum.css">
-	<link rel="stylesheet" href="../header/header.css">
 	<link rel="stylesheet" href="../footer/style_footer.css">
 	<link rel="stylesheet" href="../NORMALIZE!!!/normalize.css">
 	<link rel="stylesheet" href="../BASIC_CONTENT/style.css">
@@ -22,7 +21,9 @@
 <body>
             <div class="header">
                 <nav class="items">
+                    <i class="fa-solid fa-magnifying-glass"></i>
                     <div class="search_form">
+                    <i class="fa-solid fa-magnifying-glass"></i>
                         <? require_once "../SQL/search_form.php"; ?>
                     </div>
                     <ul>
@@ -37,6 +38,11 @@
                         <li><a href="../SQL/cart_test.php"><i class="fa-solid fa-cart-shopping"></i>корзина</a></li>
                     </ul>
                 </nav>
+                <div class="burger_wrapper">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
             </div>
 
 

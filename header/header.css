@@ -10,6 +10,7 @@
     z-index: 100;
     transition: transform .3s linear;
     position: fixed;
+    padding: 0 25px;
 }
 .header.hide {
     transform: translateY(-70px);
@@ -19,6 +20,7 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .items h1 {
     font-family: sans-serif;
@@ -36,7 +38,7 @@
 .items ul li:last-child {
     margin-right: 0;
     border-right: none;
-    padding: 3px 0 0 0;
+    padding: 0 0 0 10px;
 }
 .items ul li a {
     color: rgb(255, 255, 255);
@@ -63,13 +65,13 @@ form .search i {
     position: absolute;
     top: 8px;
     left: 205px;
-    color: black !important;
+    color: black;
 }
 .search_form i {
     position: absolute;
     top: 8px;
     left: 62%;
-    color: black !important;
+    color: black;
     opacity: .3;
 }
 .search {
@@ -85,7 +87,7 @@ form .search i {
     padding: 5px;
     font-family: 'Roboto', sans-serif;
     opacity: .6;
-    font-weight: 400;
+    font-weight: 300;
 }
 .search-btn {
     background: rgb(120, 40, 40);
@@ -100,3 +102,5 @@ form .search i {
     cursor: pointer;
     color: black;
 }
+
+

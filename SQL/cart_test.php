@@ -69,7 +69,7 @@ echo '<div class="card_product_box">';
 foreach ($products as $product) { ?>
 	
 	<div class="card_product">
-		<p>Название товара: <?= $product["name"] ?></p>
+		<p><span>Товар:</span> <?= $product["name"] ?></p>
 		<p>Цена: <?= $product["price"] ?> руб.</p>
 		<p>Страна бренда: <?= $product["brandcountry"] ?></p>
 		<p>Страна производитель: <?= $product["made"] ?></p>
@@ -163,3 +163,7 @@ if (isset($_POST["pay"])) {
 
 <link rel="stylesheet" href="./style.css/cart_test.css">
 <link rel="stylesheet" href="../NORMALIZE!!!/normalize.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">

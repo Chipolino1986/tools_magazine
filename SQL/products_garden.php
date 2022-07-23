@@ -6,7 +6,6 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Садовый инструмент</title>
 	<link rel="stylesheet" href="./style.css/products_garden.css">
-	<link rel="stylesheet" href="../header/header.css">
 	<link rel="stylesheet" href="../footer/style_footer.css">
 	<link rel="stylesheet" href="../NORMALIZE!!!/normalize.css">
 	<link rel="stylesheet" href="../BASIC_CONTENT/style.css">
@@ -16,16 +15,17 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
 	<script defer src="https://kit.fontawesome.com/9ca67525c0.js" crossorigin="anonymous"></script>
-    <script defer src="../BASIC_CONTENT/script_header.js"></script> 
+    <script defer src="../header/header.js"></script> 
 
 </head>
 <body>
             <div class="header">
                 <nav class="items">
-                    
-                <div class="search_form">
-                    <? require_once "../SQL/search_form.php"; ?>
-                </div>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <div class="search_form">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <? require_once "../SQL/search_form.php"; ?>
+                    </div>
                         
                     <ul>
                         <li><a href="../landing-2/index.php"><i class="fa-solid fa-house"></i>главная</a></li>
@@ -39,6 +39,11 @@
                         <li><a href="../SQL/cart_test.php"><i class="fa-solid fa-cart-shopping"></i>корзина</a></li>
                     </ul>
                 </nav>
+                <div class="burger_wrapper">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
             </div>
             
 <!------------------------------------------------------------------------------------------------------------------>

@@ -17,9 +17,9 @@
 .title_container_box {
     max-width: 450px;
     width: 100%;
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(0, 0, 0);
     padding: 20px 20px;
-    box-shadow: 10px 10px 10px -3px black;
+    box-shadow: 10px 10px 10px -3px rgb(60, 60, 60);
 }
 .title_container_box h2 {
     font-family: 'Roboto', sans-serif;

@@ -9,13 +9,12 @@
     <link rel="stylesheet" href="./section-1.css">
     <link rel="stylesheet" href="./section-2.css">
     <link rel="stylesheet" href="../footer/style_footer.css">
+    <link rel="stylesheet" href="./media.css">
+
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab:wght@900&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
     <script defer src="./script_2.js"></script>
     <script defer src="https://kit.fontawesome.com/9ca67525c0.js" crossorigin="anonymous"></script>
 </head>
@@ -25,6 +24,7 @@
 
             <div class="header">
                 <nav class="items">
+
                     <h1>Магазин инструментов</h1>
                     <ul>
                         <li><a href="#"><i class="fa-solid fa-house"></i>главная</a></li>
@@ -37,7 +37,15 @@
                         <li><a href="../enter_page/index_enter_page.php"><i class="fa-solid fa-arrow-right-to-bracket"></i>вход</a></li>
                         <li><a href="../SQL/cart_test.php"><i class="fa-solid fa-cart-shopping"></i>корзина</a></li>
                     </ul>
+
                 </nav>
+        
+                <a href="#" class="burger_wrapper">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </a>
+
             </div>
 
             <div class="slider_wrapper"> 
@@ -56,9 +64,9 @@
 
                     <div class="slider_container">    
                         <div class="slider_track">   
+                            <div class="slider_item" style="background-image: url(./img/metabo-big.jpg);"></div>
                             <div class="slider_item" style="background-image: url(./img/stihl-big-2.jpg);"></div>
                             <div class="slider_item" style="background-image: url(./img/bolgarka-makita-veryBig.jpg);"></div>
-                            <div class="slider_item" style="background-image: url(./img/metabo-big.jpg);"></div>
                             <div class="slider_item" style="background-image: url(./img/karher-big-1.jpg);"></div>
                             <div class="slider_item" style="background-image: url(./img/gardena-big-3.jpg);"></div>
                             <div class="slider_item" style="background-image: url(./img/de-walt-big-4.jpg);"></div>
@@ -78,7 +86,7 @@
                 <h4>популярные товары</h4>
             </div>
             <div class="slider_main_wrapper1">
-                 <div class="slider_wrapper1">
+                <div class="slider_wrapper1">
                     <div class="slider_buttons1">
                         <button class="btn_prev1"><i class="fa-solid fa-circle-chevron-left"></i></button>
                     </div>

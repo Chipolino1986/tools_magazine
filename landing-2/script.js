@@ -1,103 +1,103 @@
-// "use strict"
+"use strict"
 
-// let step = 0;
-// let position = 1;
-// const container = document.querySelector('.slider_container');
-// const track = document.querySelector('.slider_track');
-// const btnPrev = document.querySelector('.btn_prev');
-// const btnNext = document.querySelector('.btn_next');
-// const items = document.querySelectorAll('.slider_item');
-// const itemWidth = container.clientWidth;
-// let sliderItems = [];
+let step = 0;
+let position = 1;
+const container = document.querySelector('.slider_container');
+const track = document.querySelector('.slider_track');
+const btnPrev = document.querySelector('.btn_prev');
+const btnNext = document.querySelector('.btn_next');
+const items = document.querySelectorAll('.slider_item');
+const itemWidth = container.clientWidth;
+let sliderItems = [];
 
-// items.forEach((item) => {
-//     item.style.minWidth = `${itemWidth}px`;
-//     sliderItems.push(item.cloneNode());
-//     item.remove();
-// });
+items.forEach((item) => {
+    item.style.minWidth = `${itemWidth}px`;
+    sliderItems.push(item.cloneNode());
+    item.remove();
+});
 
-// function setCenter() {
-//     track.style.transform = `translateX(${-itemWidth}px)`;
-// }
-// function drow() {
-//     track.appendChild(sliderItems[step]);
-//     if ((step + 1) === sliderItems.length) {
-//         step = 0;
-//     } else {
-//         step++
-//     }
-//     position = 2;
-// }
-// drow();
-// drow();
-// drow();
-// setCenter();
+function setCenter() {
+    track.style.transform = `translateX(${-itemWidth}px)`;
+}
+function drow() {
+    track.appendChild(sliderItems[step]);
+    if ((step + 1) === sliderItems.length) {
+        step = 0;
+    } else {
+        step++
+    }
+    position = 2;
+}
+drow();
+drow();
+drow();
+setCenter();
 
 
-// function right() {
-//     btnNext.removeEventListener('click', right)
-//     let items2 = document.querySelectorAll('.slider_item');
-//     track.style.transform = `translateX(${-itemWidth * 2}px)`;
+function right() {
+    btnNext.removeEventListener('click', right)
+    let items2 = document.querySelectorAll('.slider_item');
+    track.style.transform = `translateX(${-itemWidth * 2}px)`;
  
-//     setTimeout(function () {
-//         items2[0].remove();
-//         drow();
-//         track.style.transition = "none";
-//         setCenter();
-//         btnNext.addEventListener("click", right);
-//     }, 500)
-//     setTimeout(function () {
-//         track.style.transition = "0.5s";
-//     }, 700)
-// }
-// function left() {
-//     btnPrev.removeEventListener('click', left)
-//     let items2 = document.querySelectorAll('.slider_item');
-//     track.style.transform = `translateX(0px)`;
+    setTimeout(function () {
+        items2[0].remove();
+        drow();
+        track.style.transition = "none";
+        setCenter();
+        btnNext.addEventListener("click", right);
+    }, 500)
+    setTimeout(function () {
+        track.style.transition = "0.5s";
+    }, 700)
+}
+function left() {
+    btnPrev.removeEventListener('click', left)
+    let items2 = document.querySelectorAll('.slider_item');
+    track.style.transform = `translateX(0px)`;
  
-//     setTimeout(function () {
-//         items2[0].remove();
-//         drow();
-//         track.style.transition = "none";
-//         setCenter();
-//         btnPrev.addEventListener("click", left);
-//     }, 500)
-//     setTimeout(function () {
-//         track.style.transition = "0.5s";
-//     }, 700)
-// }
-// btnPrev.addEventListener("click", left);
-// btnNext.addEventListener("click", right);
+    setTimeout(function () {
+        items2[0].remove();
+        drow();
+        track.style.transition = "none";
+        setCenter();
+        btnPrev.addEventListener("click", left);
+    }, 500)
+    setTimeout(function () {
+        track.style.transition = "0.5s";
+    }, 700)
+}
+btnPrev.addEventListener("click", left);
+btnNext.addEventListener("click", right);
 
-// -------------------------------------------------------
 
-// btnNext.addEventListener('click',() => {
-    // const itemsLeft = itemsCount - (Math.abs(position) + slidesToShow * itemWidth) / itemWidth;
+btnNext.addEventListener('click',() => {
+    const itemsLeft = itemsCount - (Math.abs(position) + slidesToShow * itemWidth) / itemWidth;
 
-    // position -= itemsLeft >= slidesToScroll ? movePosition : itemsLeft * itemWidth;
+    position -= itemsLeft >= slidesToScroll ? movePosition : itemsLeft * itemWidth;
 
-//     setPosition();
-//     checkBtns();
-// });
+    setPosition();
+    checkBtns();
+});
 
-// btnPrev.addEventListener('click',() => {
-//     const itemsLeft = Math.abs(position) / itemWidth;
-//     position += itemsLeft >= slidesToScroll ? movePosition : itemsLeft * itemWidth;  
+btnPrev.addEventListener('click',() => {
+    const itemsLeft = Math.abs(position) / itemWidth;
+    position += itemsLeft >= slidesToScroll ? movePosition : itemsLeft * itemWidth;  
 
-//     setPosition();
-//     checkBtns();
-// });
+    setPosition();
+    checkBtns();
+});
 
-// const setPosition = () => {
-//     track.style.transform = `translateX(${position}px)`;
-// };
-// const checkBtns = () => {
-//     btnPrev.disabled = position === 0;
-//     btnNext.disabled = position <= -(itemsCount - slidesToShow) * itemWidth;
-// };
-// checkBtns();
+const setPosition = () => {
+    track.style.transform = `translateX(${position}px)`;
+};
+const checkBtns = () => {
+    btnPrev.disabled = position === 0;
+    btnNext.disabled = position <= -(itemsCount - slidesToShow) * itemWidth;
+};
+checkBtns();
 
 // --------------------------------------------------------------------
+
 
 let position1 = 0;
 const slidesToShow1 = 4;

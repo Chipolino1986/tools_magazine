@@ -51,6 +51,7 @@
     <link rel="stylesheet" href="../header/header.css">
     <link rel="stylesheet" href="../footer/style_footer.css">
     <link rel="stylesheet" href="../registration/style.css">
+    <link rel="stylesheet" href="./media_registration.css">
  
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -78,6 +79,11 @@
                         <li><a href="../SQL/cart_test.php"><i class="fa-solid fa-cart-shopping"></i>корзина</a></li>
                     </ul>
                 </nav>
+                <div class="burger_wrapper">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
             </div>
 
                             <!-- Container 1 -->
@@ -85,7 +91,7 @@
         <div class="container_1">
             <div class="container_1_content">
                 <div class="main_title_box">
-                    <a href="../landing/index.php"><img class="arrow-go-home" src="../images/back(arrow).png" alt="arrow"></a>
+                    <a href="../landing-2/index.php"><img class="arrow-go-home" src="../images/back(arrow).png" alt="arrow"></a>
                     <div class="title_box">
                         <p class="subTitle_text">Магазин ЭЛЕКТРО и БЕНЗОинструментов</p>
                         <p class="title_text">Жёлтый молоток</p>

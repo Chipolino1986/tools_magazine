@@ -25,29 +25,31 @@ body {
     margin-right: 25px;
     margin-left: 25px;
     padding: 15px;
-    background: url(../../images/yellow-hummer-4.png) #f3eeb7;
+    background: url(../../images/yellow-hummer-2.png) #f3eeb7;
     background-position: right;
     background-repeat: no-repeat;
-    background-size: 40% 70%;
+    background-size: 40% 80%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
+.card_product span {
+    color: rgb(0, 9, 55);
+}
 .card_product p:nth-child(1) {
-    color: rgb(6, 6, 80);
-    font-family: arial;
+    color: rgb(140, 0, 0);
+    font-family: 'Roboto', sans-serif;
     font-weight: bold;
     text-transform: uppercase;
 }
 .card_product p:nth-child(2) {
-    color: rgb(255, 0, 0);
-    font-family: arial;
+    color: rgb(140, 0, 0);
+    font-family: 'Roboto', sans-serif;
     font-weight: bold;
     text-transform: uppercase;
-    text-shadow: 1px 1px 1px black;
 }
 .card_product p {
-    color: rgb(32, 32, 34);
+    color: rgb(40, 40, 40);
     font-family: arial;
     font-weight: 600;
 }
@@ -56,7 +58,7 @@ body {
     color: white;
     font-family: arial;
     border: 1px solid transparent;
-    padding: 8px 15px;
+    padding: 5px 5px;
     box-shadow: 2px 2px 5px -3px black;
     transition: all .3s ease;
     border-radius: 3px;

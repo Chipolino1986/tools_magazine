@@ -29,45 +29,17 @@
 }
 .search_form_tools {
     position: relative;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 35px 0 0 0;
+    margin-top: 35px;
+}
+.search {
+    width: 270px !important;
+    outline: 2px solid black;
 }
 .search_form_tools i {
     position: absolute;
     top: 8px;
-    left: 55.5%;
-    color: black !important;
+    right: 90px;
     opacity: .3;
-}
-.search {
-    width: 270px !important;
-    height: 30px !important;
-    border-radius: 40px 0 0 40px;
-    display: inline-block;
-    font-family: 'Roboto', sans-serif;
-    padding: 0 10px;
-}
-.search::placeholder {
-    padding: 5px;
-    font-family: 'Roboto', sans-serif;
-    opacity: .6;
-    font-weight: 400;
-}
-.search-btn {
-    background: rgb(120, 40, 40);
-    color: white;
-    padding: 3px 15px;
-    border-radius:  0 4px 4px 0;
-    font-family: 'Roboto', sans-serif;
-    transition: all .3s ease;
-}
-.search-btn:hover {
-    background: goldenrod;
-    cursor: pointer;
-    color: black;
 }
 .tool_box {
     width: 100%;
@@ -94,7 +66,6 @@
 .toots_block_electro {
     width: 300px;
     height: 400px;
-    /* outline: 1px solid rgb(255, 255, 255); */
     background-image: url(../images/background/84593dcc0c2463e05df94bc702f2c191.jpeg);
     background-position: center;
     background-repeat: no-repeat;
@@ -106,7 +77,6 @@
 .toots_block_acum {
     width: 300px;
     height: 400px;
-    /* outline: 1px solid rgb(255, 255, 255); */
     background-image: url(../images/background/s20a00xp.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -152,5 +122,4 @@
 }
 .overlay:hover {
     opacity: 1;
-    /* transform: scale(1.1); */
 }

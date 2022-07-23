@@ -1,0 +1,111 @@
+@media screen and (max-width:1050px) {
+    .hummer-label {
+        display: none;
+    }
+    .arrow-go-home {
+        display: none;
+    }
+    .items h1 {
+        font-size: 1rem;
+    }
+    .items i {
+        font-size: .9rem;
+    }
+    .items a {
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width:976px) {
+    .items h1 {
+        font-size: .8rem;
+    }
+    .items i {
+        font-size: .7rem;
+    }
+    .items a {
+        font-size: .8rem;
+    }
+    .text_enter_title h2 {
+        padding: 20px 0;
+    }
+    .enter_box {
+        width: 300px;
+        min-height: 400px;
+        margin: 0 0 25px 0;
+    }
+}
+@media screen and (max-width: 820px) {
+    .header {
+        flex-wrap: nowrap;
+    }
+    .items {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .items ul {
+        display: none;
+    }
+    .burger_wrapper {
+        width: 35px;
+        height: 25px;
+        padding: 2px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .line {
+        width: 100%;
+        height: 3px;
+        background: white;
+    }
+    .title_text {
+        font-size: 2.3rem;
+    }
+    .subTitle_text {
+        font-size: 1.5rem;
+    }
+}
+@media screen and (max-width: 700px) {
+    .text_enter_title h2 {
+        padding: 20px 0;
+    }
+    .footer_head ul {
+        display: block;
+    }
+    .footer_head ul li {
+        margin: 10px;
+    }
+}
+@media screen and (max-width: 535px) {
+    .title_text {
+        font-size: 2rem;
+    }
+    .subTitle_text {
+        font-size: 1.2rem;
+    }
+    .enter_box {
+        width: 350px;
+    }
+    .btn_login {
+        max-width: 110px;
+        min-height: 35px;
+        font-size: .8rem;
+    }
+}
+@media screen and (max-width: 400px) {
+    .title_text {
+        font-size: 1.7rem;
+    }
+    .subTitle_text {
+        font-size: 1.2rem;
+    }
+    .enter_box {
+        width: 250px;
+        min-height: 350px;
+        margin: 0 0 25px 0;
+    }
+    .adress_box p {
+        text-align: center;
+    } 
+}

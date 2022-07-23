@@ -1,0 +1,110 @@
+@media screen and (max-width:1050px) {
+    .header {
+        padding: 0 25px;
+    }
+    .items h1 {
+        font-size: 1rem;
+    }
+    .items > ul > li a {
+       font-size: .7rem;
+    }
+    .items ul li {
+        border: none;
+        padding: 0;
+    }
+    .yellow_line_content p {
+        text-align: center;
+    }
+    .popular_title h4 {
+        text-align: center;
+        font-size: 1.3rem;
+    }
+    .container_2_content {
+        padding: 20px 15px;
+    }
+    .container_2_content p {
+        text-align: center;
+    }
+    .pay_sistem_lable {
+        margin: 5px;
+    }
+    .footer_head li {
+        margin: 10px 10px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .title {
+        max-width: 375px;
+        left: 170px;
+    }
+    .title h2,h3 {
+        text-align: center;
+    }
+    .btn-start {
+        margin: auto;
+    }
+}
+@media screen and (max-width: 670px) {
+    .header {
+        flex-wrap: nowrap;
+    }
+    .items {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .items ul {
+        display: none;
+    }
+    .burger_wrapper {
+        width: 40px;
+        height: 30px;
+        padding: 2px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .line {
+        width: 100%;
+        height: 3px;
+        background: white;
+    }
+    .title {
+        max-width: 375px;
+        left: 150px;
+    }
+    .title h2,h3 {
+        text-align: center;
+    }
+    .btn-start {
+        margin: auto;
+    }
+    .container_2_content h1 {
+        text-align: center;
+        max-width: 350px;
+        margin: auto;
+        font-size: 1.3rem;
+        font-weight: normal;
+    }
+    .container_2_content h1 span {
+        font-size: 1.5rem;
+    }
+    .yellow_line_content p {
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    .footer_head ul {
+        display: block;
+    }
+    .footer_items_box ul {
+        text-align: center;
+    }
+}
+@media screen and (max-width: 480px) {
+    .title {
+        max-width: 335px;
+        left: 70px;
+        top: 70px;
+    }
+}
