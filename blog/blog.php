@@ -30,6 +30,11 @@
                         <li><a href="#"><i class="fa-solid fa-cart-shopping"></i>корзина</a></li>
                     </ul>
                 </nav>
+                <a href="../landing-2/index.php" class="burger_wrapper">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </a>
             </div>
 
     <section class="title">

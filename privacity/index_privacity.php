@@ -37,6 +37,13 @@
                         <li><a href="../SQL/cart_test.php"><i class="fa-solid fa-cart-shopping"></i>корзина</a></li>
                     </ul>
                 </nav>
+
+                <a href="#" class="burger_wrapper">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </a>
+                
             </div>
 
 <!------------------------------------ CONTAINER 1 ------------------------------------>
@@ -284,7 +291,7 @@
                 <ul>Информация:
                     <li><a href="http://www.consultant.ru/document/cons_doc_LAW_373622/0082fc02fd38782880841f0019209a807a218a2b/">Правила продажи</a></li>
                     <li><a href="#">Политика конфиденциальности</a></li>
-                    <li><a href="#">Образцы документов</a></li>
+                    <li><a href="../bonus_program/bonus.php">Образцы документов</a></li>
                     <li><a href="../exchange/index.php">Обмен и возврат</a></li>
                 </ul>
                 <ul><a href="../about_us/index_about_us.php">О компании</a></ul>

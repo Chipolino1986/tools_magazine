@@ -29,7 +29,8 @@ if (empty($cart)) {
 			text-shadow: 1px 1px 1px black;">
 
 			<? echo "<h1>Ваша корзина пуста</h1>"; ?>
-
+			<i style="font-size: 1.5rem;" class="fa-solid fa-rotate-left"></i><a class="btn-back2" style="color:white; margin-left: 10px; font-size: 1.5rem;" href="../TOOLS/tools.php">Вернуться к категориям товаров</a>
+			<script defer src="https://kit.fontawesome.com/9ca67525c0.js" crossorigin="anonymous"></script>
 		</div>
 		
 			<div class="smile_wrapper" 
@@ -71,10 +72,9 @@ foreach ($products as $product) { ?>
 	<div class="card_product">
 		<p><span>Товар:</span> <?= $product["name"] ?></p>
 		<p>Цена: <?= $product["price"] ?> руб.</p>
-		<p>Страна бренда: <?= $product["brandcountry"] ?></p>
-		<p>Страна производитель: <?= $product["made"] ?></p>
-		<button type="button" class="cart-remove" data-id="<?= $product["id"] ?>">Удалить</button>
+		<button type="button" class="cart-remove" data-id="<?= $product["id"] ?>">удалить товар<i class="fa-solid fa-trash-can"></i></button>
 	</div>
+	
 <? } ?>
 </div>
 <button type="button" class="cart-remove-all">Очистить корзину</button>
@@ -95,10 +95,12 @@ foreach ($products as $product) { ?>
 	<br>
 	<button class="btn-pay" type="submit" disabled>Оплатить</button>
 </form>
+
 <div class="back">
-	<a class="btn-back" href="../landing-2/index.php">Вернутся на главную</a><br><br>
-	<a class="btn-back" href="../TOOLS/tools.php">Вернуться к категориям товаров</a>
+	<a class="btn-back1" href="../landing-2/index.php">Вернутся на главную</a><br><br>
+	<a class="btn-back2" href="../TOOLS/tools.php">Вернуться к категориям товаров</a>
 </div>
+
 <script>
 	let radio = document.querySelectorAll('input[type="radio"]');
 	let submit = document.querySelector('button[type="submit"]');
@@ -151,7 +153,7 @@ if (isset($_POST["pay"])) {
 	$chack .= "--------------------".PHP_EOL;
 	$chack .= "Pay by ".$_POST["pay"].PHP_EOL;
 	
-	$fileName = $_SERVER["DOCUMENT_ROOT"]."./my_magazine/SQL/chacks/check_".date("d_m_Y_H_i_s").".txt";
+	$fileName = $_SERVER["DOCUMENT_ROOT"]."./my_magazine/SQL/chacks/chack_".date("d_m_Y_H_i_s").".txt";
 	
 	file_put_contents($fileName, $chack, FILE_APPEND);
 	
@@ -167,3 +169,5 @@ if (isset($_POST["pay"])) {
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+
+<script defer src="https://kit.fontawesome.com/9ca67525c0.js" crossorigin="anonymous"></script>

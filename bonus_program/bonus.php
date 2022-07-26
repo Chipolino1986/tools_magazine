@@ -63,6 +63,12 @@
                     </li>
                 </ul>
             </nav>
+
+                <a href="../landing-2/index.php" class="burger_wrapper">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </a>
         </div>
         <div class="container">
             <div class="title_container_box">

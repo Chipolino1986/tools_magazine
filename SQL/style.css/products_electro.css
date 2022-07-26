@@ -187,7 +187,7 @@ form .search i {
     flex-wrap: wrap;
     margin: 0 auto;
 }
-.product_box_electro {
+.product_box_electro, .product_box_electro-2{
     border-radius: 6px;
     box-shadow: 3px 3px 10px -5px black;
     max-width: 450px;
@@ -199,6 +199,10 @@ form .search i {
     flex-direction: column;
     justify-content: space-between;
     background-color: #ffe092 !important;
+}
+.product_box_electro-2 img {
+    width: 220px;
+    height: 220px;
 }
 .product_box_electro h3 {
     font-family: 'Roboto', sans-serif;

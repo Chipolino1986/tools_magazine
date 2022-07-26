@@ -32,30 +32,18 @@
         margin: 10px 10px;
     }
 }
-@media screen and (max-width: 768px) {
-    .title {
-        max-width: 375px;
-        left: 170px;
-    }
-    .title h2,h3 {
-        text-align: center;
-    }
-    .btn-start {
-        margin: auto;
-    }
-}
-@media screen and (max-width: 670px) {
+@media screen and (max-width:830px) {
     .header {
         flex-wrap: nowrap;
+    }
+    .items ul {
+        display: none;
     }
     .items {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-    }
-    .items ul {
-        display: none;
     }
     .burger_wrapper {
         width: 40px;
@@ -70,10 +58,24 @@
         height: 3px;
         background: white;
     }
+}
+@media screen and (max-width: 760px) {
     .title {
-        max-width: 375px;
-        left: 150px;
+        max-width: 350px;
+        margin: 0 auto;
+        text-align: center;
     }
+    .title h2 {
+        font-size: 1.5rem;
+    }
+    .title h3 {
+        font-size: 1rem;
+    }
+    .title h2,h3 {
+        text-align: center;
+    }
+}
+@media screen and (max-width: 670px) {
     .title h2,h3 {
         text-align: center;
     }
@@ -101,10 +103,56 @@
         text-align: center;
     }
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 581px) {
+    .title h2 {
+        font-size: 1.5rem;
+    }
+    .title h3 {
+        font-size: 1rem;
+    }
+    .slider_item1:nth-child(-n+15) {
+       background-size: contain;
+    }
+}
+@media screen and (max-width: 520px) {
     .title {
-        max-width: 335px;
-        left: 70px;
-        top: 70px;
+        max-width: 250px;
+        text-align: center;
+    }
+    .title h2 {
+        font-size: 1rem;
+    }
+    .title h3 {
+        font-size: .8rem;
+    }
+    .container_2_content h1 {
+        font-size: 1.3rem;
+    }
+    .container_2_content h1 span {
+        font-size: 1.5rem;
+    }
+    .container_2_content p {
+        font-size: .8rem;
+        width: 70%;
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width: 420px) {
+    .fa-solid, .fas {
+        font-size: 1.8rem;
+    }
+    .title {
+        max-width: 200px;
+        text-align: center;
+    }
+    .title h2 {
+        font-size: .9rem;
+    }
+    .title h3 {
+        font-size: .7rem;
+    }
+    .btn-start {
+        padding: 3px 15px;
+        font-size: .7rem;
     }
 }

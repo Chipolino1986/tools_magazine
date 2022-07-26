@@ -32,6 +32,36 @@
         font-size: .9rem;
     }
 }
+@media screen and (max-width: 900px) {
+    .tool_block_wrapper {
+        margin: 15px;
+    }
+    .toots_block_garden {
+        width: 250px;
+        height: 300px;
+        margin: 0;
+    }
+    .toots_block_acum {
+        width: 250px;
+        height: 300px;
+        margin: 0;
+    }
+    .toots_block_electro {
+        width: 250px;
+        height: 300px;
+        margin: 0;
+    }
+    .tool_block_wrapper p:nth-child(2) {
+        font-size: .8rem;
+    }
+    .overlay {
+        top: 50px;
+        height: 75%;
+    }
+    .overlay p {
+        font-size: 1rem;
+    }
+}
 @media screen and (max-width: 800px) {
     .header {
         flex-wrap: nowrap;

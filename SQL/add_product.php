@@ -13,7 +13,8 @@ $categories = $dbCategories->fetchAll();
 			<option value="<?= $category["id"] ?>"><?= $category["name"] ?></option>
 		<? } ?>
 	</select>
-	<br><br>
+	<br>
+	<br>
 
 	<input class="input-str" type="text" name="name" placeholder="Название товара"><br><br>
 	<input class="input-str" type="text" name="price" placeholder="Цена товара"><br><br>
