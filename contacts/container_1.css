@@ -7,7 +7,11 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    background: linear-gradient(35deg, rgb(255, 255, 255) 50%,rgb(40, 40, 40)50%) !important;
+    background: url(../images/background/chuzhoi-inoplanetnaia-tvar-telefonnaia-budka-chernyi-fon-str.jpg) !important;
+    /* background: url(../images/background/dellon-thomas-afrikanskaia-krasavitsa-chernaia-vodolazka-raz.jpg) !important; */
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    /* background: linear-gradient(35deg, rgb(255, 255, 255) 50%,rgb(40, 40, 40)50%) !important; */
 }
 .container_1_content {
     display: flex;
@@ -76,7 +80,7 @@
 }
 .info_box {
     display: flex;
-    max-width: 800px;
+    max-width: 720px;
     width: 100%;
     min-height: 500px;
     height: 100%;
@@ -150,4 +154,111 @@
     color: rgb(223, 183, 53);
     text-shadow: 1px 0 0 black;
     font-size: 1.2rem;
+}
+
+
+
+@media screen and (max-width:1025px) {
+    .header {
+        padding: 0 15px;
+    }
+    .footer_head ul {
+        display: block;
+        margin: 5px 0;
+    }
+    .hummer-label {
+        display: none;
+    }
+    .arrow-go-home {
+        display: none;
+    }
+}
+@media screen and (max-width:975px) {
+    .items h1 {
+        font-size: .8rem;
+    }
+    .items i {
+        font-size: .6rem;
+    }
+    .items a {
+        font-size: .8rem;
+    }
+}
+@media screen and (max-width:750px) {
+    .items ul {
+        display: none;
+    }
+    .burger_wrapper {
+        width: 35px;
+        height: 25px;
+        padding: 2px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .line {
+        width: 100%;
+        height: 3px;
+        background: white;
+    }
+    .subTitle_text {
+        font-size: 1.5rem;
+    }
+    .title_text {
+        font-size: 2rem;
+    }
+    .contacts_header_text h2 {
+        font-size: 1.4rem;
+        padding-top: 20px;
+    }
+    .location {
+        width: 500px;
+        height: 250px;
+        margin: 0 auto;
+        border: none;
+    }
+}
+@media screen and (max-width:700px) {
+    .information_box {
+        margin: auto;
+        text-align: center;
+    }
+    .work_time {
+        margin: auto;
+        text-align: center;
+    }
+    .requisites_box {
+        margin: auto;
+        text-align: center;
+    }
+}
+@media screen and (max-width:520px) {
+    .header {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    .items {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .location {
+        width: 300px;
+        height: 250px;
+        margin: 0 auto;
+        border: none;
+    }
+    .subTitle_text {
+        font-size: 1.2rem;
+    }
+    .title_text {
+        font-size: 1.5rem;
+    }
+    .contacts_header_text h2 {
+        font-size: 1.2rem;
+        padding-top: 20px;
+    }
+    .requisites_box h1 {
+        margin: 0; 
+    }
 }

@@ -11,7 +11,6 @@
     <link rel="stylesheet" href="../footer/style_footer.css">
     <link rel="stylesheet" href="../header/header.css">
     <link rel="stylesheet" href="../BASIC_CONTENT/style.css">
-    <link rel="stylesheet" href="./media_about_us.css">
 
 
     <script defer src="../BASIC_CONTENT/script_header.js"></script> 

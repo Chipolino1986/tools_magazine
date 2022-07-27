@@ -10,7 +10,6 @@
     <link rel="stylesheet" href="./style_tools.css">
     <link rel="stylesheet" href="../header/header.css">
     <link rel="stylesheet" href="../footer/style_footer.css">
-    <link rel="stylesheet" href="./media_tools.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
