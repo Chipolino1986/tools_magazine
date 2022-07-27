@@ -18,7 +18,8 @@
 <body>
     
     <section class="section-1">
-    <div class="header">
+
+            <div class="header">
                 <nav class="items">
                     <div class="search_form">
                         <? require_once "../../SQL/search_form.php"; ?>
@@ -35,7 +36,13 @@
                         <li><a href="../../SQL/cart_test.php"><i class="fa-solid fa-cart-shopping"></i>корзина</a></li>
                     </ul>
                 </nav>
+                <a href="../../landing-2/index.php#stock_slider" class="burger_wrapper">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </a>
             </div>
+
         <div class="container">
             <h1>Рубанок Makita M1902</h1>
                 <div class="img_box_wrapper">

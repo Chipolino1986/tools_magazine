@@ -35,6 +35,11 @@
                         <li><a href="../../SQL/cart_test.php"><i class="fa-solid fa-cart-shopping"></i>корзина</a></li>
                     </ul>
                 </nav>
+                <a href="../../landing-2/index.php#stock_slider" class="burger_wrapper">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </a>
             </div>
         <div class="container">
             <h1>Строительный фен iNGCO HG20082-1</h1>
@@ -86,9 +91,7 @@
                     <p>500 л/м</p>
                     <p>есть</p>
                     <p>От сети</p>
-                    <p>
-                        Насадки,упаковка,инструкция,гарантийный талон.
-                    </p>
+                    <p>Насадки,упаковка,<br>инструкция,гарантийный талон</p>
                 </div>
             </div>
             <div class="dastination">

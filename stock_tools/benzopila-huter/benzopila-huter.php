@@ -36,6 +36,11 @@
                         <li><a href="../../SQL/cart_test.php"><i class="fa-solid fa-cart-shopping"></i>корзина</a></li>
                     </ul>
                 </nav>
+                <a href="../../landing-2/index.php#stock_slider" class="burger_wrapper">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </a>
             </div>
         
         <div class="container">
@@ -60,7 +65,7 @@
                             </div>
                         </div>
                     </div>
-
+                    
                 </div>
 
             <div class="description_box">

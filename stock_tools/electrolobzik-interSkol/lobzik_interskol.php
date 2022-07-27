@@ -35,6 +35,11 @@
                         <li><a href="../../SQL/cart_test.php"><i class="fa-solid fa-cart-shopping"></i>корзина</a></li>
                     </ul>
                 </nav>
+                <a href="../../landing-2/index.php#stock_slider" class="burger_wrapper">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </a>
             </div>
         <div class="container">
             <h1>Электролобзик Интерскол МП-100/700Э</h1>

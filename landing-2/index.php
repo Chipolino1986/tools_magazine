@@ -85,7 +85,7 @@
             <div class="popular_title">
                 <h4>популярные товары</h4>
             </div>
-            <div class="slider_main_wrapper1">
+            <div id="stock_slider" class="slider_main_wrapper1">
                 <div class="slider_wrapper1">
                     <div class="slider_buttons1">
                         <button class="btn_prev1"><i class="fa-solid fa-circle-chevron-left"></i></button>
