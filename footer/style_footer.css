@@ -85,14 +85,12 @@
 .footer_items_box ul {
     color: rgb(206 180 101);
     font-family: 'Roboto', sans-serif;
-    font-weight: bold;
     text-shadow: 1px 1px 1px black;
     margin: 20px;
 }
 .footer_items_box ul a {
     color: rgb(206 180 101);
     font-family: 'Roboto', sans-serif;
-    font-weight: bold;
     text-shadow: 1px 1px 1px black;
     align-items: center;
     transition: all 0.3s ease;
@@ -103,7 +101,6 @@
 .footer_items_box li a {
     color: white;
     font-family: 'Roboto', sans-serif;
-    font-weight: bold;
     font-size: .8rem;
     text-shadow: 1px 1px 1px black;
     align-items: center;
@@ -121,7 +118,6 @@
 .warning_box_content p {
     margin-left: 25px;
     font-family: 'Roboto', sans-serif;
-    font-weight: bold;
     font-size: .7rem;
     color:rgb(153, 133, 133);
 }
@@ -137,7 +133,6 @@
     max-width: 150px;
     width: 100%;
     font-family: 'Roboto', sans-serif;
-    font-weight: bold;
     color: white;
     margin-left: 10px;
 }
