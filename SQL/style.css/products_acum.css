@@ -60,12 +60,12 @@ body {
     color: goldenrod;
     margin-right: 5px;
 }
-.items ul li a:hover {
+.items > ul > li a:hover {
     color: goldenrod;
 }
 .items > i {
-    display: none;
     color: white;
+    display: none;
 }
 .search_form {
     position: relative;
@@ -74,12 +74,19 @@ body {
     justify-content: center;
     align-items: center;
 }
+.search_form i {
+    position: absolute;
+    top: 8px;
+    left: 62%;
+    color: black;
+    opacity: .3;
+    display: block !important;
+}
 .search {
     width: 70%;
     height: 29px;
     border-radius: 40px 0 0 40px;
     border: 1px solid white;
-    display: inline-block;
     font-family: 'Roboto', sans-serif;
     padding: 0 10px;
 }

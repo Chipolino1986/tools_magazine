@@ -99,7 +99,7 @@
     max-width: 1200px;
     width: 100%;
     min-height: 400px;
-    background: rgb(216, 216, 216);
+    background: rgb(215, 215, 215, .3);
     display: flex;
     flex-wrap: wrap;
     justify-content: center;

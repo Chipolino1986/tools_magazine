@@ -21,6 +21,7 @@
         <div class="header">
             <nav class="items">
                     <div class="search_form">
+                        <i class="fa-solid fa-magnifying-glass"></i>
                         <? require_once "../../SQL/search_form.php"; ?>
                     </div>
                 <ul>

@@ -63,9 +63,13 @@ body {
 .items ul li a:hover {
     color: goldenrod;
 }
+.items ul li a:hover {
+    color: goldenrod;
+}
 .items > i {
-    display: none;
+    margin-right: 5px;
     color: white;
+    display: none;
 }
 .search_form {
     position: relative;
@@ -73,6 +77,12 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.search_form i {
+    position: absolute;
+    top: 8px;
+    left: 62%;
+    color: rgb(190, 190, 190);
 }
 .search {
     width: 70%;

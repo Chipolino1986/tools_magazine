@@ -53,12 +53,12 @@
         <div class="container_1">
             <div class="container_1_content">
                 <div class="main_title_box">
-                    <a href="../landing-2/index.php"><img class="arrow-go-home" src="../images/back(arrow).png" alt="arrow"></a>
+                    <a href="../landing-2/index.php"><img class="arrow-go-home" src="../images/icons/arrowBack-2 (1).png" alt="arrow"></a>
                     <div class="title_box">
                         <h2 class="subTitle_text">Магазин ЭЛЕКТРО и БЕНЗОинструментов</h2>
                         <h1 class="title_text">Жёлтый молоток</h1>
                     </div>
-                    <img class="hummer-label" src="../images/yellow-hummer-4.png" alt="submarine">
+                    <img class="hummer-label" src="../images/icons/molotok.png" alt="submarine">
                 </div>
                 <div class="about_us_text_box">
                     <div class="about_us_text">

@@ -9,13 +9,13 @@
     <link rel="stylesheet" href="./section-1.css">
     <link rel="stylesheet" href="./section-2.css">
     <link rel="stylesheet" href="../footer/style_footer.css">
-    <link rel="stylesheet" href="./media.css">
+    <link rel="stylesheet" href="./media-landing.css">
 
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
-    <script defer src="./script_2.js"></script>
+    <script defer src="./landing.js"></script>
     <script defer src="https://kit.fontawesome.com/9ca67525c0.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -49,15 +49,15 @@
             </div>
 
             <div class="slider_wrapper"> 
-                    
-                <div class="title">
-                    <h2>Магазин инструментов <br> <span>"Жёлтый молоток"</span></h2>
-                    <div class="sub_title">
-                        <h3>Нас выбирают профессионалы!</h3>
+                    <div class="title_content_wrapper">
+                        <div class="title">
+                            <h2>Магазин инструментов <br> <span>"Жёлтый молоток"</span></h2>
+                            <div class="sub_title">
+                                <h3>Нас выбирают профессионалы!</h3>
+                            </div>
+                            <a class="btn-start" href="../TOOLS/tools.php">магазин</a>
+                        </div>
                     </div>
-                    <a class="btn-start" href="../TOOLS/tools.php">магазин</a>
-                </div>
-
                     <div class="slider_button-left">
                         <button class="btn_prev"><i class="fa-solid fa-circle-chevron-left"></i></button>
                     </div>

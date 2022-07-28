@@ -14,7 +14,6 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    background: linear-gradient(30deg, rgb(192, 153, 63) 50%, rgb(10 10 10) 50%);
     padding-top: 50px;
 }
 .container_1_content {
@@ -48,9 +47,11 @@
     width: 100%;
     min-height: 70px;
     transition: all .3s ease;
+    border-radius: 50%;
 }
 .arrow-go-home:hover {
     transform: scale(1.1);
+    box-shadow: 0 0 25px -3px rgb(255, 255, 255);
 }
 .title_box {
     max-width: 730px;

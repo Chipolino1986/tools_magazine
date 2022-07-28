@@ -50,7 +50,7 @@
     <link rel="stylesheet" href="../BASIC_CONTENT/style.css">
     <link rel="stylesheet" href="../header/header.css">
     <link rel="stylesheet" href="../footer/style_footer.css">
-    <link rel="stylesheet" href="../registration/style.css">
+    <link rel="stylesheet" href="../registration/registration.css">
     <link rel="stylesheet" href="./media_registration.css">
  
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -91,12 +91,12 @@
         <div class="container_1">
             <div class="container_1_content">
                 <div class="main_title_box">
-                    <a href="../landing-2/index.php"><img class="arrow-go-home" src="../images/back(arrow).png" alt="arrow"></a>
+                    <a href="../landing-2/index.php"><img class="arrow-go-home" src="../images/icons/arrowBack-2 (1).png"" alt="arrow"></a>
                     <div class="title_box">
                         <p class="subTitle_text">Магазин ЭЛЕКТРО и БЕНЗОинструментов</p>
                         <p class="title_text">Жёлтый молоток</p>
                     </div>
-                    <img class="hummer-label" src="../images/yellow-hummer-4.png" alt="hummer">
+                    <img class="hummer-label" src="../images/icons/molotok.png" alt="hummer">
                 </div>
 
                 <div class="text_registration_title">

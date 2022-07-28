@@ -51,12 +51,12 @@
         <div class="container_1">
             <div class="container_1_content">
                 <div class="main_title_box">
-                    <a href="../landing/index.php"><img class="arrow-go-home" src="../images/back(arrow).png" alt="arrow"></a>
+                    <a href="../landing/index.php"><img class="arrow-go-home" src="../images/icons/arrowBack-2 (1).png"" alt="arrow"></a>
                     <div class="title_box">
                         <p class="subTitle_text">Магазин ЭЛЕКТРО и БЕНЗОинструментов</p>
                         <p class="title_text">Жёлтый молоток</p>
                     </div>
-                    <img class="hummer-label" src="../images/yellow-hummer-4.png" alt="hummer">
+                    <img class="hummer-label" src="../images/icons/molotok.png" alt="hummer">
                 </div>
 
                 <div class="wrapper_privacity_box">
@@ -291,7 +291,7 @@
                 <ul>Информация:
                     <li><a href="http://www.consultant.ru/document/cons_doc_LAW_373622/0082fc02fd38782880841f0019209a807a218a2b/">Правила продажи</a></li>
                     <li><a href="#">Политика конфиденциальности</a></li>
-                    <li><a href="../bonus_program/bonus.php">Образцы документов</a></li>
+                    <li><a href="../bonus_program/bonus.php">Бонусная программа</a></li>
                     <li><a href="../exchange/index.php">Обмен и возврат</a></li>
                 </ul>
                 <ul><a href="../about_us/index_about_us.php">О компании</a></ul>

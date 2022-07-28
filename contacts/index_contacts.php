@@ -7,7 +7,7 @@
     <title>Контакты</title>
 
     <link rel="stylesheet" href="../NORMALIZE!!!/normalize.css">
-    <link rel="stylesheet" href="./container_1.css">
+    <link rel="stylesheet" href="./contacts.css">
     <link rel="stylesheet" href="../header/header.css">
     <link rel="stylesheet" href="../footer/style_footer.css">
     <link rel="stylesheet" href="../BASIC_CONTENT/style.css">
@@ -53,12 +53,12 @@
             <div class="container_1_content">
                 
                     <div class="main_title_box">
-                        <a href="../landing-2/index.php"><img class="arrow-go-home" src="../images/back(arrow).png" alt="arrow"></a>
+                        <a href="../landing-2/index.php"><img class="arrow-go-home" src="../images/icons/arrowBack-2 (1).png"" alt="arrow"></a>
                         <div class="title_box">
                             <h2 class="subTitle_text">Магазин ЭЛЕКТРО и БЕНЗОинструментов</h2>
                             <h1 class="title_text">Жёлтый молоток</h1>
                         </div>
-                        <img class="hummer-label" src="../images/yellow-hummer-4.png" alt="hummer">
+                        <img class="hummer-label" src="../images/icons/molotok.png" alt="hummer">
                     </div>
 
                     <div class="contacts_header_text">
