@@ -29,7 +29,6 @@ function drow(changeStep = 'right') {
         track.prepend(sliderItems[step]);
         step = step === 0 ? maxStep : step - 1;
     }
-    // console.log('step', step);
 }
 function right() {
     btnNext.removeEventListener('click', right);
@@ -43,12 +42,12 @@ function right() {
         drow('right');
         track.style.transition = "none";
         setCenter();
-    }, 500)
+    }, 700)
     setTimeout(function () {
-        track.style.transition = "0.5s";
+        track.style.transition = "0.7s";
         btnNext.addEventListener("click", right);
         interval = setInterval(intervalFunction, intervalTime);
-    }, 700)
+    }, 900)
 }
 function left() {
     btnPrev.removeEventListener('click', left);
@@ -62,12 +61,12 @@ function left() {
         drow('left');
         track.style.transition = "none";
         setCenter();
-    }, 500)
+    }, 700)
     setTimeout(function () {
-        track.style.transition = "0.5s";
+        track.style.transition = "0.7s";
         btnPrev.addEventListener("click", left);
         interval = setInterval(intervalFunction, intervalTime);
-    }, 700)
+    }, 900)
 }
 
 drow('right');

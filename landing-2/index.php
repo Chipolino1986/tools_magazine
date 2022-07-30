@@ -81,6 +81,33 @@
                 </div>      
         </section>
 
+        <aside class="aside_wrapper">
+            <div class="title_aside">
+                Что мы предлагаем...
+            </div>
+            <div class="aside_container">
+                <div class="img_box_aside">
+                    <img class="img_sale" src="../images/background/контакты_3.jpg" alt="">
+                </div>
+
+                <div class="sidebar">
+                    <ul>
+                        <li>Поддержка наших клиентов в любой точки планеты</li>
+                        <li>Доставка товаров в любое удобное для вас место и время</li>
+                        <li>Больше 100 магазинов по стране</li>
+                        <li>Больше 20 000 сотрудников готовые помочь Вам</li>
+                        <li>Постоянные акции и скидки</li>
+                        <li>Внимательность к деталям</li>
+                        <li>Широкий ассортимент инструментов</li>
+                    </ul>
+                    <!-- <p>Поддержка наших клиентов в любой точки планеты</p>
+                    <p>Доставка товаров в любое удобное для вас место и время</p>
+                    <p>Больше 100 магазинов по стране</p>
+                    <p>Больше 20 000 сотрудников готовые помочь Вам</p> -->
+                </div>
+            </div>
+        </aside>
+
         <section class="section-2">
             <div class="popular_title">
                 <h4>популярные товары</h4>
@@ -199,8 +226,8 @@
                     <p>300001 г.Тула, ул. Каракозова д.27</p>
                     <div class="social_network_main_box">
                         <div class="social_network_box"><a href="#"><img class="social_network" src="../images/200x200/icon_telegramm-200x200.jpg"></a></div>
-                        <div class="social_network_box"><a href="#"><img class="social_network" src="../images/ok-icon.png"></a></div>
-                        <div class="social_network_box"><a href="#"><img class="social_network" src="../images/vk-icon.jfif"></a></div>
+                        <div class="social_network_box"><a href="#"><img class="social_network" src="../images/icons/ok-icon.png"></a></div>
+                        <div class="social_network_box"><a href="#"><img class="social_network" src="../images/icons/vk-icon.jfif"></a></div>
                     </div>
                 </div>
             </div>

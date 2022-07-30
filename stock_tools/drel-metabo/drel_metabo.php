@@ -147,8 +147,8 @@
                     <p>300001 г.Тула, ул. Каракозова д.27</p>
                     <div class="social_network_main_box">
                         <div class="social_network_box"><a href="#"><img class="social_network" src="../../images/200x200/icon_telegramm-200x200.jpg"></a></div>
-                        <div class="social_network_box"><a href="#"><img class="social_network" src="../../images/ok-icon.png"></a></div>
-                        <div class="social_network_box"><a href="#"><img class="social_network" src="../../images/vk-icon.jfif"></a></div>
+                        <div class="social_network_box"><a href="#"><img class="social_network" src="../../images/icons/ok-icon.png"></a></div>
+                        <div class="social_network_box"><a href="#"><img class="social_network" src="../../images/icons/vk-icon.jfif"></a></div>
                     </div>
                 </div>
             </div>

@@ -7,7 +7,7 @@
     <title>О нас</title>
 
     <link rel="stylesheet" href="../NORMALIZE!!!/normalize.css">
-    <link rel="stylesheet" href="./container_1.css">
+    <link rel="stylesheet" href="./aboutUs.css">
     <link rel="stylesheet" href="../footer/style_footer.css">
     <link rel="stylesheet" href="../header/header.css">
     <link rel="stylesheet" href="../BASIC_CONTENT/style.css">
@@ -81,7 +81,7 @@
                            или заменем на аналогичный.Строго соблюдаем закон «О защите прав потребителей».</p>  
                     </div>
                     <div class="home_box">
-                        <img src="../images/back(arrow).png" alt="arrow"><a class="butt_home" href="../landing-2/index.php">Вернуться на гланую</a>
+                        <img src="../images/icons/back(arrow).png" alt="arrow"><a class="butt_home" href="../landing-2/index.php">Вернуться на гланую</a>
                     </div>
                 </div>
             </div>
@@ -115,8 +115,8 @@
                         <p>300001 г.Тула, ул. Каракозова д.27</p>
                         <div class="social_network_main_box">
                             <div class="social_network_box"><a href="#"><img class="social_network" src="../images/200x200/icon_telegramm-200x200.jpg"></a></div>
-                            <div class="social_network_box"><a href="#"><img class="social_network" src="../images/ok-icon.png"></a></div>
-                            <div class="social_network_box"><a href="#"><img class="social_network" src="../images/vk-icon.jfif"></a></div>
+                            <div class="social_network_box"><a href="#"><img class="social_network" src="../images/icons/ok-icon.png"></a></div>
+                            <div class="social_network_box"><a href="#"><img class="social_network" src="../images/icons/vk-icon.jfif"></a></div>
                         </div>
                     </div>
                 </div>

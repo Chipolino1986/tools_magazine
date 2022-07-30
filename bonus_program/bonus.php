@@ -24,51 +24,23 @@
                     <h1>Бонусная программа</h1>
                 </div>
                 <ul>
-                    <li>
-                        <a href="../landing-2/index.php">
-                            <i class="fa-solid fa-house"></i>главная
-                        </a>
-                    </li>
-                    <li>
-                        <a href="../about_us/index_about_us.php">
-                            <i class="fa-solid fa-people-group"></i>о нас
-                        </a>
-                    </li>
-                    <li>
-                        <a href="../TOOLS/tools.php">
-                            <i class="fa-solid fa-hammer"></i>инструменты
-                        </a>
-                    </li>
-                    <li>
-                        <a href="../contacts/index_contacts.php">
-                            <i class="fa-solid fa-square-phone-flip"></i>контакты
-                        </a>
-                    </li>
+                    <li><a href="../landing-2/index.php"><i class="fa-solid fa-house"></i>главная</a></li>
+                    <li><a href="../about_us/index_about_us.php"><i class="fa-solid fa-people-group"></i>о нас</a></li>
+                    <li><a href="../TOOLS/tools.php"><i class="fa-solid fa-hammer"></i>инструменты</a></li>
+                    <li><a href="../contacts/index_contacts.php"><i class="fa-solid fa-square-phone-flip"></i>контакты</a></li>
                 </ul>
                 <ul>
-                    <li>
-                        <a href="../registration/index_registration.php">
-                            <i class="fa-solid fa-id-card"></i>регистрация
-                        </a>
-                    </li>
-                    <li>
-                        <a href="../enter_page/index_enter_page.php">
-                            <i class="fa-solid fa-arrow-right-to-bracket"></i>вход
-                        </a>
-                    </li>
-                    <li>
-                        <a href="../SQL/cart_test.php">
-                            <i class="fa-solid fa-cart-shopping"></i>корзина
-                        </a>
-                    </li>
+                    <li><a href="../registration/index_registration.php"><i class="fa-solid fa-id-card"></i>регистрация</a></li>
+                    <li><a href="../enter_page/index_enter_page.php"><i class="fa-solid fa-arrow-right-to-bracket"></i>вход</a></li>
+                    <li><a href="../SQL/cart_test.php"><i class="fa-solid fa-cart-shopping"></i>корзина</a></li>
                 </ul>
             </nav>
 
-                <a href="../landing-2/index.php" class="burger_wrapper">
-                    <div class="line"></div>
-                    <div class="line"></div>
-                    <div class="line"></div>
-                </a>
+            <a href="../landing-2/index.php" class="burger_wrapper">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </a>
         </div>
         <div class="container">
             <div class="title_container_box">
@@ -81,7 +53,7 @@
                 </p>
             </div>
             <div class="img_box">
-                <img src="../images/profits_.png" alt="monetka">
+                <img src="../images/icons/profits_.png" alt="monetka">
             </div>
         </div>
     </section>
@@ -92,22 +64,22 @@
             </h1>
             <div class="promo-box">
                 <div class="item1">
-                    <img src="../images/vesi.png" alt="scales">
+                    <img src="../images/icons/vesi.png" alt="scales">
                     <h4>1 бонус = 1 рубль</h4>
                     <p>Наш курс стабильный - <br> никаких пересчётов.</p>
                 </div>
                 <div class="item1">
-                    <img src="../images/flash.png" alt="flash">
+                    <img src="../images/icons/flash.png" alt="flash">
                     <h4>Получайте до 15%</h4>
                     <p>Бонусов от стоимости <br> товара</p>
                 </div>
                 <div class="item1">
-                    <img src="../images/bag-money.png" alt="money">
+                    <img src="../images/icons/bag-money.png" alt="money">
                     <h4>Дарим бонусы</h4>
                     <p>Регулярные начисления <br> активным участникам</p>
                 </div>
                 <div class="item1">
-                    <img src="../images/Crown_yellow.png" alt="crown">
+                    <img src="../images/icons/Crown_yellow.png" alt="crown">
                     <h4>Приоритет в обслуживании</h4>
                     <p>Заказы участников <br> 
                        программы обрабатываются <br> 
@@ -126,25 +98,25 @@
             <h2>Как получить бонусы</h2>
             <div class="sked">
                 <div class="sked1">
-                    <img src="../images/find_search_card_user.png" alt="card">
+                    <img src="../images/icons/find_search_card_user.png" alt="card">
                     <h4>Зарегистрируйтесь на сайте или
                         придите в наш магазин
                     </h4>
                 </div>
                 <div class="sked1">
-                    <img src="../images/manager_2.png" alt="manager">
+                    <img src="../images/icons/manager_2.png" alt="manager">
                     <h4>Скажите прадовцу номер 
                         своего мобильного телефотна
                     </h4>
                 </div>
                 <div class="sked1">
-                    <img src="../images/mail.png" alt="diagram">
+                    <img src="../images/icons/mail.png" alt="diagram">
                     <h4>Получите SMS с кодом подтверждения 
                         и скажите код продавцу
                     </h4>
                 </div>
                 <div class="sked1">
-                    <img src="../images/up-diagram.png" alt="diagram">
+                    <img src="../images/icons/up-diagram.png" alt="diagram">
                     <h4>Копите бонусы уже с 
                         первой покупки
                     </h4>
@@ -179,8 +151,8 @@
                 <p>300001 г.Тула, ул. Каракозова д.27</p>
                 <div class="social_network_main_box">
                     <div class="social_network_box"><a href="#"><img class="social_network" src="../images/200x200/icon_telegramm-200x200.jpg"></a></div>
-                    <div class="social_network_box"><a href="#"><img class="social_network" src="../images/ok-icon.png"></a></div>
-                    <div class="social_network_box"><a href="#"><img class="social_network" src="../images/vk-icon.jfif"></a></div>
+                    <div class="social_network_box"><a href="#"><img class="social_network" src="../images/icons/ok-icon.png"></a></div>
+                    <div class="social_network_box"><a href="#"><img class="social_network" src="../images/icons/vk-icon.jfif"></a></div>
                 </div>
             </div>
         </div>

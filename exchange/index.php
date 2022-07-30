@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Обмен и возврат товара</title>
     <link rel="stylesheet" href="../NORMALIZE!!!/normalize.css">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./exchange.css">
     <link rel="stylesheet" href="../header/header.css">
     <link rel="stylesheet" href="../footer/style_footer.css">
     <link rel="stylesheet" href="../BASIC_CONTENT/style.css">
@@ -211,8 +211,8 @@
                 <p>300001 г.Тула, ул. Каракозова д.27</p>
                 <div class="social_network_main_box">
                     <div class="social_network_box"><a href="#"><img class="social_network" src="../images/200x200/icon_telegramm-200x200.jpg"></a></div>
-                    <div class="social_network_box"><a href="#"><img class="social_network" src="../images/ok-icon.png"></a></div>
-                    <div class="social_network_box"><a href="#"><img class="social_network" src="../images/vk-icon.jfif"></a></div>
+                    <div class="social_network_box"><a href="#"><img class="social_network" src="../images/icons/ok-icon.png"></a></div>
+                    <div class="social_network_box"><a href="#"><img class="social_network" src="../images/icons/vk-icon.jfif"></a></div>
                 </div>
             </div>
         </div>
