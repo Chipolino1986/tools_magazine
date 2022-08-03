@@ -46,42 +46,42 @@
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    background-color: rgb(230, 230, 230);
+    background-color: rgb(240, 240, 240);
 }
 .slider_item1:nth-child(2) {
     background: url(../images/200x200/benzopila_200x200.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    background-color: rgb(230, 230, 230);
+    background-color: rgb(240, 240, 240);
 }
 .slider_item1:nth-child(3) {
     background: url(../images/img_tools_500x500/electro/bolgarka-makita_ga5030.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    background-color: rgb(230, 230, 230);
+    background-color: rgb(240, 240, 240);
 }
 .slider_item1:nth-child(4) {
     background: url(../images/200x200/circulyarnaiya_pila_200x200.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    background-color: rgb(230, 230, 230);
+    background-color: rgb(240, 240, 240);
 }
 .slider_item1:nth-child(5) {
     background: url(../images/200x200/drel_200x200.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    background-color: rgb(230, 230, 230);
+    background-color: rgb(240, 240, 240);
 }
 .slider_item1:nth-child(6) {
     background: url(../images/200x200/electrolobzik-interskol-700x700.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    background-color: rgb(230, 230, 230);
+    background-color: rgb(240, 240, 240);
     border: 30px solid transparent;
 }
 .slider_item1:nth-child(7) {
@@ -89,7 +89,7 @@
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    background-color: rgb(230, 230, 230);
+    background-color: rgb(240, 240, 240);
     border: 20px solid transparent;
 }
 .slider_item1:nth-child(8) {
@@ -97,7 +97,7 @@
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    background-color: rgb(230, 230, 230);
+    background-color: rgb(240, 240, 240);
     border: 10px solid transparent;
 }
 .slider_item1:nth-child(9) {
@@ -105,7 +105,7 @@
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    background-color: rgb(230, 230, 230);
+    background-color: rgb(240, 240, 240);
     border: 10px solid transparent;
 }
 .slider_item1:nth-child(10) {
@@ -113,21 +113,21 @@
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    background-color: rgb(230, 230, 230);
+    background-color: rgb(240, 240, 240);
 }
 .slider_item1:nth-child(11) {
     background: url(../images/img_tools_500x500/electro/Kustorez_bosch-800x800.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    background-color: rgb(230, 230, 230);
+    background-color: rgb(240, 240, 240);
 }
 .slider_item1:nth-child(12) {
     background: url(../images/img_tools_500x500/electro/mikser_zubr.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    background-color: rgb(230, 230, 230);
+    background-color: rgb(240, 240, 240);
     border: 30px solid transparent;
 }
 .slider_item1:nth-child(13) {
@@ -135,7 +135,7 @@
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    background-color: rgb(230, 230, 230);
+    background-color: rgb(240, 240, 240);
     border: 20px solid transparent;
 }
 .slider_item1:nth-child(14) {
@@ -143,14 +143,14 @@
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    background-color: rgb(230, 230, 230);
+    background-color: rgb(240, 240, 240);
 }
 .slider_item1:nth-child(15) {
     background: url(../images/img_tools_500x500/electro/makita_bo5030.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    background-color: rgb(230, 230, 230);
+    background-color: rgb(240, 240, 240);
 }
 .slider_buttons1 {
     display: flex;
@@ -197,7 +197,7 @@
 .container_2 {
     display: flex;
     width: 100%;
-    background-color: rgb(30, 80, 80);
+    background-color: rgb(235, 235, 235);
     flex-direction: column;
     align-items: center;
     margin: 0 auto;
@@ -212,14 +212,14 @@
 .container_2_content h1 {
     font-size: 1.6rem;
     font-family: 'Roboto', sans-serif;
-    color: rgb(255, 255, 255);
+    color: rgb(50,50,50);
     margin-top: 40px;
     font-weight: bold;
 }
 .container_2_content p {
     width: 100%;
     font-family: 'Roboto', sans-serif;
-    color: rgb(255, 255, 255);
+    color: rgb(80,80,80);
     font-size: 1rem;
 }
 .container_2_content span {
@@ -227,6 +227,7 @@
     text-transform: uppercase;
     color: goldenrod;
     font-size: 1.3rem;
+    text-shadow: 1px 0px 1px black;
 }
 .container_2_content h1 span{
     color: goldenrod;
@@ -235,7 +236,7 @@
     font-weight: bold;
 }
 .container_2_content span:nth-child(2) {
-    color: rgb(255, 255, 255);
+    color: rgb(50,50,50);
     text-shadow: none;
     text-transform: uppercase;
     font-weight: bold;

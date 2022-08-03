@@ -16,28 +16,31 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
     <script defer src="./landing.js"></script>
+    <script defer src="../header/header.js"></script>
     <script defer src="https://kit.fontawesome.com/9ca67525c0.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <main class="main_wrapper">
+
         <section class="section-1">
 
             <div class="header">
                 <nav class="items">
-
                     <h1>Магазин инструментов</h1>
                     <ul>
                         <li><a href="#"><i class="fa-solid fa-house"></i>главная</a></li>
-                        <li><a href="../about_us/index_about_us.php"><i class="fa-solid fa-people-group"></i>о нас</a></li>
-                        <li><a href="../TOOLS/tools.php"><i class="fa-solid fa-screwdriver-wrench"></i></i>инструменты</a></li>
-                        <li><a href="../contacts/index_contacts.php"><i class="fa-solid fa-square-phone-flip"></i>контакты</a></li>
-                    </ul>
-                    <ul>
+                        <li><a href="../about_us/index_about_us.php"><i class="fa-solid fa-people-group"></i>о нас</a></li> 
+                        <li><a href="../TOOLS/tools.php"><i class="fa-solid fa-shop"></i>Магазин</a>
+                            <ul>
+                                <li><a href="../SQL/products_garden.php">Садовый инструмент</a></li>
+                                <li><a href="../SQL/products_electro.php">Электро инструмент</a></li>
+                                <li><a href="../SQL/products_acum.php">Акумуляторный инструмент</a></li>
+                            </ul>
+                        </li>
                         <li><a href="../registration/index_registration.php"><i class="fa-solid fa-id-card"></i>регистрация</a></li>
                         <li><a href="../enter_page/index_enter_page.php"><i class="fa-solid fa-arrow-right-to-bracket"></i>вход</a></li>
                         <li><a href="../SQL/cart_test.php"><i class="fa-solid fa-cart-shopping"></i>корзина</a></li>
                     </ul>
-
                 </nav>
         
                 <a href="#" class="burger_wrapper">
@@ -49,36 +52,34 @@
             </div>
 
             <div class="slider_wrapper"> 
-                    <div class="title_content_wrapper">
-                        <div class="title">
-                            <h2>Магазин инструментов <br> <span>"Жёлтый молоток"</span></h2>
-                            <div class="sub_title">
-                                <h3>Нас выбирают профессионалы!</h3>
-                            </div>
-                            <a class="btn-start" href="../TOOLS/tools.php">магазин</a>
+                <div class="title_content_wrapper">
+                    <div class="title">
+                        <h2>Магазин инструментов <br> <span>"Жёлтый молоток"</span></h2>
+                        <div class="sub_title">
+                            <h3>Нас выбирают профессионалы!</h3>
                         </div>
+                        <a class="btn-start" href="../TOOLS/tools.php">магазин</a>
                     </div>
-                    <div class="slider_button-left">
-                        <button class="btn_prev"><i class="fa-solid fa-circle-chevron-left"></i></button>
+                </div>
+                <div class="slider_button-left">
+                    <button class="btn_prev"><i class="fa-solid fa-circle-chevron-left"></i></button>
+                </div>
+                <div class="slider_container">    
+                    <div class="slider_track">   
+                        <div class="slider_item" style="background-image: url(./img/metabo-big.jpg);"></div>
+                        <div class="slider_item" style="background-image: url(./img/stihl-big-2.jpg);"></div>
+                        <div class="slider_item" style="background-image: url(./img/bolgarka-makita-veryBig.jpg);"></div>
+                        <div class="slider_item" style="background-image: url(./img/karher-big-1.jpg);"></div>
+                        <div class="slider_item" style="background-image: url(./img/gardena-big-3.jpg);"></div>
+                        <div class="slider_item" style="background-image: url(./img/de-walt-big-4.jpg);"></div>
+                        <div class="slider_item" style="background-image: url(./img/husqvarna-big-2.jpg);"></div>
                     </div>
-
-                    <div class="slider_container">    
-                        <div class="slider_track">   
-                            <div class="slider_item" style="background-image: url(./img/metabo-big.jpg);"></div>
-                            <div class="slider_item" style="background-image: url(./img/stihl-big-2.jpg);"></div>
-                            <div class="slider_item" style="background-image: url(./img/bolgarka-makita-veryBig.jpg);"></div>
-                            <div class="slider_item" style="background-image: url(./img/karher-big-1.jpg);"></div>
-                            <div class="slider_item" style="background-image: url(./img/gardena-big-3.jpg);"></div>
-                            <div class="slider_item" style="background-image: url(./img/de-walt-big-4.jpg);"></div>
-                            <div class="slider_item" style="background-image: url(./img/husqvarna-big-2.jpg);"></div>
-                        </div>
-                    </div> 
-
-                    <div class="slider_button-right">
-                        <button class="btn_next"><i class="fa-solid fa-circle-chevron-right"></i></i></button>
-                    </div> 
-
-                </div>      
+                </div> 
+                <div class="slider_button-right">
+                    <button class="btn_next"><i class="fa-solid fa-circle-chevron-right"></i></i></button>
+                </div> 
+            </div>      
+            
         </section>
 
         <aside class="aside_wrapper">
@@ -94,16 +95,14 @@
                     <ul>
                         <li>Поддержка наших клиентов в любой точки планеты</li>
                         <li>Доставка товаров в любое удобное для вас место и время</li>
+                        <li>Цены всегда ниже чем у конкурентов</li>
                         <li>Больше 100 магазинов по стране</li>
                         <li>Больше 20 000 сотрудников готовые помочь Вам</li>
                         <li>Постоянные акции и скидки</li>
+                        <li>Мы работаем на прямую с заводами изготовителями</li>
                         <li>Внимательность к деталям</li>
                         <li>Широкий ассортимент инструментов</li>
                     </ul>
-                    <!-- <p>Поддержка наших клиентов в любой точки планеты</p>
-                    <p>Доставка товаров в любое удобное для вас место и время</p>
-                    <p>Больше 100 магазинов по стране</p>
-                    <p>Больше 20 000 сотрудников готовые помочь Вам</p> -->
                 </div>
             </div>
         </aside>
@@ -152,7 +151,7 @@
 
             <div class="container_2">
                 <div class="container_2_content">
-                <h1>Преимущества магазина<span>&nbsp жёлтый молоток:</span></h1>
+                <h1>Преимущества нашего магазина:</h1>
                 <br>
                 <p><span>Гарантия качества!</span><span>&nbsp Качество</span> – это самый 
                 главный показатель долговечности любой продукции, 
@@ -205,7 +204,7 @@
                 <div class="footer_head">
                     <ul>
                         <li><a href="#">Главная<i class="fa-solid fa-house-chimney"></i></a></li>
-                        <li><a href="../TOOLS/tools.php">Инструменты<i class="fa-solid fa-screwdriver-wrench"></i></a></li>
+                        <li><a href="../TOOLS/tools.php">Магазин<i class="fa-solid fa-shop"></i></a></li>
                         <li><a href="../contacts/index_contacts.php">Контакты<i class="fa-solid fa-address-book"></i></a></li>
                         <li><a href="../registration/index_registration.php">Регистрация<i class="fa-solid fa-id-card"></i></a></li>
                         <li><a href="../enter_page/index_enter_page.php#">Вход<i class="fa-solid fa-dungeon"></i></a></li>

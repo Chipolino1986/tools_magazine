@@ -1,27 +1,52 @@
-body {
-    /* background: linear-gradient(35deg, rgb(255, 255, 255) 50%, rgb(39, 39, 39) 50%); */
-    background: white;
+.header > .items ul {
+    margin-bottom: 0;
+}
+.header > .items h1 {
+    margin-bottom: 0;
+}
+.header > .items ul li a {
+    text-decoration: none;
+}
+.wrapper_dialog {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background: url(../images/background/pismo-igrushki-poslanie-prazdnik.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     padding-top: 50px;
 }
-.blog {
-    max-width: 700px;
-    margin: 0 auto;
-    font-family: 'Roboto', sans-serif;
+.container {
+    padding-bottom: 50px;
 }
-.title {
-    width: 100%;
+.text-center {
+    padding-top: 40px;
 }
-.title h1 {
-    font-family: 'Roboto', sans-serif;
+.form-group-3 {
+    text-align: right;
+}
+.col-lg-6 > form {
+    margin-top: 15px;
+}
+.form-control {
+    height: 50px;
+}
+.btn-primary {
+    width: 200px;
+    height: 50px;
+}
+.footer_head ul li a {
+    text-decoration: none;
+    font-weight: 600;
+}
+.footer_items_box ul {
     font-weight: bold;
-    font-size: 2rem;
-    color: rgb(0, 0, 0);
-    text-align: center;
-    text-transform: uppercase;
-    padding: 25px 0;
-    margin: 0 auto;
 }
-
+.footer_items_box ul a {
+    text-decoration: none;
+}
 @media screen and (max-width: 1051px) {
     .header > .items h1 {
         font-size: 1rem !important;

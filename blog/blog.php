@@ -10,45 +10,76 @@
     <link rel="stylesheet" href="../header/header.css">
     <link rel="stylesheet" href="../BASIC_CONTENT/style.css">
     <link rel="stylesheet" href="../NORMALIZE!!!/normalize.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
 
+    <script defer src="./comments.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
     <script defer src="../header/header.js"></script>
     <script defer src="https://kit.fontawesome.com/9ca67525c0.js" crossorigin="anonymous"></script>
 </head>
 <body>
-            <div class="header">
-                <nav class="items">
-                    <h1>Магазин инструментов</h1>
-                    <ul>
-                        <li><a href="../landing-2/index.php"><i class="fa-solid fa-house"></i>главная</a></li>
-                        <li><a href="#"><i class="fa-solid fa-people-group"></i>о нас</a></li>
-                        <li><a href="#"><i class="fa-brands fa-shopify"></i>магазин</a></li>
-                        <li><a href="#"><i class="fa-solid fa-square-phone-flip"></i>контакты</a></li>
-                    </ul>
-                    <ul>
-                        <li><a href="#"><i class="fa-solid fa-id-card"></i>регистрация</a></li>
-                        <li><a href="#"><i class="fa-solid fa-arrow-right-to-bracket"></i>вход</a></li>
-                        <li><a href="#"><i class="fa-solid fa-cart-shopping"></i>корзина</a></li>
-                    </ul>
-                </nav>
-                <a href="../landing-2/index.php" class="burger_wrapper">
-                    <div class="line"></div>
-                    <div class="line"></div>
-                    <div class="line"></div>
-                </a>
-            </div>
+    <div class="header">
+        <nav class="items">
+            <h1>Магазин инструментов</h1>
+            <ul>
+                <li><a href="../landing-2/index.php"><i class="fa-solid fa-house"></i>главная</a></li>
+                <li><a href="../about_us/index_about_us.php"><i class="fa-solid fa-people-group"></i>о нас</a></li>
+                <li><a href="../TOOLS/tools.php"><i class="fa-brands fa-shopify"></i>магазин</a></li>
+                <li><a href="../contacts/index_contacts.php"><i class="fa-solid fa-square-phone-flip"></i>контакты</a></li>
+            </ul>
+            <ul>
+                <li><a href="../registration/index_registration.php"><i class="fa-solid fa-id-card"></i>регистрация</a></li>
+                <li><a href="../enter_page/index_enter_page.php"><i class="fa-solid fa-arrow-right-to-bracket"></i>вход</a></li>
+                <li><a href="../SQL/cart_test.php"><i class="fa-solid fa-cart-shopping"></i>корзина</a></li>
+            </ul>
+        </nav>
+        <a href="../landing-2/index.php" class="burger_wrapper">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </a>
+    </div>
 
-    <section class="title">
-        <h1>Здесь Вы можете оставить отзывы</h1>
-    </section>
+    <div class="wrapper_dialog">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2 class="text-center">Оставте свой отзыв</h2>
+                </div>
+                <div class="col-lg-6">
+                    <div id="comment-field"></div>
+                </div>
+                <div class="col-lg-6">
+                    <form>
+                        <div class="form-group">
+                            <label for="comment-name">Имя:</label>
+                            <input type="name" class="form-control" id="comment-name" placeholder="Ваше Имя">
+                        </div>
+                        <br>
+                        <div class="form-group">
+                            <label for="comment-body">Отзыв:</label>
+                            <input type="name" class="form-control" id="comment-body" placeholder="Ваш отзыв">
+                        </div>
+                        <br>
+                        <div class="form-group-3">
+                            <button type="submit" id="comment-add" class="btn btn-primary">добавить комментарий</button>
+                        </div>
+                    </form>
+                </div>    
+            </div>   
+        </div>     
+    </div>
 
-    <div class="blog" id="disqus_thread"></div>
-    
+
+
         <footer class="footer">
             <div class="footer_content">
                 <div class="footer_head">
                     <ul>
                         <li><a href="../landing-2/index.php">Главная<i class="fa-solid fa-house-chimney"></i></a></li>
-                        <li><a href="../TOOLS/tools.php">Инструменты<i class="fa-solid fa-screwdriver-wrench"></i></a></li>
+                        <li><a href="../TOOLS/tools.php">Магазин<i class="fa-solid fa-shop"></i></a></li>
                         <li><a href="../contacts/index_contacts.php">Контакты<i class="fa-solid fa-address-book"></i></a></li>
                         <li><a href="../registration/index_registration.php">Регистрация<i class="fa-solid fa-id-card"></i></a></li>
                         <li><a href="../enter_page/index_enter_page.php#">Вход<i class="fa-solid fa-dungeon"></i></a></li>
@@ -83,24 +114,6 @@
                 </div>
             </div>
         </footer>
-<script>
-/**
-    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
-    /*
-    var disqus_config = function () {
-    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-    };
-    */
-        (function() { // DON'T EDIT BELOW THIS LINE
-        var d = document, s = d.createElement('script');
-        s.src = 'https://http-localhost-my-magazine-landing-index-php.disqus.com/embed.js';
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-    })();
-    </script>
-    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-    <script id="dsq-count-scr" src="//http-localhost-my-magazine-landing-index-php.disqus.com/count.js" async></script>
+
 </body>
 </html>

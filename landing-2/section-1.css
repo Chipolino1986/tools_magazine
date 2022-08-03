@@ -15,9 +15,14 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    position: absolute;
-    top: 10px;
+    transition: transform .3s linear;
+    position: fixed;
+    top: 0;
     z-index: 100;
+    background: rgba(255, 255, 255, 0.7);
+}
+.header.hide {
+    transform: translateY(-70px);
 }
 .items {
     max-width: 1200px;
@@ -25,42 +30,81 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    background: rgba(0, 0, 0, 0.5);
     align-items: center;
-    padding: 5px 10px;
+}
+.header > .items i {
+    padding-right: 5px;
+    font-size: .8rem;
+}
+.fa-chevron-down {
+    padding-left: 10px;
 }
 .items h1 {
     font-family: 'Roboto', sans-serif;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     font-size: 1.3rem;
     text-transform: uppercase;
-    font-weight: bold;
+    padding-left: 20px;
 }
-.items ul li {
-    display: inline-block;
-    margin-right: 0;
-    padding: 0 10px 0 10px;
-    border-right: 1px solid white;
+.items ul,
+.items ol {
+    list-style: none;
 }
-.items ul li:last-child {
-    margin-right: 0;
-    border-right: none;
+.items > ul {
+    display: flex;
+    justify-content: center;
 }
-.items ul li a {
-    color: rgb(255, 255, 255);
-    font-family: 'Roboto', sans-serif;
+.items > ul li {
+    position: relative;
+}
+.items > ul li a {
+    display: block;
+    padding: 15px 20px 15px 20px;
+    font-size: .7rem;
+    color: rgb(35, 35, 35);
+    text-decoration: none;
     text-transform: uppercase;
-    font-size: .8rem;
-    text-shadow: 1px 0 2px black;
+    transition: all .3s ease;
+    font-family: 'Roboto', sans-serif;
+}
+.items li a:hover {
+    background-color: rgb(70, 70, 70);
+    color: white;
+    box-shadow: 1px 5px 10px -5px black;
     transition: all .3s ease;
 }
-.items ul li a:hover {
-    color: goldenrod;
+/* -------------выподающее меню------------ */
+.items li ul {
+    position: absolute;
+    min-height: 150px;
+    display: none;
 }
-.items i {
-    margin-right: 5px;
-    color: goldenrod;
+.items li > ul li {
+    width: 150px;
+    border: 1px solid transparent;
+}
+.items li > ul li a {
+    text-transform: uppercase;
+    font-weight: normal;
     font-size: .8rem;
+    width: 250px;
+    height: 50px;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background: rgba(255, 255, 255, 0.7);
+}
+.items li > ul li a:hover {
+    background: rgb(70, 70, 70);
+}
+.items li > ul li ul {
+    position: absolute;
+    right: -150px;
+    top: 0;
+}
+.items li:hover > ul {
+    display: block;
 }
 /* ----------------------------slider---------------------------- */
 
@@ -187,7 +231,7 @@
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    z-index: 100;
+    /* z-index: 100; */
     margin: auto;
 }
 
@@ -217,6 +261,10 @@
     max-width: 600px;
     width: 100%;
     max-height: 400px;
+    background: url(../images/background/mekhanizm-komanda-rabota.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .sidebar {
     max-width: 500px;
@@ -228,13 +276,18 @@
 }
 .sidebar li {
     margin-left: 25px;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
     font-family: 'Roboto', sans-serif;
     list-style: disc;
 }
 .img_sale {
     height: 100%;
     box-shadow: 5px 5px 10px -5px black;
+    transition: all .8s ease;
+}
+.img_sale:hover {
+    opacity: 0;
+    transition: all .8s ease;
 }
 
 @media screen and (max-width:1100px) {

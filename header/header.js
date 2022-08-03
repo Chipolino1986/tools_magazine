@@ -1,3 +1,5 @@
+"use strict"
+
 let lastScroll = 0;
 const defaultOffset = 170;
 const header = document.querySelector('.header');

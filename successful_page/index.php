@@ -12,7 +12,7 @@
     <div class="main_wrapper">
         <div class="wrapper_seccess">
             <div class="closed_box">
-                <a href="../TOOLS/tools.php"><img class="cansel" src="../images/cancel (1).png" alt="cansel"></a>
+                <a href="../TOOLS/tools.php"><img class="cansel" src="../images/icons/cancel (1).png" alt="cansel"></a>
             </div>
             <div class="seccess_content">
                 <div class="secces_logo">

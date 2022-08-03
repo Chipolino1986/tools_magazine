@@ -65,26 +65,26 @@
 
                             <!-- Header -->
 
-            <div class="header">
-                <nav class="items">
-                    <h1>Магазин инструментов</h1>
-                    <ul>
-                        <li><a href="../landing-2/index.php"><i class="fa-solid fa-house"></i>главная</a></li>
-                        <li><a href="../about_us/index_about_us.php"><i class="fa-solid fa-people-group"></i>о нас</a></li>
-                        <li><a href="../TOOLS/tools.php"><i class="fa-solid fa-screwdriver-wrench"></i>инструменты</a></li>
-                        <li><a href="../contacts/index_contacts.php"><i class="fa-solid fa-square-phone-flip"></i>контакты</a></li>
-                    </ul>
-                    <ul>
-                        <li><a href="../enter_page/index_enter_page.php"><i class="fa-solid fa-arrow-right-to-bracket"></i>вход</a></li>
-                        <li><a href="../SQL/cart_test.php"><i class="fa-solid fa-cart-shopping"></i>корзина</a></li>
-                    </ul>
-                </nav>
-                <div class="burger_wrapper">
-                    <div class="line"></div>
-                    <div class="line"></div>
-                    <div class="line"></div>
-                </div>
-            </div>
+<div class="header">
+    <nav class="items">
+        <h1>Магазин инструментов</h1>
+        <ul>
+            <li><a href="../landing-2/index.php"><i class="fa-solid fa-house"></i>главная</a></li>
+            <li><a href="../about_us/index_about_us.php"><i class="fa-solid fa-people-group"></i>о нас</a></li>
+            <li><a href="../TOOLS/tools.php"><i class="fa-solid fa-shop"></i>магазин</a></li>
+            <li><a href="../contacts/index_contacts.php"><i class="fa-solid fa-square-phone-flip"></i>контакты</a></li>
+        </ul>
+        <ul>
+            <li><a href="../enter_page/index_enter_page.php"><i class="fa-solid fa-arrow-right-to-bracket"></i>вход</a></li>
+            <li><a href="../SQL/cart_test.php"><i class="fa-solid fa-cart-shopping"></i>корзина</a></li>
+        </ul>
+    </nav>
+    <div class="burger_wrapper">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+    </div>
+</div>
 
                             <!-- Container 1 -->
 
@@ -135,9 +135,8 @@
                 <div class="footer_head">
                     <ul>
                         <li><a href="../landing-2/index.php">Главная<i class="fa-solid fa-house-chimney"></i></a></li>
-                        <li><a href="../TOOLS/tools.php">Инструменты<i class="fa-solid fa-screwdriver-wrench"></i></a></li>
+                        <li><a href="../TOOLS/tools.php">Магазин<i class="fa-solid fa-shop"></i></a></li>
                         <li><a href="../contacts/index_contacts.php">Контакты<i class="fa-solid fa-address-book"></i></a></li>
-                        <!-- <li><a href="#">Регистрация<i class="fa-solid fa-id-card"></i></a></li> -->
                         <li><a href="../enter_page/index_enter_page.php#">Вход<i class="fa-solid fa-dungeon"></i></a></li>
                         <li><a href="../SQL/cart_test.php">Корзина<i class="fa-solid fa-cart-shopping"></i></a></li>
                     </ul>

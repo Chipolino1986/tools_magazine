@@ -1,0 +1,22 @@
+Date: 01/08/2022
+--------------------
+Products:
+--------------------
+Name: Бензопила Huter
+Price: 7190
+Amount: 1
+Total price: 7190
+--------------------
+Name: Шлифмашина Makita BO 5030
+Price: 7420
+Amount: 1
+Total price: 7420
+--------------------
+Name: Циркулярная пила Makita DHS680Z
+Price: 32500
+Amount: 1
+Total price: 32500
+--------------------
+TOTAL PRICE: 47110
+--------------------
+Pay by card

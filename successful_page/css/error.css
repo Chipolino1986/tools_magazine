@@ -15,10 +15,7 @@ body {
     height: 600px;
     margin: 70px auto;
     box-shadow: 0px 0px 25px -5px rgb(0, 0, 0); 
-    background: url(../../images/stylish-wallpaper_3.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: white;
 }
 .closed_box {
     display: flex;

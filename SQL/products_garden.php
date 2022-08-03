@@ -30,7 +30,7 @@
                     <ul>
                         <li><a href="../landing-2/index.php"><i class="fa-solid fa-house"></i>главная</a></li>
                         <li><a href="../about_us/index_about_us.php"><i class="fa-solid fa-people-group"></i>о нас</a></li>
-                        <li><a href="../TOOLS/tools.php"><i class="fa-solid fa-hammer"></i>инструменты</a></li>
+                        <li><a href="../TOOLS/tools.php"><i class="fa-solid fa-shop"></i>Магазин</a></li>
                         <li><a href="../contacts/index_contacts.php"><i class="fa-solid fa-square-phone-flip"></i>контакты</a></li>
                     </ul>
                     <ul>
@@ -71,7 +71,7 @@ if (isset($_POST["max-price"]) && !empty($_POST["max-price"])) {
 $dbProducts = $db->query("SELECT id, name, price, brandcountry, made FROM Product WHERE category_id = ".$categoryId.$filter.$sort);
 $products = $dbProducts->fetchAll();
 
-$images = $db->query("SELECT image_id FROM Product WHERE product.image_id = image_id");
+// $images = $db->query("SELECT image_id FROM Product WHERE product.image_id = image_id");
 
 ?>
 
@@ -132,7 +132,7 @@ if (isset($_POST["btn-buy"])) {
                 <div class="footer_head">
                     <ul>
                         <li><a href="../landing-2/index.php">Главная<i class="fa-solid fa-house-chimney"></i></a></li>
-                        <li><a href="../tools/index_tool.php">Инструменты<i class="fa-solid fa-screwdriver-wrench"></i></a></li>
+                        <li><a href="../tools/index_tool.php">Магазин<i class="fa-solid fa-shop"></i></a></li>
                         <li><a href="../contacts/index_contacts.php">Контакты<i class="fa-solid fa-address-book"></i></a></li>
                         <li><a href="../registration/index_registration.php">Регистрация<i class="fa-solid fa-id-card"></i></a></li>
                         <li><a href="../enter_page/index_enter_page.php#">Вход<i class="fa-solid fa-dungeon"></i></a></li>
