@@ -135,7 +135,8 @@
 }
 
 
-@media screen and (max-width: 1115px) {
+
+@media screen and (max-width: 1065px) {
     .header > .items .search_form {
         display: none;
     }
@@ -143,7 +144,12 @@
         justify-content: center;
     }
 }
-@media screen and (max-width: 815px) {
+@media screen and (max-width: 1024px) {
+    .container {
+        padding: 0 20px 40px 20px;
+    }
+}
+@media screen and (max-width: 768px) {
     .header > .items ul {
         display: none;
     }
@@ -160,9 +166,15 @@
         height: 3px;
         background: white;
     }
+    .pop_up {
+        top: 30px;
+    }
+}
+@media screen and (max-width: 601px) {
     .description_box {
         text-align: center;
         padding: 0 20px;
+        justify-content: center;
     }
     .description_box ul li {
         list-style: none;
@@ -172,55 +184,42 @@
         display: flex;
         justify-content: center;
     }
-    .pop_up {
-        top: 30px;
-    }
     .dastination p {
         text-align: center;
         padding: 0 20px;
     }
-}
-@media screen and (max-width: 761px) {
-    .footer_head > ul li {
-        margin: 10px;
+    .options {
+        display: none;
     }
-}
-@media screen and (max-width: 442px) {
-    .container h1 {
-        font-size: 1.5rem;
+    .img_box {
+        width: 250px;
+        margin: auto;
     }
-    .description_box ul li {
-        font-size: .8rem;
+    .pop_up_body {
+        max-width: 420px;
+        max-height: 420px;
     }
-    .options_descriptions p {
-        font-size: .8rem;
-    }
-    .img_box_wrapper {
+    .pop_up_body img {
         max-width: 350px;
+        min-height:350px;
     }
 }
-@media screen and (max-width: 380px) {
-    .description_box ul li {
-        font-size: .7rem;
-    }
-    .options_descriptions p {
-        font-size: .7rem;
-    }
-}
-@media screen and (max-width: 348px) {
+@media screen and (max-width: 480px) {
     .container h1 {
-        font-size: 1.1rem;
-    }
-    .img_box_wrapper {
-        max-width: 300px;
+        font-size: 1.3rem;
     }
     .description_box ul li {
-        font-size: .6rem;
+        font-size: .8rem;
     }
     .options_descriptions p {
-        font-size: .6rem;
-    }
-    .dastination p {
         font-size: .8rem;
+    }
+    .pop_up_body {
+        max-width: 300px;
+        max-height: 280px;
+    }
+    .pop_up_body img {
+        max-width: 220px;
+        min-height:200px;
     }
 }

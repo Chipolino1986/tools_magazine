@@ -11,6 +11,9 @@
     <link rel="stylesheet" href="../../footer/style_footer.css">
     <link rel="stylesheet" href="../../BASIC_CONTENT/style.css">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <script defer src="../stock.js"></script>
     <script defer src="../../BASIC_CONTENT/script_header.js"></script>
     <script defer src="../landing/js/script.js"></script>
