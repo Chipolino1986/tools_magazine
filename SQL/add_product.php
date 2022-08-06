@@ -21,7 +21,7 @@ $categories = $dbCategories->fetchAll();
 	<input class="input-str" type="text" name="brandcountry" placeholder="Страна бренда"><br><br>
 	<input class="input-str" type="text" name="made" placeholder="Страна производитель"><br><br>
 	
-	<button class="btn-add_product" type="submit" name="add-product" disabled>Add Product</button>
+	<button class="btn-add_product" type="submit" name="add-product" disabled>Добавить товар</button>
 </form>
 
 <script>

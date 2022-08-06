@@ -1,13 +1,13 @@
-.container_1 {
+.main_wrapper > .container_1 {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    background: url(../images/background/instrumenti.jpg) !important;
-    background-position: center !important;
-    background-repeat: no-repeat !important;
-    background-size: cover !important;
+    background: url(../images/background/ofis-zdanie-okna-steklo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     padding-top: 50px;
 }
 .about_us_text_box {
@@ -15,7 +15,7 @@
     width: 800px;
     min-height: 500px;
     height: 100%;
-    background: linear-gradient(45deg, #6e6e6e 30%,#4e4e4e 64%);
+    background: rgba(255, 255, 255, 0.7);
     flex-direction: column;
     justify-content: space-between;
     padding: 20px;
@@ -24,7 +24,7 @@
     box-shadow: 5px 6px 10px -5px black;
 }
 .about_us_text h1 {
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 25px;
     font-family: 'Roboto', sans-serif;
     text-shadow: 1px 0 1px black;
@@ -36,19 +36,13 @@
     margin-top: 20px;
 }
 .about_us_text p {
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     font-size: 1.1rem;
     font-family: 'Roboto', sans-serif;
-    text-shadow: 1px 0 1px black;
-}
-.about_us_text p:first-child {
-    color: white;
-    font-size: 1.1rem;
-    text-indent: 15px;
-    text-shadow: 1px 0 1px black;
 }
 .about_us_text p:nth-child(2) {
     margin: 20px 0;
+    color: rgb(0, 0, 0);
 }
 .about_us_text li:last-child {
     margin-bottom: 20px;
@@ -114,31 +108,27 @@
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     font-size: .8rem;
-    transition: all 0.6s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 .butt_home:hover {
-    background:linear-gradient(to left,rgb(120, 20, 20),rgb(0, 0, 0));
+    background: rgb(94, 40, 40);
     color: white;
 }
 
 
 
 
-@media screen and (max-width:1056px) {
-    .footer_head ul {
-        display: block;
-        margin: 5px 0;
-    }
-}
-@media screen and (max-width:1050px) {
-    .items h1 {
-        font-size: .9rem;
+
+@media screen and (max-width:1024px) {
+    .header > .items  h1 {
+        font-size: .8rem;
+        padding-top: 4px;
     }
     .items i {
         font-size: .8rem;
     }
     .items a {
-        font-size: .9rem;
+        font-size: .8rem;
     }
     .hummer-label {
         display: none;
@@ -146,43 +136,17 @@
     .arrow-go-home {
         display: none;
     }
-    .footer_head li {
-        margin: 10px 10px;
+    .header > .items > ul li {
+        border: none;
     }
 }
-@media screen and (max-width:1025px) {
-    .items h1 {
-        font-size: .8rem;
-    }
-    .items i {
-        font-size: .6rem;
-    }
-    .items a {
-        font-size: .8rem;
-    }
-    .footer_content > .footer_head ul {
-        display: block;
-    }
-}
-@media screen and (max-width:867px) {
-    .header > .items h1 {
-        font-size: .9rem;
-    }
-}
-@media screen and (max-width: 800px) {
-    .header {
-        flex-wrap: nowrap;
-    }
-    .items {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }
-    .items ul {
+
+@media screen and (max-width:768px){
+    .header > .items ul {
         display: none;
     }
     .burger_wrapper {
-        width: 35px;
+        width: 33px;
         height: 25px;
         padding: 2px;
         display: flex;
@@ -194,16 +158,9 @@
         height: 3px;
         background: white;
     }
-    .footer_head ul {
-        display: block;
-    }
-}
-@media screen and (max-width:768px){
     .about_us_text_box {
         margin: 25px;
     }
-}
-@media screen and (max-width:697px) {
     .title_box > .subTitle_text {
         font-size: 1.5rem;
     }
@@ -211,15 +168,7 @@
         font-size: 2rem;
     }
 }
-@media screen and (max-width: 637px) {
-    .title_text {
-        font-size: 2.3rem;
-    }
-    .subTitle_text {
-        font-size: 1.5rem;
-    }
-}
-@media screen and (max-width:523px) {
+@media screen and (max-width: 480px) {
     .title_box > .subTitle_text {
         font-size: 1.3rem;
     }
@@ -227,13 +176,7 @@
         font-size: 1.7rem;
     }
 }
-@media screen and (max-width:563px) {
-    .footer_content > .footer_items_box {
-        display: block;
-        text-align: center;
-    }
-}
-@media screen and (max-width:426px){
+@media screen and (max-width:420px){
     .about_us_text ul li {
         margin-left: 20px;
     }

@@ -36,14 +36,12 @@
                         <li><a href="../enter_page/index_enter_page.php"><i class="fa-solid fa-arrow-right-to-bracket"></i>вход</a></li>
                         <li><a href="../SQL/cart_test.php"><i class="fa-solid fa-cart-shopping"></i>корзина</a></li>
                     </ul>
-                </nav>
-
-                <a href="#" class="burger_wrapper">
-                    <div class="line"></div>
-                    <div class="line"></div>
-                    <div class="line"></div>
-                </a>
-                
+                    <a href="#" class="burger_wrapper">
+                        <div class="line"></div>
+                        <div class="line"></div>
+                        <div class="line"></div>
+                    </a>
+                </nav>  
             </div>
 
 <!------------------------------------ CONTAINER 1 ------------------------------------>

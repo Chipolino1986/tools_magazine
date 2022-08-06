@@ -208,6 +208,7 @@
     max-width: 1200px;
     width: 100%;
     flex-wrap: wrap;
+    padding: 0 25px;
 }
 .container_2_content h1 {
     font-size: 1.6rem;

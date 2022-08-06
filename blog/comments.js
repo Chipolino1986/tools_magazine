@@ -20,8 +20,15 @@ document.getElementById('comment-add').onclick = function(event) {
     showComments();
 }
 
+document.getElementById('comment-remove').onclick = function() {
+    removeComments();
+}
+
 function saveComments() {
     localStorage.setItem('comments', JSON.stringify(comments));
+}
+function removeComments() {
+    localStorage.removeItem('comments', JSON.stringify(comments));
 }
 function loadComments() {
     if (localStorage.getItem('comments')) comments = JSON.parse(localStorage.getItem('comments'));

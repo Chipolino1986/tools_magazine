@@ -84,7 +84,8 @@ btnNext.addEventListener("click", right);
 
 let position1 = 0;
 const container1 = document.querySelector('.slider_container1');
-let slidesToShow1 = ~~(container1.clientWidth / 300);
+const slideWidth = ~~(container1.clientWidth / 300);
+let slidesToShow1 = slideWidth || 1;
 let slidesToScroll1 = 1;
 const track1 = document.querySelector('.slider_track1');
 const btnPrev1 = document.querySelector('.btn_prev1');

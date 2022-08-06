@@ -1,217 +1,178 @@
-
-@media screen and (max-width:1050px) {
-    .header {
-        padding: 0 25px;
+@media screen and (max-width:1355px) {
+    .title {
+        margin-left: calc(75px + (0 - 75) * ((100vw - 768px) / (1920 - 768)));
     }
-    .items h1 {
+}
+
+@media screen and (max-width: 1024px) {
+    .header .items h1 {
         font-size: 1rem;
     }
-    .items > ul > li a {
-       font-size: .7rem;
+    .header .items ul li a {
+        padding: 15px 10px 15px 10px;
     }
-    .items ul li {
-        border: none;
-        padding: 0;
+    .header .items i {
+        font-size: .6rem;
     }
-    .title_content_wrapper {
-        padding-left: 80px;
+    .title {
+        max-width: 400px;
+        padding: 0 20px 30px 20px;
     }
-    .yellow_line_content p {
+    .title h2 {
+        font-size: 1.5rem;
+    }
+    .title h3 {
+        font-size: 1rem;
+    }
+    .title span {
+        font-size: 1.5rem;
+    }
+    .btn-start {
+        padding: 10px 35px;
+    }
+    .btn_next i {
+        font-size: 2.3rem;
+    }
+    .btn_prev i {
+        font-size: 2.3rem;
+    }
+    .title_aside {
+        font-size: 2rem;
+    }
+    .aside_container {
+        justify-content: center;
         text-align: center;
+    }
+    .img_box_aside {
+        max-width: 500px;
+    }
+    .sidebar {
+        padding-top: 35px;
+    }
+    .sidebar li {
+        list-style: none;
+        margin: 0;
+        padding: 7px;
     }
     .popular_title h4 {
-        text-align: center;
-        font-size: 1.3rem;
-    }
-    .container_2_content {
-        padding: 20px 15px;
-    }
-    .pay_sistem_lable {
-        margin: 5px;
-    }
-    .footer_head li {
-        margin: 10px 10px;
+        font-size: 1.5rem;
     }
 }
-@media screen and (max-width:965px) {
-    .adress_box {
-        margin: auto;
-    }
-}
-@media screen and (max-width:932px) {
-    .header {
-        flex-wrap: nowrap;
-        background: black;
-    }
-    .header > .items h1 {
-        color: white;
-    }
-    .items ul {
+@media screen and (max-width: 768px) {
+    .header .items ul {
         display: none;
     }
-    .items {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        background: none;
+    .header .items {
+        padding: 0 20px;
     }
     .burger_wrapper {
-        width: 40px;
+        display: block;
+        width: 30px;
         height: 30px;
-        padding: 2px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
     }
     .line {
         width: 100%;
         height: 3px;
-        background: white;
+        background: black;
+        margin: 5px;
     }
-}
-@media screen and (max-width: 784px) {
-    .footer_head ul {
-        display: block;
-    }
-}
-@media screen and (max-width: 760px) {
-    .title_content_wrapper {
-        padding-left: 0;
-    }
-    .title {
-        max-width: 450px;
-        min-height: 510px;
-        margin: 0 auto;
-        text-align: center;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-wrap: wrap;
-    }
-    .title h2 {
+    .title_aside {
         font-size: 1.5rem;
     }
-    .title h3 {
-        font-size: 1rem;
+    .img_box_aside {
+        max-width: 400px;
     }
-    .title h2,h3 {
-        text-align: center;
-    }
-}
-@media screen and (max-width: 670px) {
-    .title h2,h3 {
-        text-align: center;
-    }
-    .btn-start {
-        margin: auto;
-    }
-    .container_2_content h1 {
-        text-align: center;
-        max-width: 350px;
-        margin: auto;
-        font-size: 1.3rem;
-        font-weight: normal;
-    }
-    .container_2_content h1 span {
-        font-size: 1.5rem;
-    }
-    .yellow_line_content p {
-        text-align: center;
-        font-size: 1.5rem;
-    }
-    .footer_head ul {
-        display: block;
-    }
-}
-@media screen and (max-width: 630px) {
-    .title {
-        max-width: 350px;
-        min-height: 510px;
-    }
-}
-@media screen and (max-width: 581px) {
-    .title h2 {
-        font-size: 1.5rem;
-    }
-    .title h3 {
-        font-size: 1rem;
-    }
-    .slider_item1:nth-child(-n+15) {
-       background-size: contain;
-    }
-}
-@media screen and (max-width: 565px) {
-    .footer_items_box {
-        display: block;
-    }
-    .footer_items_box ul {
-        text-align: center;
-    }
-}
-@media screen and (max-width: 520px) {
-    .title {
-        max-width: 250px;
-        text-align: center;
-    }
-    .title h2 {
-        font-size: 1rem;
-    }
-    .title h3 {
+    .sidebar li {
         font-size: .8rem;
     }
-    .container_2_content h1 {
-        font-size: 1.3rem;
-    }
-    .container_2_content h1 span {
+    .yellow_line_content p {
         font-size: 1.5rem;
+    }
+    .container_2_content h1 {
+        font-size: 1.4rem;
+    }
+    .container_2_content span {
+        font-size: 1rem;
+    }
+    .container_2_content span:nth-child(2) {
+        font-size: 1.4rem;
     }
     .container_2_content p {
         font-size: .8rem;
-        width: 70%;
-        margin: 0 auto;
-        text-align: center;
+    }
+    .pay_sistem_lable {
+        margin: 0 10px;
     }
 }
-@media screen and (max-width: 420px) {
-    .header > .items h1 {
-        font-size: .9rem;
-    }
-    .footer_head i {
-        font-size: .8rem;
-    }
+@media screen and (max-width: 600px) {
     .title {
-        max-width: 200px;
-        text-align: center;
+        margin: auto;
     }
     .title h2 {
-        font-size: .9rem;
+        font-size: 1rem;
+        padding: 30px 0 0 0;
     }
     .title h3 {
+        padding: 10px 0 10px 0;
         font-size: .7rem;
     }
-    .btn-start {
-        padding: 3px 15px;
-        font-size: .7rem;
-    }
-    .burger_wrapper {
-        width: 35px;
-        height: 25px;
-        padding: 2px;
-    }
-    .line {
-        width: 100%;
-        height: 3px;
-    }
-}
-@media screen and (max-width: 370px) {
-    .title_aside {
-        font-size: 1.3rem;
-    }
-    .yellow_line_content p {
+    .title span {
         font-size: 1rem;
     }
-    .container_2_content span {
+    .btn-start {
+        padding: 7px 15px;
+        font-size: .6rem;
+        margin: 0;
+    }
+}
+@media screen and (max-width: 480px) {
+    .header .items h1 {
+        font-size: .9rem;
+    }
+    .burger_wrapper {
+        width: 25px;
+        height: 25px;
+        margin-bottom: 5px;
+    }
+    .title {
+        width: 200px;
+        height: 300px;
+        padding: 0 10px;
+        text-align: center;
+    }
+    .title span {
         font-size: .8rem;
+    }
+    .title h2 {
+        padding-top: 60px;
+        padding-bottom: 30px;
+        font-size: .6rem;
+    }
+    .title h3 {
+        padding-bottom: 25px;
+    }
+    .btn_next i, 
+    .btn_prev i {
+        font-size: 1.4rem;
+    }
+    .img_box_aside {
+        width: 300px;
+    }
+    .sidebar li {
+        font-size: .65rem;
+    }
+    .popular_title h4 {
+        font-size: 1rem;
+    }
+    .yellow_line_content p {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+    .container_2_content h1 {
+        font-size: 1.1rem;
+        text-align: center;
+    }
+    .pay_sistem_lable {
+        margin: 10px;
     }
 }

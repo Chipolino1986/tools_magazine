@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="../../BASIC_CONTENT/style.css">
     <link rel="stylesheet" href="../../header/header.css">
     <link rel="stylesheet" href="../../footer/style_footer.css">
+    <link rel="stylesheet" href="../media_stock.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,10 +24,7 @@
              <div class="header">
                 <nav class="items">
 
-                    <div class="search_form">
-                        <i class="fa-solid fa-magnifying-glass"></i>
-                        <? require_once "../../SQL/search_form.php"; ?>
-                    </div>
+                <h1>Бензопила Huter</h1>
                     
                     <ul>
                         <li><a href="../../landing-2/index.php"><i class="fa-solid fa-house"></i>главная</a></li>
@@ -39,14 +37,12 @@
                         <li><a href="../../enter_page/index_enter_page.php"><i class="fa-solid fa-arrow-right-to-bracket"></i>вход</a></li>
                         <li><a href="../../SQL/cart_test.php"><i class="fa-solid fa-cart-shopping"></i>корзина</a></li>
                     </ul>
+                        <div class="burger_wrapper">
+                        <div class="line"></div>
+                        <div class="line"></div>
+                        <div class="line"></div>
+                    </div>
                 </nav>
-                
-                <div class="burger_wrapper">
-                    <div class="line"></div>
-                    <div class="line"></div>
-                    <div class="line"></div>
-                </div>
-
             </div>
         
         <div class="container">

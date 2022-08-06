@@ -21,11 +21,11 @@
 <body>
             <div class="header">
                 <nav class="items">
-                    <i class="fa-solid fa-magnifying-glass"></i>
-                    <div class="search_form">
+                    
+                    
                         <i class="fa-solid fa-magnifying-glass"></i>
                         <? require_once "../SQL/search_form.php"; ?>
-                    </div>
+                  
                         
                     <ul>
                         <li><a href="../landing-2/index.php"><i class="fa-solid fa-house"></i>главная</a></li>
@@ -71,7 +71,6 @@ if (isset($_POST["max-price"]) && !empty($_POST["max-price"])) {
 $dbProducts = $db->query("SELECT id, name, price, brandcountry, made FROM Product WHERE category_id = ".$categoryId.$filter.$sort);
 $products = $dbProducts->fetchAll();
 
-// $images = $db->query("SELECT image_id FROM Product WHERE product.image_id = image_id");
 
 ?>
 
@@ -120,10 +119,6 @@ if (isset($_POST["btn-buy"])) {
 	$_SESSION["cart_test"] = $cart;
 }
 ?>
-
-<!-- <h2><a href="http://localhost/My_magazine/landing/index.php">Вернутся на главную</a></h2> -->
-<!-- <h2><a class="cart_garden" href="cart_test.php">Перейти в корзину<i class="fa-solid fa-cart-shopping"></i></a></h2> -->
-
 <!------------------------------------------------------------------------------------------------------------------>
         </section>
 

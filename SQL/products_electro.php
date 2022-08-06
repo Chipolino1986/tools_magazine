@@ -22,11 +22,11 @@
             <div class="header">
                 
                 <nav class="items">
-                    <i class="fa-solid fa-magnifying-glass lupa"></i>
-                    <div class="search_form">
+                    
+                    
                         <i class="fa-solid fa-magnifying-glass"></i>
                         <? require_once "../SQL/search_form.php"; ?>
-                    </div>
+                    
                     <ul>
                         <li><a href="../landing-2/index.php"><i class="fa-solid fa-house"></i>главная</a></li>
                         <li><a href="../about_us/index_about_us.php"><i class="fa-solid fa-people-group"></i>о нас</a></li>

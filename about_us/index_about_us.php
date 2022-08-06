@@ -32,7 +32,7 @@
                     <h1>Магазин инструментов</h1>
                     <ul>
                         <li><a href="../landing-2/index.php"><i class="fa-solid fa-house"></i>главная</a></li>
-                        <li><a href="../TOOLS/tools.php"><i class="fa-solid fa-screwdriver-wrench"></i>инструменты</a></li>
+                        <li><a href="../TOOLS/tools.php"><i class="fa-solid fa-shop"></i>магазин</a></li>
                         <li><a href="../contacts/index_contacts.php"><i class="fa-solid fa-square-phone-flip"></i>контакты</a></li>
                     </ul>
                     <ul>

@@ -1,11 +1,8 @@
-body {
-    padding-top: 50px;
-    background: linear-gradient(45deg, rgb(255, 255, 255) 50%,rgb(40, 40, 40) 50%);
-}
 .section-1 {
     max-width: 1400px;
     width: 100%;
     margin: 0 auto;
+    background: rgb(235 235 235);
 }
 /* -------------------header------------------------------ */
 .header {
@@ -71,18 +68,17 @@ body {
     color: white;
     display: none;
 }
-.search_form {
+.main_search_form {
+    width: 320px;
     position: relative;
-    width: 300px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
-.search_form i {
+.main_search_form i {
+    display: block;
     position: absolute;
-    top: 8px;
-    left: 62%;
-    color: rgb(190, 190, 190);
+    top: 9px;
+    left: 200px;
+    color: black;
+    opacity: .3;
 }
 .search {
     width: 70%;
@@ -103,7 +99,6 @@ body {
     background: rgb(120, 40, 40);
     color: white;
     padding: 3px 15px;
-    border-radius:  0 4px 4px 0;
     font-family: 'Roboto', sans-serif;
     transition: all .3s ease;
 }
@@ -118,23 +113,21 @@ body {
     justify-content: center;
     font-family: 'Roboto', sans-serif;
     font-size: 1.5rem;
-    padding: 20px 0;
-    color: white;
+    padding-top: 80px;
+    color: rgb(0, 0, 0);
     text-transform: uppercase;
     font-weight: bold;
 }
 .price {
-    width: 100%;
-    min-height: 50px;
-    height: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    border-bottom: 2px solid rgb(74, 74, 74);
     font-family: 'Roboto', sans-serif;
     color: rgb(0, 0, 0);
     background-color: goldenrod;
+    margin: 25px 0;
+    padding: 20px 0;
 }
 .min_price {
     width: 250px;
@@ -142,12 +135,14 @@ body {
     border: 1px solid black;
     border-radius: 4px;
     margin-right: 20px;
+    padding-left: 10px;
 }
 .max_price {
     width: 250px;
     height: 30px;
     border: 1px solid black;
     border-radius: 4px;
+    padding-left: 10px;
 }
 .btn_apply_filter_garden {
     width: 150px;
@@ -164,11 +159,10 @@ body {
     color: black;
     outline: 1px solid black;
 }
-
 .btn_buy_garden {
     background-color: rgb(160, 40, 40);
     color: white;
-    border-radius: 4px;
+    border-radius: 2px;
     font-family: 'Roboto', sans-serif;
     font-size: .9rem;
     padding: 7px 15px;
@@ -185,93 +179,76 @@ body {
     display: flex;
     flex-wrap: wrap;
     margin: 0 auto;
+    padding: 30px 0;
 }
 .product_box_garden {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    max-width: 450px;
+    max-width: 400px;
     width: 100%;
-    min-height: 220px;
+    min-height: 200px;
     box-shadow: 3px 3px 10px -5px black;
     padding: 10px;
-    margin: 5px auto;
-    background-color: #ffe092;
-    border-radius: 4px;
+    margin: 15px auto;
+    transition: all .3s ease;
+    background-color: white;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+.product_box_garden:hover {
+    transform: scale(1.05);
 }
 .product_box_garden:nth-child(2) {
     background-image: url(../../images/img_tools_500x500/gazon-gardena-600x600.png);
-    background-position: right;
-    background-repeat: no-repeat;
     background-size: 50% 100%;
 }
 .product_box_garden:nth-child(3) {
     background-image: url(../../images/img_tools_500x500/benzopila-STIHL-600x600.png);
-    background-position: right;
-    background-repeat: no-repeat;
     background-size: 60%;
 }
 .product_box_garden:nth-child(4) {
     background-image: url(../../images/img_tools_500x500/trimmer-STIHL-700x800.png);
-    background-position: right;
-    background-repeat: no-repeat;
     background-size: 60% 100%;
 }
 .product_box_garden:nth-child(5) {
     background-image: url(../../images/img_tools_500x500/vozduhoduvka-chempion-600x600.png);
-    background-position: right;
-    background-repeat: no-repeat;
     background-size: 60%;
 }
 .product_box_garden:nth-child(6) {
     background-image: url(../../images/img_tools_500x500/moika-500x600.png);
-    background-position: right;
-    background-repeat: no-repeat;
     background-size: 60% 100%;
 }
 .product_box_garden:nth-child(7) {
     background-image: url(../../images/img_tools_500x500/trimmer-huter-500x300.png);
-    background-position: right;
-    background-repeat: no-repeat;
     background-size: 60%;
 }
 .product_box_garden:nth-child(8) {
     background-image: url(../../images/img_tools_500x500/bs-40-1-800x800.png);
-    background-position: right;
-    background-repeat: no-repeat;
     background-size: 60%;
 }
 .product_box_garden:nth-child(9) {
     background-image: url(../../images/img_tools_500x500/husqvarna-236-2-900x900.png);
-    background-position: right;
-    background-repeat: no-repeat;
     background-size: 60%;
 }
 .product_box_garden:nth-child(10) {
     background-image: url(../../images/img_tools_500x500/gazon_huter-500x500.png);
-    background-position: right;
-    background-repeat: no-repeat;
     background-size: 60% 100%;
 }
 .product_box_garden:nth-child(11) {
     background-image: url(../../images/img_tools_500x500/electro/Kustorez_bosch-800x800.png);
-    background-position: right;
-    background-repeat: no-repeat;
     background-size: 60% 100%;
-    order: 1;
 }
 .product_box_garden h3 {
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     font-size: 1rem;
-    color: rgb(140, 0, 0);
     text-transform: uppercase;
 }
 .product_box_garden p:nth-child(2) {
     color: red;
     font-weight: bold;
     font-size: 1.2rem;
-    text-shadow: 1px 0 1px rgb(255, 255, 255);
     font-family: 'Roboto', sans-serif;
 }
 .product_box_garden p {
@@ -283,114 +260,172 @@ body {
 
 /* ----------------------media------------------- */
 
-@media screen and (max-width:1120px) {
-    .items h1 {
-        font-size: .9rem;
-    }
-    .items > ul i {
+@media screen and (max-width:1090px) {
+    .header > .items ul li a, i, .header > .items ul li  {
         font-size: .8rem;
+        border: none;
+        padding: 0;
     }
-    .items a {
-        font-size: .9rem;
+    .main_search_form {
+        width: 220px;
     }
-    .items {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
+    .main_search_form > .search {
+        position: relative;
+        width: 150px;
     }
-    .hummer-label {
-        display: none;
+    .main_search_form > .search-btn {
+        padding: 3px 10px;
+        border-radius: 0;
     }
-    .arrow-go-home {
-        display: none;
-    }
-    .footer_head li {
-        margin: 10px 10px;
+    .main_search_form i {
+        position: absolute;
+        color: gray;
+        top: 10px;
+        left: 130px;
     }
 }
-@media screen and (max-width:1071px) {
-    .items h1 {
-        font-size: .8rem;
-    }
-    .items > ul i {
-        font-size: .8rem;
-    }
-    .items a {
-        font-size: .8rem;
-    }
+@media screen and (max-width:1024px) {
     .price {
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 380px;
+        margin: 25px auto;
     }
     .min_price {
         margin: 0;
     }
     .btn_apply_filter_garden {
-        margin: 10px 0 0 0;
+        margin-top: 20px;
+        margin-left: 0;
     }
-    .search_form {
-        display: none;
-    }
-    .items > i {
-        display: block !important;
-        color: white;
-        font-size: 1.3rem;
-        margin-right: 20px;
+    .product_box_garden {
+        width: 360px;
+        min-height: 180px;
     }
 }
-@media screen and (max-width:985px) {
-    .items h1 {
-        font-size: .8rem;
-    }
-    .items > ul i {
-        font-size: .8rem;
-    }
-    .items a {
-        font-size: .8rem;
-    }
-}
-@media screen and (max-width:740px) {
-    .items ul {
+@media screen and (max-width:768px) {
+    .header > .items ul {
         display: none;
-    }
-    .burger_wrapper {
-        width: 35px;
-        height: 25px;
-        padding: 2px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
     }
     .title_product_list h1 {
-        text-align: center;
-        font-size: 1.4rem;
+        padding-top: 25px;
+    }
+    .burger_wrapper {
+        width: 30px;
+        height: 25px;
     }
     .line {
         width: 100%;
         height: 3px;
         background: white;
+        margin: 5px 0;
     }
-    .price {
-        display: flex;
-        flex-direction: column;
+    .main_search_form {
+        width: 250px;
     }
-    .min_price {
-        margin: 0;
+    .main_search_form > .search {
+        position: relative;
+        width: 180px;
+        height: 27px;
     }
-    .btn_apply_filter_garden {
-        margin: 10px 0 0 0;
+    .main_search_form > .search-btn {
+        padding: 2px 8px;
+        border-radius: 0;
     }
-    .items {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
+    .main_search_form i {
+        position: absolute;
+        color: gray;
+        top: 10px;
+        left: 160px;
+    }
+    .title_product_list h1 {
+        font-size: 1.2rem;
+        font-weight: normal;
+    }
+    .product_box_garden {
+        min-height: 130px;
+    }
+    .product_box_garden, .product_box_garden h3 {
+        width: 270px;
+        font-size: .7rem;
+    }
+    .product_box_garden p:nth-child(2) {
+        font-size: .7rem;
+    }
+    .product_box_garden p {
+        font-size: .7rem;
+    }
+    .btn_buy_garden {
+        padding: 3px 5px;
+        border-radius: 0;
+        text-transform: uppercase;
+        font-size: .7rem;
+        padding: 4px 10px;
     }
 }
-@media screen and (max-width:590px) {
-    .footer_head ul {
-        display: block !important;
+@media screen and (max-width:600px) {
+    .title_product_list h1 {
+        font-size: 1.2rem;
+        font-weight: normal;
     }
-    .search_form {
-       display: none;
+    .product_box_garden {
+        min-height: 200px;
+    }
+    .product_box_garden, .product_box_garden h3 {
+        width: 400px;
+        font-size: 1rem;
+    }
+    .product_box_garden p:nth-child(2) {
+        font-size: .9rem;
+    }
+    .product_box_garden p {
+        font-size: .9rem;
+    }
+    .btn_buy_garden {
+        padding: 3px 5px;
+        border-radius: 0;
+    }
+}
+@media screen and (max-width:480px) {
+    .title_product_list h1 {
+        font-size: .8rem;
+        padding-top: 80px;
+        color: black;
+        text-align: center;
+    }
+    .product_box_garden {
+        min-height: 150px;
+    }
+    .product_box_garden, .product_box_garden h3 {
+        width: 250px;
+        font-size: .7rem;
+    }
+    .product_box_garden p {
+        font-size: .7rem;
+    }
+    .price {
+        width: 250px;
+    }
+    .min_price {
+        width: 170px;
+    }
+    .max_price {
+        width: 170px;
+    }
+    .main_search_form {
+        display: none;
+    }
+    .header > .items i {
+        display: block;
+        color: white;
+        font-size: 1rem;
+    }
+    .btn_buy_garden {
+        text-transform: uppercase;
+        font-size: .6rem;
+        padding: 4px 10px;
     }
 }

@@ -1,11 +1,9 @@
-body {
-    padding-top: 50px;
-    background: linear-gradient(50deg,white 50%,rgb(40, 40, 40) 50%);
-}
+
 .section-1 {
     max-width: 1400px;
     width: 100%;
     margin: 0 auto;
+    background: rgb(235,235,235);
 }
 /* -------------------header------------------------------ */
 .header {
@@ -60,33 +58,35 @@ body {
     color: goldenrod;
     margin-right: 5px;
 }
-.items > ul > li a:hover {
+.items ul li a:hover {
+    color: goldenrod;
+}
+.items ul li a:hover {
     color: goldenrod;
 }
 .items > i {
+    margin-right: 5px;
     color: white;
     display: none;
 }
-.search_form {
+.main_search_form {
+    width: 320px;
     position: relative;
-    width: 300px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
-.search_form i {
+.main_search_form i {
+    display: block;
     position: absolute;
-    top: 8px;
-    left: 62%;
+    top: 9px;
+    left: 200px;
     color: black;
     opacity: .3;
-    display: block !important;
 }
 .search {
     width: 70%;
     height: 29px;
     border-radius: 40px 0 0 40px;
     border: 1px solid white;
+    display: inline-block;
     font-family: 'Roboto', sans-serif;
     padding: 0 10px;
 }
@@ -100,7 +100,6 @@ body {
     background: rgb(120, 40, 40);
     color: white;
     padding: 3px 15px;
-    border-radius:  0 4px 4px 0;
     font-family: 'Roboto', sans-serif;
     transition: all .3s ease;
 }
@@ -115,303 +114,317 @@ body {
     justify-content: center;
     font-family: 'Roboto', sans-serif;
     font-size: 1.5rem;
-    padding: 20px 0;
-    color: white;
+    padding-top: 80px;
+    color: rgb(0, 0, 0);
     text-transform: uppercase;
     font-weight: bold;
 }
-.fa-magnifying-glass {
-    display: none !important;
-}
 .price {
-    width: 100%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    border-bottom: 2px solid rgb(74, 74, 74);
-    min-height: 50px;
-    height: 100%;
     font-family: 'Roboto', sans-serif;
     color: rgb(0, 0, 0);
     background-color: goldenrod;
+    margin: 25px 0;
+    padding: 20px 0;
 }
 .min_price {
     width: 250px;
     height: 30px;
     border: 1px solid black;
-    margin-right: 30px;
     border-radius: 4px;
+    margin-right: 20px;
+    padding-left: 10px;
 }
 .max_price {
     width: 250px;
     height: 30px;
     border: 1px solid black;
     border-radius: 4px;
+    padding-left: 10px;
 }
 .btn_apply_filter_acum {
     width: 150px;
     height: 30px;
     background-color: rgb(50, 50, 95);
-    border: 1px solid white;
     color: white;
     margin-left: 30px;
     border-radius: 4px;
     transition: all .3s ease;
+    font-family: 'Roboto', sans-serif;
 }
 .btn_apply_filter_acum:hover {
     background-color: rgb(223, 193, 73);
     color: black;
-    border: 1px solid black;
+    outline: 1px solid black;
 }
 .btn_buy_acum {
     background-color: rgb(160, 40, 40);
     color: white;
-    transition: all .3s ease;
-    border-radius: 4px;
+    border-radius: 2px;
     font-family: 'Roboto', sans-serif;
     font-size: .9rem;
-    padding: 5px 15px;
-    transition: all .3s ease;
+    padding: 7px 15px;
+    transition: .3s ease;
     border: 1px solid transparent;
 }
 .btn_buy_acum:hover {
     background: goldenrod;
-    color: black;
+    color: rgb(0, 0, 0);
     border: 1px solid black;
-}
-.product_box_acum {
-    border-radius: 4px;
-    box-shadow: 3px 3px 10px -5px black;
-    max-width: 450px;
-    width: 100%;
-    min-height: 220px;
-    padding: 10px;
-    margin: 5px auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    background-color: #ffe092 !important;
-}
-.product_box_acum h3 {
-    font-family: sans-serif;
-    font-weight: bold;
-    text-transform: uppercase;
-    font-size: 1.2rem;
-    color: rgb(140, 0, 0);
-}
-.product_box_acum p:nth-child(2) {
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold;
-    color: red;
-    font-size: 1.2rem;
-    text-shadow: 1px 0 1px rgb(255, 255, 255);
-}
-.product_box_acum p {
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold;
-    color: rgb(40, 40, 40);
 }
 .products_box_content {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     margin: 0 auto;
+    padding: 30px 0;
 }
-.price_form_acum {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.product_box_acum:nth-child(2) {
-    background: url(../../images/img_tools_500x500/acum/shurupovert-metabo-800x800.png);
-    background-position: right;
-    background-repeat: no-repeat;
-    background-size: 50% 90%;
+.section-1 > .products_box_content > .product_box_acum {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    max-width: 400px;
+    width: 100%;
+    height: 200px;
+    box-shadow: 3px 3px 10px -5px black;
+    padding: 10px;
+    margin: 15px auto;
+    transition: all .3s ease;
+    background-color: white;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+.section-1 > .products_box_content > .product_box_acum h3 {
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+}
+.section-1 > .products_box_content > .product_box_acum p:nth-child(2) {
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    color: red;
+}
+.section-1 > .products_box_content > .product_box_acum p {
+    font-size: .8rem;
+    font-family: 'Roboto', sans-serif;
+}
+.section-1 > .products_box_content > .product_box_acum:hover {
+    transform: scale(1.05);
+}
+.product_box_acum:nth-child(2) {
+    background: url(../../images/img_tools_500x500/acum/shurupovert-metabo-800x800.png);
+    background-size: 50% 90%;
 }
 .product_box_acum:nth-child(3) {
     background: url(../../images/img_tools_500x500/acum/lobzik-bosch-1000x1000.png);
-    background-position: right;
-    background-repeat: no-repeat;
     background-size: 50% 90%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
 }
 .product_box_acum:nth-child(4) {
     background: url(../../images/img_tools_500x500/acum/DeWalt--600x600.png);
-    background-position: right;
-    background-repeat: no-repeat;
     background-size: 50% 90%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
 }
 .product_box_acum:nth-child(5) {
     background: url(../../images/img_tools_500x500/acum/circulyarka-de-walt-400x400.png);
-    background-position: right;
-    background-repeat: no-repeat;
     background-size: 50% 90%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
 }
 .product_box_acum:nth-child(6) {
     background: url(../../images/img_tools_500x500/acum/lenta-pila_makita-600x600.png);
-    background-position: right;
-    background-repeat: no-repeat;
     background-size: 50% 90%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
 }
 .product_box_acum:nth-child(7) {
     background: url(../../images/img_tools_500x500/acum/drel-mikser_makita-600x600.png);
-    background-position: right;
-    background-repeat: no-repeat;
     background-size: 50% 90%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
 }
 .product_box_acum:nth-child(8) {
     background: url(../../images/img_tools_500x500/acum/cirkulyarka_makita-600x600.png);
-    background-position: right;
-    background-repeat: no-repeat;
     background-size: 50% 80%;
-    display: flex;
-    flex-direction: column;
 }
 .product_box_acum:nth-child(9) {
     background: url(../../images/img_tools_500x500/acum/perforator_makita-800x800.png);
-    background-position: right;
-    background-repeat: no-repeat;
     background-size: 50% 80%;
-    display: flex;
-    flex-direction: column;
+   
 }
 .product_box_acum:nth-child(10) {
     background: url(../../images/img_tools_500x500/acum/HIKOKI-DS12DA.500x400.png);
-    background-position: right;
-    background-repeat: no-repeat;
     background-size: 50% 90%;
-    display: flex;
-    flex-direction: column;
 }
 
 /* ----------------------media------------------- */
 
-@media screen and (max-width:1120px) {
-    .items h1 {
-        font-size: .9rem;
-    }
-    .items > ul i {
+@media screen and (max-width:1090px) {
+    .header > .items ul li a, i, .header > .items ul li  {
         font-size: .8rem;
+        border: none;
+        padding: 0;
     }
-    .items a {
-        font-size: .9rem;
+    .main_search_form {
+        width: 220px;
     }
-    .items {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
+    .main_search_form > .search {
+        position: relative;
+        width: 150px;
     }
-    .hummer-label {
-        display: none;
+    .main_search_form > .search-btn {
+        padding: 3px 10px;
+        border-radius: 0;
     }
-    .arrow-go-home {
-        display: none;
-    }
-    .footer_head li {
-        margin: 10px 10px;
+    .main_search_form i {
+        position: absolute;
+        color: gray;
+        top: 10px;
+        left: 130px;
     }
 }
-@media screen and (max-width:1071px) {
-    .items h1 {
-        font-size: .8rem;
-    }
-    .items > ul i {
-        font-size: .8rem;
-    }
-    .items a {
-        font-size: .8rem;
-    }
+@media screen and (max-width:1024px) {
     .price {
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 380px;
+        margin: 25px auto;
     }
     .min_price {
         margin: 0;
     }
     .btn_apply_filter_acum {
-        margin: 10px 0 0 0;
+        margin-top: 20px;
+        margin-left: 0;
     }
-    .search_form {
-        display: none;
-    }
-    .items > i {
-        display: block !important;
-        color: white;
-        font-size: 1.3rem;
-        margin-right: 20px;
+    .product_box_acum {
+        width: 360px;
+        height: 180px;
     }
 }
-@media screen and (max-width:985px) {
-    .items h1 {
-        font-size: .8rem;
-    }
-    .items > ul i {
-        font-size: .8rem;
-    }
-    .items a {
-        font-size: .8rem;
-    }
-}
-@media screen and (max-width:740px) {
-    .items ul {
+@media screen and (max-width:768px) {
+    .header > .items ul {
         display: none;
-    }
-    .burger_wrapper {
-        width: 35px;
-        height: 25px;
-        padding: 2px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
     }
     .title_product_list h1 {
-        text-align: center;
-        font-size: 1.4rem;
+        padding-top: 25px;
+    }
+    .burger_wrapper {
+        width: 30px;
+        height: 25px;
     }
     .line {
         width: 100%;
         height: 3px;
         background: white;
+        margin: 5px 0;
     }
-    .price {
-        display: flex;
-        flex-direction: column;
+    .main_search_form {
+        width: 250px;
     }
-    .min_price {
-        margin: 0;
+    .main_search_form > .search {
+        position: relative;
+        width: 180px;
+        height: 27px;
     }
-    .btn_apply_filter_acum {
-        margin: 10px 0 0 0;
+    .main_search_form > .search-btn {
+        padding: 2px 8px;
+        border-radius: 0;
     }
-    .items {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
+    .main_search_form i {
+        position: absolute;
+        color: gray;
+        top: 10px;
+        left: 160px;
+    }
+    .title_product_list h1 {
+        font-size: 1.2rem;
+        font-weight: normal;
+        padding-top: 70px;
+    }
+    .product_box_acum {
+        height: 130px;
+        width: 270px;
+    }
+    .product_box_acum h3 {
+        font-size: .7rem;
+    }
+    .product_box_acum p:nth-child(2) {
+        font-size: .7rem;
+    }
+    .product_box_acum p {
+        font-size: .7rem;
+    }
+    .btn_buy_acum {
+        padding: 3px 5px;
+        border-radius: 0;
+        text-transform: uppercase;
+        font-size: .7rem;
+        padding: 4px 10px;
     }
 }
-@media screen and (max-width:590px) {
-    .footer_head ul {
-        display: block !important;
+@media screen and (max-width:600px) {
+    .title_product_list h1 {
+        font-size: 1.2rem;
+        font-weight: normal;
+        text-align: center;
     }
-    .search_form {
-       display: none;
+    .product_box_acum {
+        height: 200px;
+        width: 400px;
+    }
+    .product_box_acum h3 {
+        font-size: 1rem;
+    }
+    .product_box_acum p:nth-child(2) {
+        font-size: .9rem;
+    }
+    .product_box_acum p {
+        font-size: .9rem;
+    }
+    .btn_buy_acum {
+        padding: 3px 5px;
+        border-radius: 0;
+    }
+}
+@media screen and (max-width:480px) {
+    .title_product_list h1 {
+        font-size: .8rem;
+        padding-top: 80px;
+        color: black;
+        text-align: center;
+    }
+    .section-1 > .products_box_content > .product_box_acum {
+        height: 150px;
+        width: 270px;
+    }
+    .section-1 > .products_box_content > .product_box_acum h3 {
+        font-size: .7rem;
+    }
+    .section-1 > .products_box_content > .product_box_acum p:nth-child(2) {
+        font-size: .7rem;
+    }
+    .section-1 > .products_box_content > .product_box_acum p {
+        font-size: .7rem;
+    }
+    .price {
+        width: 250px;
+    }
+    .min_price {
+        width: 170px;
+    }
+    .max_price {
+        width: 170px;
+    }
+    .main_search_form {
+        display: none;
+    }
+    .header > .items i {
+        display: block;
+        color: white;
+        font-size: 1rem;
+    }
+    .btn_buy_acum {
+        text-transform: uppercase;
+        font-size: .6rem;
+        padding: 4px 10px;
     }
 }

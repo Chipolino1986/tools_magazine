@@ -58,10 +58,10 @@
                     <i class="fa-solid fa-arrow-down-short-wide"></i>
                 </h1>
 
-                <div class="search_form_tools">
-                    <i class="fa-solid fa-magnifying-glass"></i>
-                    <? require_once "../SQL/search_form.php"; ?>
-                </div>
+                
+                    
+                    <? require_once "../SQL/search_form.php" ?>
+                
 
                 <div class="tool_box">
                     <div class="tool_block_wrapper">

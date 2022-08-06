@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="../../header/header.css">
     <link rel="stylesheet" href="../../footer/style_footer.css">
     <link rel="stylesheet" href="../../BASIC_CONTENT/style.css">
+    <link rel="stylesheet" href="../media_stock.css">
 
     <script defer src="../stock.js"></script>
     <script defer src="../../BASIC_CONTENT/script_header.js"></script>
@@ -20,10 +21,7 @@
     <section class="section-1">
     <div class="header">
                 <nav class="items">
-                    <div class="search_form">
-                        <i class="fa-solid fa-magnifying-glass"></i>
-                        <? require_once "../../SQL/search_form.php"; ?>
-                    </div>
+                    <h1>Газонокосилка</h1>
                     <ul>
                         <li><a href="../../landing-2/index.php"><i class="fa-solid fa-house"></i>главная</a></li>
                         <li><a href="../../about_us/index_about_us.php"><i class="fa-solid fa-people-group"></i>о нас</a></li>
@@ -34,14 +32,15 @@
                         <li><a href="../../registration/index_registration.php"><i class="fa-solid fa-id-card"></i>регистрация</a></li>
                         <li><a href="../../enter_page/index_enter_page.php"><i class="fa-solid fa-arrow-right-to-bracket"></i>вход</a></li>
                         <li><a href="../../SQL/cart_test.php"><i class="fa-solid fa-cart-shopping"></i>корзина</a></li>
-                    </ul>
+                    </ul> 
+                    <a href="../../landing-2/index.php#stock_slider" class="burger_wrapper">
+                        <div class="line"></div>
+                        <div class="line"></div>
+                        <div class="line"></div>
+                    </a>
                 </nav>
-                <a href="../../landing-2/index.php#stock_slider" class="burger_wrapper">
-                    <div class="line"></div>
-                    <div class="line"></div>
-                    <div class="line"></div>
-                </a>
             </div>
+
         <div class="container">
             <h1>Газонокосилка Huter GLM-5.0 ST</h1>
                 <div class="img_box_wrapper">

@@ -32,12 +32,12 @@
                 <li><a href="../enter_page/index_enter_page.php"><i class="fa-solid fa-arrow-right-to-bracket"></i>вход</a></li>
                 <li><a href="../SQL/cart_test.php"><i class="fa-solid fa-cart-shopping"></i>корзина</a></li>
             </ul>
+            <a href="../landing-2/index.php" class="burger_wrapper">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </a>
         </nav>
-                <a href="../landing-2/index.php" class="burger_wrapper">
-                    <div class="line"></div>
-                    <div class="line"></div>
-                    <div class="line"></div>
-                </a>
     </header>
                                     <!-- section-1 -->
     <section class="section-1">

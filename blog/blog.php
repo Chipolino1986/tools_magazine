@@ -34,12 +34,12 @@
                 <li><a href="../enter_page/index_enter_page.php"><i class="fa-solid fa-arrow-right-to-bracket"></i>вход</a></li>
                 <li><a href="../SQL/cart_test.php"><i class="fa-solid fa-cart-shopping"></i>корзина</a></li>
             </ul>
+            <a href="../landing-2/index.php" class="burger_wrapper">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </a>
         </nav>
-        <a href="../landing-2/index.php" class="burger_wrapper">
-            <div class="line"></div>
-            <div class="line"></div>
-            <div class="line"></div>
-        </a>
     </div>
 
     <div class="wrapper_dialog">
@@ -48,10 +48,10 @@
                 <div class="col-lg-12">
                     <h2 class="text-center">Оставте свой отзыв</h2>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-6 out">
                     <div id="comment-field"></div>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-6 input">
                     <form>
                         <div class="form-group">
                             <label for="comment-name">Имя:</label>
@@ -64,6 +64,7 @@
                         </div>
                         <br>
                         <div class="form-group-3">
+                            <button type="submit" id="comment-remove" class="btn btn-danger">удалить комментарии</button>
                             <button type="submit" id="comment-add" class="btn btn-primary">добавить комментарий</button>
                         </div>
                     </form>

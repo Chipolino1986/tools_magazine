@@ -41,14 +41,12 @@
                         <li><a href="../enter_page/index_enter_page.php"><i class="fa-solid fa-arrow-right-to-bracket"></i>вход</a></li>
                         <li><a href="../SQL/cart_test.php"><i class="fa-solid fa-cart-shopping"></i>корзина</a></li>
                     </ul>
+                    <a href="#" class="burger_wrapper">
+                        <div class="line"></div>
+                        <div class="line"></div>
+                        <div class="line"></div>
+                    </a>
                 </nav>
-        
-                <a href="#" class="burger_wrapper">
-                    <div class="line"></div>
-                    <div class="line"></div>
-                    <div class="line"></div>
-                </a>
-
             </div>
 
             <div class="slider_wrapper"> 
