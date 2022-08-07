@@ -1,8 +1,6 @@
 
 <?
 
-use function PHPSTORM_META\elementType;
-
 session_start();
 $db = new PDO("mysql:host=localhost;dbname=my_magazine;charset=utf8", "root", "", 
 [PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC]);
@@ -18,46 +16,40 @@ if (isset($_GET["download_chack"])) {
 
 <?
 if (empty($cart)) { 
-	?>	
-
+?>	
 	<div class="cart_empty" 
-	style ="text-align: center; 
-			color: white; 
-			text-transform:uppercase;
-			font-family:sans-serif; 
-			padding:25px 0; 
-			text-shadow: 1px 1px 1px black;">
+		 style="text-align: center; 
+				color: white; 
+				text-transform:uppercase;
+				font-family: sans-serif; 
+				font-size: 1.5rem;
+				padding:20px 0; 
+				text-shadow: 1px 1px 1px black;">
 
 			<? echo "<h1>Ваша корзина пуста</h1>"; ?>
-			<i style="font-size: 1.5rem;" class="fa-solid fa-rotate-left"></i><a class="btn-back2" style="color:white; margin-left: 10px; font-size: 1.5rem;" href="../TOOLS/tools.php">Вернуться к категориям товаров</a>
-			<script defer src="https://kit.fontawesome.com/9ca67525c0.js" crossorigin="anonymous"></script>
-		</div>
+			
+			<a href="../landing-2/index.php" style="color:white; font-size: 1.4rem;">Вернуться на главную</a>
+			<br>
+			<br>
+			<a href="../TOOLS/tools.php" style="color:white; font-size: 1.4rem;">Вернуться к категориям товаров</a>
+	</div>
 		
-			<div class="smile_wrapper" 
-				 style="display:flex; 
-				 		justify-content: center"
-						>
-		   	<img style="width: 500; height: 500" 
-			class="smile" 
-			src="../images/background/smile.png" 
-			alt="smile"
-			>
-
-		</div>
+	<div class="smile_wrapper" style="display:flex; justify-content: center">
+		<img style="width: 500; height: 500" class="smile" src="../images/background/smile.png" alt="smile">
+	</div>
 
 		<style>
-
 			body {
 				margin: 0;
 				padding: 0;
 				box-sizing: border-box;
-				background: radial-gradient(#740000,black);
+				background:radial-gradient(#c41111,black);
 			}
 		</style> 
-
 	<?	
 	return; 
-}
+} 
+
 
 $sqlCart = implode(", ", $cart);
 
@@ -165,9 +157,7 @@ if (isset($_POST["pay"])) {
 
 <link rel="stylesheet" href="./style.css/cart_test.css">
 <link rel="stylesheet" href="../NORMALIZE!!!/normalize.css">
-
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
-
 <script defer src="https://kit.fontawesome.com/9ca67525c0.js" crossorigin="anonymous"></script>

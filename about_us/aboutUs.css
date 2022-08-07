@@ -10,6 +10,20 @@
     background-size: cover;
     padding-top: 50px;
 }
+.burger_wrapper {
+    display: none;
+    width: 35px;
+    height: 35px;
+}
+.line {
+    width: 100%;
+    height: 3px;
+    background: white;
+    margin: 5px;
+}
+.subTitle_text {
+    text-shadow: 1px 1px 2px black;
+}
 .about_us_text_box {
     display: flex;
     width: 800px;
@@ -124,10 +138,10 @@
         font-size: .8rem;
         padding-top: 4px;
     }
-    .items i {
+    .header .items i {
         font-size: .8rem;
     }
-    .items a {
+    .header .items ul li a {
         font-size: .8rem;
     }
     .hummer-label {
@@ -136,27 +150,32 @@
     .arrow-go-home {
         display: none;
     }
-    .header > .items > ul li {
+    .header .items li {
         border: none;
+    }
+    .title_box .subTitle_text {
+        font-size: 1.5rem;
+    }
+    .title_box .title_text {
+        font-size: 2rem;
     }
 }
 
 @media screen and (max-width:768px){
-    .header > .items ul {
+    .header .items ul {
         display: none;
     }
-    .burger_wrapper {
+    .items .burger_wrapper {
         width: 33px;
         height: 25px;
-        padding: 2px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
+        display: block;
+        margin-bottom: 5px;
     }
     .line {
         width: 100%;
         height: 3px;
         background: white;
+        margin: 5px;
     }
     .about_us_text_box {
         margin: 25px;

@@ -1,5 +1,4 @@
 .product_box {
-    border-radius: 6px;
     box-shadow: 3px 3px 10px -5px black;
     max-width: 420px;
     width: 100%;
@@ -8,7 +7,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background: url(../../images/icons/yellow-hummer-2.png)#f3eeb7;
+    background: url(../../images/icons/yellow-hummer-2.png)white;
     background-position: right;
     background-repeat: no-repeat;
     background-size: 35% 80%;
@@ -40,7 +39,7 @@
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     text-transform: uppercase;
-    color: red;
+    color: rgb(0, 0, 0);
 }
 .product_box p:nth-child(2) {           /* price */
     color: red;
