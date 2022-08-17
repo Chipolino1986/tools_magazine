@@ -177,85 +177,106 @@
 .products_box_content {
     width: 100%;
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     margin: 0 auto;
-    padding: 30px 0;
+    padding: 30px 30px;
 }
 .product_box_garden {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    max-width: 400px;
-    width: 100%;
-    min-height: 200px;
+    width: 400px;
+    height: 500px;
     box-shadow: 3px 3px 10px -5px black;
     padding: 10px;
     margin: 15px auto;
-    transition: all .3s ease;
+    transition: all .5s ease;
     background-color: white;
-    background-position: right;
-    background-repeat: no-repeat;
 }
 .product_box_garden:hover {
     transform: scale(1.05);
 }
 .product_box_garden:nth-child(2) {
     background-image: url(../../images/img_tools_500x500/gazon-gardena-600x600.png);
-    background-size: 50% 100%;
+    background-repeat: no-repeat;
+    background-size: 85% 70%;   
+    background-position: bottom;
 }
 .product_box_garden:nth-child(3) {
     background-image: url(../../images/img_tools_500x500/benzopila-STIHL-600x600.png);
-    background-size: 60%;
+    background-repeat: no-repeat;
+    background-size: 100% 75%;
+    background-position: bottom;
 }
 .product_box_garden:nth-child(4) {
     background-image: url(../../images/img_tools_500x500/trimmer-STIHL-700x800.png);
-    background-size: 60% 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 70%;
+    background-position: bottom;
 }
 .product_box_garden:nth-child(5) {
     background-image: url(../../images/img_tools_500x500/vozduhoduvka-chempion-600x600.png);
-    background-size: 60%;
+    background-repeat: no-repeat;
+    background-size: 75% 70%;
+    background-position: bottom;
 }
 .product_box_garden:nth-child(6) {
-    background-image: url(../../images/img_tools_500x500/moika-500x600.png);
-    background-size: 60% 100%;
+    background-image: url(../../images/img_tools_500x500/garden/moika-500x500.png);
+    background-repeat: no-repeat;
+    background-size: 70% 60%;
+    background-position: bottom;
 }
 .product_box_garden:nth-child(7) {
     background-image: url(../../images/img_tools_500x500/trimmer-huter-500x300.png);
-    background-size: 60%;
+    background-repeat: no-repeat;
+    background-size: 100% 70%;
+    background-position: bottom;
 }
 .product_box_garden:nth-child(8) {
     background-image: url(../../images/img_tools_500x500/bs-40-1-800x800.png);
-    background-size: 60%;
+    background-repeat: no-repeat;
+    background-size: 90% 70%;
+    background-position: bottom;
 }
 .product_box_garden:nth-child(9) {
     background-image: url(../../images/img_tools_500x500/husqvarna-236-2-900x900.png);
-    background-size: 60%;
+    background-repeat: no-repeat;
+    background-size: 90% 70%;
+    background-position: bottom;
 }
 .product_box_garden:nth-child(10) {
     background-image: url(../../images/img_tools_500x500/gazon_huter-500x500.png);
-    background-size: 60% 100%;
+    background-repeat: no-repeat;
+    background-size: 90% 70%;
+    background-position: bottom;
 }
 .product_box_garden:nth-child(11) {
     background-image: url(../../images/img_tools_500x500/electro/Kustorez_bosch-800x800.png);
-    background-size: 60% 100%;
+    background-repeat: no-repeat;
+    background-size: 90% 70%;
+    background-position: bottom;
 }
 .product_box_garden h3 {
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     font-size: 1rem;
     text-transform: uppercase;
+    padding-bottom: 10px;
 }
 .product_box_garden p:nth-child(2) {
     color: red;
     font-weight: bold;
     font-size: 1.2rem;
     font-family: 'Roboto', sans-serif;
+    padding-bottom: 10px;
 }
 .product_box_garden p {
     color: rgb(0, 0, 0);
     font-weight: bold;
     font-family: arial;
     font-size: 1rem;
+    padding-bottom: 10px;
+}
+.price_form_garden {
+    padding-top: 10px;
 }
 
 /* ----------------------media------------------- */
@@ -396,8 +417,9 @@
         color: black;
         text-align: center;
     }
-    .product_box_garden {
-        min-height: 150px;
+    .products_box_content .product_box_garden {
+        width: 280px;
+        height: 400px;
     }
     .product_box_garden, .product_box_garden h3 {
         width: 250px;

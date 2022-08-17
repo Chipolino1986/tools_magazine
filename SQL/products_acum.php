@@ -1,57 +1,75 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Аккумуляторный инструмент</title>
+	<link rel="stylesheet" href="../BASIC_CONTENT/style.css">
+	<link rel="stylesheet" href="../NORMALIZE!!!/normalize.css">
 	<link rel="stylesheet" href="./style.css/products_acum.css">
 	<link rel="stylesheet" href="../footer/style_footer.css">
-	<link rel="stylesheet" href="../NORMALIZE!!!/normalize.css">
-	<link rel="stylesheet" href="../BASIC_CONTENT/style.css">
-                            <!--  Fonts  -->
+	<link rel="stylesheet" href="../burger.css">
+                           
 	<link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
-                            <!-- scripts js -->
-	<script defer src="https://kit.fontawesome.com/9ca67525c0.js" crossorigin="anonymous"></script>
-    <script defer src="../BASIC_CONTENT/script_header.js"></script> 
+    <script defer src="../header/header.js"></script>                    
+	<script defer src="../burger.js"></script>
+    <script defer src="https://kit.fontawesome.com/9ca67525c0.js" crossorigin="anonymous"></script>
 
 </head>
 <body>
-            <div class="header">
-                <nav class="items">
-                    
-                    
-                        <i class="fa-solid fa-magnifying-glass"></i>
-                        <? require_once "../SQL/search_form.php"; ?>
-                    
-                    <ul>
-                        <li><a href="../landing-2/index.php"><i class="fa-solid fa-house"></i>главная</a></li>
-                        <li><a href="../about_us/index_about_us.php"><i class="fa-solid fa-people-group"></i>о нас</a></li>
-                        <li><a href="../TOOLS/tools.php"><i class="fa-solid fa-shop"></i>Магазин</a></li>
-                        <li><a href="../contacts/index_contacts.php"><i class="fa-solid fa-square-phone-flip"></i>контакты</a></li>
-                    </ul>
-                    <ul>
-                        <li><a href="../registration/index_registration.php"><i class="fa-solid fa-id-card"></i>регистрация</a></li>
-                        <li><a href="../enter_page/index_enter_page.php"><i class="fa-solid fa-arrow-right-to-bracket"></i>вход</a></li>
-                        <li><a href="../SQL/cart_test.php"><i class="fa-solid fa-cart-shopping"></i>корзина</a></li>
-                    </ul>
-                </nav>
-                <div class="burger_wrapper">
-                    <div class="line"></div>
-                    <div class="line"></div>
-                    <div class="line"></div>
+    <div class="header">
+        <nav class="items">
+            
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <? require_once "../SQL/search_form.php"; ?>
+            
+            <ul>
+                <li><a href="../index.php"><i class="fa-solid fa-house"></i>главная</a></li>
+                <li><a href="../about_us/index_about_us.php"><i class="fa-solid fa-people-group"></i>о нас</a></li>
+                <li><a href="../TOOLS/tools.php"><i class="fa-solid fa-shop"></i>Магазин</a></li>
+                <li><a href="../contacts/index_contacts.php"><i class="fa-solid fa-square-phone-flip"></i>контакты</a></li>
+            </ul>
+            <ul>
+                <li><a href="../registration/index_registration.php"><i class="fa-solid fa-id-card"></i>регистрация</a></li>
+                <li><a href="../enter_page/index_enter_page.php"><i class="fa-solid fa-arrow-right-to-bracket"></i>вход</a></li>
+                <li><a href="../SQL/cart_test.php"><i class="fa-solid fa-cart-shopping"></i>корзина</a></li>
+            </ul>
+        </nav>
+        <div id="open_popUp" class="burger_wrapper">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <div class="pop_up" id="pop_up">
+            <div class="pop_up_container">
+                <div class="pop_up_body" id="pop_up_body">
+                    <a href="../index.php">Главная</a>
+                    <a href="../TOOLS/tools.php">Магазин</a>
+                    <a href="../about_us/index_about_us.php">О нас</a>
+                    <a href="./products_garden.php">Садовый инструмент</a>
+                    <a href="./products_electro.php">Электро инструмент</a>
+                    <a href="../registration/index_registration.php">Регистрация</a>
+                    <a href="../enter_page/index_enter_page.php">Вход</a>
+                    <a href="./cart_test.php">Корзина</a>
+                    <div class="pop_up_close" id="pop_up_close">&#10006</div>
                 </div>
             </div>
+        </div>
+    </div>
 
 
 <!------------------------------------------------------------------------------------------------------------------>
 
 <?
 session_start();
-$db = new PDO("mysql:host=localhost;dbname=my_magazine;charset=utf8", "root", "", 
-[PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC]);
+
+// $db = new PDO("mysql:host=localhost;dbname=my_magazine;charset=utf8", "root", "", 
+// [PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC]);
+
+require_once '../connect.php';
 
 $categoryId = (isset($_GET["cat_id"])) ? $_GET["cat_id"] : 3;
 
@@ -110,7 +128,7 @@ foreach ($products as $product) { ?>
         </div>
 	
 <? } ?>
-</div>
+
 
 <?
 if (isset($_POST["btn-buy"])) {
@@ -122,13 +140,13 @@ if (isset($_POST["btn-buy"])) {
 
 
         </section>
-<!------------------------------------------------------------------------------------------------------------------>
+
 
 		<footer class="footer">
             <div class="footer_content">
                 <div class="footer_head">
                     <ul>
-                        <li><a href="../landing-2/index.php">Главная<i class="fa-solid fa-house-chimney"></i></a></li>
+                        <li><a href="../index.php">Главная<i class="fa-solid fa-house-chimney"></i></a></li>
                         <li><a href="../TOOLS/tools.php">Магазин<i class="fa-solid fa-shop"></i></a></li>
                         <li><a href="../contacts/index_contacts.php">Контакты<i class="fa-solid fa-address-book"></i></a></li>
                         <li><a href="../registration/index_registration.php">Регистрация<i class="fa-solid fa-id-card"></i></a></li>

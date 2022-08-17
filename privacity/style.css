@@ -3,7 +3,7 @@
     max-width: 1920px;
     width: 100%;
     margin: 0 auto;
-    background:linear-gradient(65deg,white 50%,rgb(40, 40, 40) 50%) !important;
+    background: linear-gradient(#0F2027,#203A43,#2C5364);
 }
 .container_1_content {
     display: flex;
@@ -12,6 +12,9 @@
     flex-wrap: wrap;
     max-width: 1200px;
     width: 100%;
+}
+.pop_up_container .pop_up_body {
+    margin-bottom: 50vh;
 }
 .burger_wrapper {
     width: 30px;
@@ -81,6 +84,7 @@
         font-size: 1rem;
     }
 }
+
 @media screen and (max-width: 1024px) {
     .header .items ul li a {
         font-size: .7rem;

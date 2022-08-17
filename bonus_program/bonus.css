@@ -38,6 +38,9 @@
     width: 100%;
     min-height: 250px;
 }
+.pop_up_container .pop_up_body {
+    margin-bottom: 50vh;
+}
 /* -------------------------------section-2----------------------------------- */
 
 .section-2 {

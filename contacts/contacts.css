@@ -172,7 +172,9 @@
     text-shadow: 1px 0 0 black;
     font-size: 1.2rem;
 }
-
+.pop_up_container .pop_up_body {
+    margin-bottom: 50vh;
+}
 
 
 @media screen and (max-width:1024px) {

@@ -7,13 +7,6 @@ body h1 {
     padding: 20px 0;
     color: white;
 }
-body {
-    width: 100%;
-    background: url(../../images/background/cart-black.png) black;
-    background-repeat: no-repeat;
-    background-size: 70% 80%;
-    background-position: right;
-}
 .card_product_box {
     border-bottom: 1px solid rgb(255, 255, 255);
     margin-bottom: 30px;

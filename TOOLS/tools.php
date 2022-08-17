@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="../NORMALIZE!!!/normalize.css">
     <link rel="stylesheet" href="../BASIC_CONTENT/style.css">
     <link rel="stylesheet" href="./style_tools.css">
+    <link rel="stylesheet" href="../burger.css">
     <link rel="stylesheet" href="../header/header.css">
     <link rel="stylesheet" href="../footer/style_footer.css">
 
@@ -16,8 +17,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 
     <script defer src="http://kit.fontawesome.com/b8991598b2.js"></script>
-    <script defer src="../BASIC_CONTENT/script_header.js"></script> 
-    <script defer src="./input.js"></script>
+    <script defer src="../burger.js"></script>
+    <script defer src="../header/header.js"></script>
     <script defer src="https://kit.fontawesome.com/9ca67525c0.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -25,7 +26,7 @@
                 <nav class="items">
                     <h1>Магазин инструментов</h1>
                     <ul>
-                        <li><a href="../landing-2/index.php"><i class="fa-solid fa-house"></i>главная</a></li>
+                        <li><a href="../index.php"><i class="fa-solid fa-house"></i>главная</a></li>
                         <li><a href="../about_us/index_about_us.php"><i class="fa-solid fa-people-group"></i>о нас</a></li>
                         <li><a href="../contacts/index_contacts.php"><i class="fa-solid fa-square-phone-flip"></i>контакты</a></li>
                     </ul>
@@ -34,10 +35,25 @@
                         <li><a href="../enter_page/index_enter_page.php"><i class="fa-solid fa-arrow-right-to-bracket"></i>вход</a></li>
                         <li><a href="../SQL/cart_test.php"><i class="fa-solid fa-cart-shopping"></i>корзина</a></li>
                     </ul>
-                    <div class="burger_wrapper">
+                    <div id="open_popUp" class="burger_wrapper">
                         <div class="line"></div>
                         <div class="line"></div>
                         <div class="line"></div>
+                    </div>
+                    <div class="pop_up" id="pop_up">
+                        <div class="pop_up_container">
+                            <div class="pop_up_body" id="pop_up_body">
+                                <a href="../index.php">Главная</a>
+                                <a href="../about_us/index_about_us.php">О нас</a>
+                                <a href="../SQL/products_garden.php">Садовый инструмент</a>
+                                <a href="../SQL/products_electro.php">Электро инструмент</a>
+                                <a href="../SQL/products_acum.php">Аккумуляторный инструмент</a>
+                                <a href="../registration/index_registration.php">Регистрация</a>
+                                <a href="../enter_page/index_enter_page.php">Вход</a>
+                                <a href="../SQL/cart_test.php">Корзина</a>
+                                <div class="pop_up_close" id="pop_up_close">&#10006</div>
+                            </div>
+                        </div>
                     </div>
                 </nav>
             </div>
@@ -47,7 +63,7 @@
         <div class="container_1">
             <div class="container_1_content">
                 <div class="main_title_box">
-                    <a href="../landing-2/index.php"><img class="arrow-go-home" src="../images/icons/arrowBack-2 (1).png"" alt="arrow"></a>
+                    <a href="../index.php"><img class="arrow-go-home" src="../images/icons/arrowBack-2 (1).png"" alt="arrow"></a>
                     <div class="title_box">
                         <h2 class="subTitle_text">Магазин ЭЛЕКТРО и БЕНЗОинструментов</h2>
                         <h1 class="title_text">Жёлтый молоток</h1>
@@ -105,7 +121,7 @@
             <div class="footer_content">
                 <div class="footer_head">
                     <ul>
-                        <li><a href="../landing-2/index.php">Главная<i class="fa-solid fa-house-chimney"></i></a></li>
+                        <li><a href="../index.php">Главная<i class="fa-solid fa-house-chimney"></i></a></li>
                         <li><a href="../contacts/index_contacts.php">Контакты<i class="fa-solid fa-address-book"></i></a></li>
                         <li><a href="../registration/index_registration.php">Регистрация<i class="fa-solid fa-id-card"></i></a></li>
                         <li><a href="../enter_page/index_enter_page.php#">Вход<i class="fa-solid fa-dungeon"></i></a></li>

@@ -28,7 +28,7 @@ function saveComments() {
     localStorage.setItem('comments', JSON.stringify(comments));
 }
 function removeComments() {
-    localStorage.removeItem('comments', JSON.stringify(comments));
+    localStorage.removeItem('comments');
 }
 function loadComments() {
     if (localStorage.getItem('comments')) comments = JSON.parse(localStorage.getItem('comments'));

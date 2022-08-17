@@ -20,7 +20,7 @@
                     <p>Login Successful!</p>
                 </div>
                 <div class="success_button">
-                    <a href="../landing-2/index.php" class="exit_btn">На главную</a> 
+                    <a href="../index.php" class="exit_btn">На главную</a> 
                 </div>
             </div>
         </div>

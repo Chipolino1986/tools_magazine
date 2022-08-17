@@ -1,27 +1,38 @@
 * {
     box-sizing: border-box;
+    font-family: monospace;
+    font-size: 1.1rem;
 }
 body {
-   /* background:linear-gradient(rgb(141, 141, 237)60%,rgb(222, 224, 235)); */
-   background:linear-gradient(45deg,rgb(30, 30, 30)50%,rgb(255, 192, 31)50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    background:linear-gradient(45deg,rgb(141, 141, 237)30%,rgb(222, 224, 235)65%);
+    background-repeat: no-repeat;
 }
-h1 {
+body h1 {
     text-align: center;
-    margin-top: 50px;
-    font-family: arial;
+    font-size: 2.5rem !important;
     color: rgb(35, 35, 35);
 }
 .select-category {
     height: 35px;
+    width: 350px;
+    padding-left: 10px;
 }
 .input-str {
     height: 35px;
+    width: 350px;
+    padding-left: 10px;
 }
 .btn-add_product {
     width: 200px;
     height: 35px;
     margin: 0 auto;
     border-radius: 8px;
+    box-shadow: 0 0 4px 0 rgb(101, 101, 101);
 }
 .forms_product {
     display: flex;

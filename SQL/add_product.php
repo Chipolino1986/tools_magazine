@@ -1,12 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Добавление товара</title>
+	<link rel="stylesheet" href="./style.css/product_test.css">
+	<link rel="stylesheet" href="../NORMALIZE!!!/normalize.css">
+</head>
+<body>
 <?
-$db = new PDO("mysql:host=localhost;dbname=my_magazine;charset=utf8", "root", "", 
-[PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC]);
+// $db = new PDO("mysql:host=localhost;dbname=my_magazine;charset=utf8", "root", "", 
+// [PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC]);
+
+require_once '../connect.php';
 
 $dbCategories = $db->query("SELECT id, name FROM Category");
 $categories = $dbCategories->fetchAll();
 
 ?>
 <h1>Добавление товара</h1>
+
 <form class="forms_product" method="POST">
 	<select class="select-category" name="category-id">
 		<? foreach ($categories as $category) { ?>
@@ -84,17 +98,6 @@ if (isset($_POST["add-product"])) {
 	}
 }
 ?>
-
-<!DOCTYPE html>
-<html lang="ru">
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Добавление товара</title>
-	<link rel="stylesheet" href="./style.css/product_test.css">
-</head>
-<body>
 	
 </body>
 </html>

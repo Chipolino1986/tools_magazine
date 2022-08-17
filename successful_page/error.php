@@ -5,8 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Вход выполнен!</title>
-    <link rel="stylesheet" href="../successful_page/css/error.css">
+    <link rel="stylesheet" href="./css/error.css">
     <link rel="stylesheet" href="../NORMALIZE!!!/normalize.css">
+    
 </head>
 <body>
     <div class="main_wrapper">

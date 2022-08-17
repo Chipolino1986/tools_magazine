@@ -6,14 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Бонусная программа</title>
     <link rel="stylesheet" href="../NORMALIZE!!!/normalize.css">
-    <link rel="stylesheet" href="./bonus.css">
     <link rel="stylesheet" href="../header/header.css">
+    <link rel="stylesheet" href="./bonus.css">
+    <link rel="stylesheet" href="../burger.css">
     <link rel="stylesheet" href="../footer/style_footer.css">
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
     <script defer src="../header/header.js"></script>
+    <script defer src="../burger.js"></script>
     <script defer src="https://kit.fontawesome.com/9ca67525c0.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -24,7 +26,7 @@
                     <h1>Бонусная программа</h1>
                 </div>
                 <ul>
-                    <li><a href="../landing-2/index.php"><i class="fa-solid fa-house"></i>главная</a></li>
+                    <li><a href="../index.php"><i class="fa-solid fa-house"></i>главная</a></li>
                     <li><a href="../about_us/index_about_us.php"><i class="fa-solid fa-people-group"></i>о нас</a></li>
                     <li><a href="../TOOLS/tools.php"><i class="fa-solid fa-shop"></i>магазин</a></li>
                     <li><a href="../contacts/index_contacts.php"><i class="fa-solid fa-square-phone-flip"></i>контакты</a></li>
@@ -34,11 +36,27 @@
                     <li><a href="../enter_page/index_enter_page.php"><i class="fa-solid fa-arrow-right-to-bracket"></i>вход</a></li>
                     <li><a href="../SQL/cart_test.php"><i class="fa-solid fa-cart-shopping"></i>корзина</a></li>
                 </ul>
-                <a href="../landing-2/index.php" class="burger_wrapper">
+                <div id="open_popUp" class="burger_wrapper">
                     <div class="line"></div>
                     <div class="line"></div>
                     <div class="line"></div>
-                </a>
+                </div>
+                <div class="pop_up" id="pop_up">
+                    <div class="pop_up_container">
+                        <div class="pop_up_body" id="pop_up_body">
+                            <a href="../index.php">Главная</a>
+                            <a href="../TOOLS/tools.php">Магазин</a>
+                            <a href="../about_us/index_about_us.php">О нас</a>
+                            <a href="../SQL/products_garden.php">Садовый инструмент</a>
+                            <a href="../SQL/products_electro.php">Электро инструмент</a>
+                            <a href="../SQL/products_acum.php">Аккумуляторный инструмент</a>
+                            <a href="../registration/index_registration.php">Регистрация</a>
+                            <a href="../enter_page/index_enter_page.php">Вход</a>
+                            <a href="../SQL/cart_test.php">Корзина</a>
+                            <div class="pop_up_close" id="pop_up_close">&#10006</div>
+                        </div>
+                    </div>
+                </div>
             </nav>
         </div>
 
@@ -129,7 +147,7 @@
         <div class="footer_content">
             <div class="footer_head">
                 <ul>
-                    <li><a href="../landing-2/index.php">Главная<i class="fa-solid fa-house-chimney"></i></a></li>
+                    <li><a href="../index.php">Главная<i class="fa-solid fa-house-chimney"></i></a></li>
                     <li><a href="../TOOLS/tools.php">Магазин<i class="fa-solid fa-shop"></i></a></li>
                     <li><a href="../contacts/index_contacts.php">Контакты<i class="fa-solid fa-address-book"></i></a></li>
                     <li><a href="../registration/index_registration.php">Регистрация<i class="fa-solid fa-id-card"></i></a></li>

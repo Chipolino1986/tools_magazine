@@ -2,10 +2,11 @@ body {
     background: linear-gradient(rgb(28, 63, 133),rgb(0, 23, 44));
 }
 .main_wrapper {
-    display: block;
-    max-width: 1920px;
     width: 100%;
-    margin: auto;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .wrapper_seccess {
     display: block;
@@ -86,4 +87,40 @@ body {
 .success_button a:hover {
     background-color: brown;
     color: white;
+}
+@media screen and (max-width: 600px) {
+    .wrapper_seccess {
+        width: 400px;
+        height: 400px;
+    }
+    .secces_logo p {
+        font-size: 1.5rem;
+    }
+    .seccess_content {
+        margin-top: 40px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .wrapper_seccess {
+        width: 300px;
+        height: 300px;
+    }
+    .secces_logo p {
+        font-size: 1rem;
+    }
+    .seccess_content {
+        margin-top: 20px;
+    }
+    .success_button {
+        margin-bottom: 40px;
+        margin-top: -20px;
+    }
+    .success_button a {
+        padding: 3px 5px;
+        font-size: 1rem;
+    }
+    .cansel {
+        width: 25px;
+        height: 25px;
+    }
 }
